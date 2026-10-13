@@ -1,0 +1,3923 @@
+{
+  "investigationId": "MOVESYNC-RI-2026-10",
+  "generatedAtUtc": "2026-10-13T00:02:54.517495+00:00",
+  "verifiedAppIdentity": {
+    "applicationName": "MoveInSync",
+    "applicationId": "com.moveinsync.ets",
+    "developerName": "MoveInSync: Enabling Hybrid Workplaces",
+    "legalEntity": "MoveInSync Technology Solutions Private Limited",
+    "developerId": "7798917469890870335",
+    "developerEmail": "app@moveinsync.com",
+    "developerWebsite": "https://www.moveinsync.com/",
+    "developerStoreUrl": "https://play.google.com/store/apps/dev?id=7798917469890870335&hl=en&gl=in",
+    "primaryStoreUrlIN": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&hl=en&gl=in",
+    "primaryStoreUrlUS": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&hl=en&gl=us",
+    "selectionRationale": "com.moveinsync.ets is MoveInSync's flagship employee commute and hybrid workplace application with 3,217,985 verified installs and 114,881 ratings (accounting for >99.3% of all ratings across the 7 applications published by MoveInSync: Enabling Hybrid Workplaces)."
+  },
+  "ecosystemApps": [
+    {
+      "appId": "com.moveinsync.ets",
+      "title": "MoveInSync",
+      "developer": "MoveInSync: Enabling Hybrid Workplaces",
+      "developerId": "7798917469890870335",
+      "score": 4.64,
+      "ratings": 114881,
+      "reviews": 23626,
+      "installs": "1,000,000+",
+      "realInstalls": 3217985,
+      "version": "12.19.0",
+      "lastUpdatedOn": "Oct 8, 2026",
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.ets&hl=en&gl=in",
+      "isPrimaryTarget": true
+    },
+    {
+      "appId": "com.moveinsync.driver.lite",
+      "title": "Moveinsync Partner - Lite",
+      "developer": "MoveInSync: Enabling Hybrid Workplaces",
+      "developerId": "7798917469890870335",
+      "score": 4.25,
+      "ratings": 703,
+      "reviews": 111,
+      "installs": "100,000+",
+      "realInstalls": 143072,
+      "version": "Varies with device",
+      "lastUpdatedOn": null,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.driver.lite&hl=en&gl=in",
+      "isPrimaryTarget": false
+    },
+    {
+      "appId": "com.moveinsync.driver.dco",
+      "title": "MoveInSync - Driver Partner",
+      "developer": "MoveInSync: Enabling Hybrid Workplaces",
+      "developerId": "7798917469890870335",
+      "score": 3.5,
+      "ratings": 46,
+      "reviews": 7,
+      "installs": "10,000+",
+      "realInstalls": 20062,
+      "version": "Varies with device",
+      "lastUpdatedOn": null,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.driver.dco&hl=en&gl=in",
+      "isPrimaryTarget": false
+    },
+    {
+      "appId": "field.moveinsync.ets",
+      "title": "MoveInSync - Field app",
+      "developer": "MoveInSync: Enabling Hybrid Workplaces",
+      "developerId": "7798917469890870335",
+      "score": 4.08,
+      "ratings": 24,
+      "reviews": 8,
+      "installs": "5,000+",
+      "realInstalls": 6774,
+      "version": "1.0.92",
+      "lastUpdatedOn": "Sep 29, 2026",
+      "url": "https://play.google.com/store/apps/details?id=field.moveinsync.ets&hl=en&gl=in",
+      "isPrimaryTarget": false
+    },
+    {
+      "appId": "com.workinsync.meeting",
+      "title": "MoveInSync Workplace",
+      "developer": "MoveInSync: Enabling Hybrid Workplaces",
+      "developerId": "7798917469890870335",
+      "score": null,
+      "ratings": 0,
+      "reviews": 0,
+      "installs": "5,000+",
+      "realInstalls": 5583,
+      "version": "Varies with device",
+      "lastUpdatedOn": null,
+      "url": "https://play.google.com/store/apps/details?id=com.workinsync.meeting&hl=en&gl=in",
+      "isPrimaryTarget": false
+    },
+    {
+      "appId": "com.moveinsync.driverbook",
+      "title": "Driver Book",
+      "developer": "MoveInSync: Enabling Hybrid Workplaces",
+      "developerId": "7798917469890870335",
+      "score": null,
+      "ratings": 0,
+      "reviews": 0,
+      "installs": "100+",
+      "realInstalls": 429,
+      "version": "Varies with device",
+      "lastUpdatedOn": null,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.driverbook&hl=en&gl=in",
+      "isPrimaryTarget": false
+    },
+    {
+      "appId": "com.moveinsync.publictransit",
+      "title": "TransitInSync",
+      "developer": "MoveInSync: Enabling Hybrid Workplaces",
+      "developerId": "7798917469890870335",
+      "score": null,
+      "ratings": 0,
+      "reviews": 0,
+      "installs": "10+",
+      "realInstalls": 13,
+      "version": "Varies with device",
+      "lastUpdatedOn": null,
+      "url": "https://play.google.com/store/apps/details?id=com.moveinsync.publictransit&hl=en&gl=in",
+      "isPrimaryTarget": false
+    }
+  ],
+  "baseline": {
+    "observationDate": "2026-10-13",
+    "storefrontSnapshots": {
+      "india": {
+        "country": "IN (Primary Market)",
+        "displayedRating": 4.64,
+        "exactScore": 4.638844,
+        "totalRatings": 114881,
+        "totalWrittenReviews": 23626,
+        "realInstalls": 3217985,
+        "currentVersion": "12.19.0",
+        "lastUpdatedOn": "Oct 8, 2026",
+        "histogram": {
+          "1": 7315,
+          "2": 839,
+          "3": 1224,
+          "4": 7253,
+          "5": 98244
+        },
+        "oneStarSharePct": 6.37
+      },
+      "unitedStates": {
+        "country": "US (Global Enterprise View)",
+        "displayedRating": 4.32,
+        "exactScore": 4.32,
+        "totalRatings": 114881,
+        "totalWrittenReviews": 100,
+        "realInstalls": 3217985,
+        "currentVersion": "12.19.0",
+        "lastUpdatedOn": "Oct 8, 2026",
+        "histogram": {
+          "1": 13571,
+          "2": 946,
+          "3": 2209,
+          "4": 14833,
+          "5": 82689
+        },
+        "oneStarSharePct": 11.88
+      }
+    },
+    "sampleCohorts": {
+      "deduplicatedCorpus": {
+        "label": "Deduplicated Combined Corpus (n=3,333)",
+        "count": 3333,
+        "startDate": "2018-09-21",
+        "endDate": "2026-10-11",
+        "meanRating": 3.63,
+        "starDistribution": {
+          "1": 933,
+          "2": 128,
+          "3": 116,
+          "4": 224,
+          "5": 1932
+        },
+        "starPercentages": {
+          "1": 28.0,
+          "2": 3.8,
+          "3": 3.5,
+          "4": 6.7,
+          "5": 58.0
+        },
+        "negative12Count": 1061,
+        "negative12Pct": 31.8,
+        "negative13Count": 1177,
+        "negative13Pct": 35.3,
+        "positive45Count": 2156,
+        "positive45Pct": 64.7
+      },
+      "newest3000": {
+        "label": "Chronological Newest Stream (n=3,000, Sep 2025–Oct 2026)",
+        "count": 3000,
+        "startDate": "2025-09-22",
+        "endDate": "2026-10-11",
+        "meanRating": 3.83,
+        "starDistribution": {
+          "1": 726,
+          "2": 88,
+          "3": 79,
+          "4": 193,
+          "5": 1914
+        },
+        "starPercentages": {
+          "1": 24.2,
+          "2": 2.9,
+          "3": 2.6,
+          "4": 6.4,
+          "5": 63.8
+        },
+        "negative12Count": 814,
+        "negative12Pct": 27.1,
+        "negative13Count": 893,
+        "negative13Pct": 29.8,
+        "positive45Count": 2107,
+        "positive45Pct": 70.2
+      },
+      "mostRelevant600": {
+        "label": "Storefront Most Relevant Stream (n=600, Default Visitor View)",
+        "count": 600,
+        "startDate": "2018-09-21",
+        "endDate": "2026-09-19",
+        "meanRating": 2.11,
+        "starDistribution": {
+          "1": 347,
+          "2": 59,
+          "3": 60,
+          "4": 49,
+          "5": 85
+        },
+        "starPercentages": {
+          "1": 57.8,
+          "2": 9.8,
+          "3": 10.0,
+          "4": 8.2,
+          "5": 14.2
+        },
+        "negative12Count": 406,
+        "negative12Pct": 67.7,
+        "negative13Count": 466,
+        "negative13Pct": 77.7,
+        "positive45Count": 134,
+        "positive45Pct": 22.3
+      },
+      "substantiveNewest": {
+        "label": "Substantive Written Reviews (>=6 words in Newest, n=1,066)",
+        "count": 1066,
+        "startDate": "2025-09-22",
+        "endDate": "2026-10-09",
+        "meanRating": 2.71,
+        "starDistribution": {
+          "1": 505,
+          "2": 76,
+          "3": 60,
+          "4": 72,
+          "5": 353
+        },
+        "starPercentages": {
+          "1": 47.4,
+          "2": 7.1,
+          "3": 5.6,
+          "4": 6.8,
+          "5": 33.1
+        },
+        "negative12Count": 581,
+        "negative12Pct": 54.5,
+        "negative13Count": 641,
+        "negative13Pct": 60.1,
+        "positive45Count": 425,
+        "positive45Pct": 39.9
+      },
+      "detailedNewest15Plus": {
+        "label": "Detailed Written Reviews (>=15 words in Newest, n=483)",
+        "count": 483,
+        "startDate": "2025-09-22",
+        "endDate": "2026-10-09",
+        "meanRating": 2.19,
+        "starDistribution": {
+          "1": 280,
+          "2": 44,
+          "3": 34,
+          "4": 37,
+          "5": 88
+        },
+        "starPercentages": {
+          "1": 58.0,
+          "2": 9.1,
+          "3": 7.0,
+          "4": 7.7,
+          "5": 18.2
+        },
+        "negative12Count": 324,
+        "negative12Pct": 67.1,
+        "negative13Count": 358,
+        "negative13Pct": 74.1,
+        "positive45Count": 125,
+        "positive45Pct": 25.9
+      }
+    },
+    "ratingBifurcationExplanation": {
+      "headlineFinding": "While MoveInSync's India storefront displays a 4.64★ lifetime rating (4.32★ in the US storefront), this headline figure is heavily masked by 91,256 rating-only taps without review text and 1,407 1–2 word micro-reviews ('good', 'nice', avg 4.64★, 46.9% of newest reviews) generated by mandatory post-ride rating prompts. Among users who write substantive reviews (>=6 words, n=1,066), the average rating drops to 2.71★ (54.5% 1–2★); among detailed reviews (>=15 words, n=483), the average rating collapses to 2.19★ (67.1% 1–2★); and Google Play's default 'Most Relevant' storefront view (n=600) averages 2.11★ (67.7% 1–2★, 77.7% 1–3★).",
+      "lengthStratification": [
+        {
+          "bucket": "1-2 words (tap/micro)",
+          "count": 1407,
+          "shareOfNewestPct": 46.9,
+          "meanRating": 4.64,
+          "negative12Count": 103,
+          "negative12Pct": 7.3,
+          "positive45Count": 1297,
+          "positive45Pct": 92.2
+        },
+        {
+          "bucket": "3-5 words",
+          "count": 527,
+          "shareOfNewestPct": 17.6,
+          "meanRating": 3.91,
+          "negative12Count": 130,
+          "negative12Pct": 24.7,
+          "positive45Count": 385,
+          "positive45Pct": 73.1
+        },
+        {
+          "bucket": "6-14 words",
+          "count": 583,
+          "shareOfNewestPct": 19.4,
+          "meanRating": 3.14,
+          "negative12Count": 257,
+          "negative12Pct": 44.1,
+          "positive45Count": 300,
+          "positive45Pct": 51.5
+        },
+        {
+          "bucket": "15+ words (substantive)",
+          "count": 483,
+          "shareOfNewestPct": 16.1,
+          "meanRating": 2.19,
+          "negative12Count": 324,
+          "negative12Pct": 67.1,
+          "positive45Count": 125,
+          "positive45Pct": 25.9
+        }
+      ]
+    },
+    "monthlySeries": [
+      {
+        "yearMonth": "2025-09",
+        "isPartialMonth": true,
+        "totalReviews": 66,
+        "meanRatingAll": 3.65,
+        "negative12Count": 19,
+        "negative12Pct": 28.8,
+        "substantiveCount": 26,
+        "meanRatingSubstantive": 2.38,
+        "substantiveNegative12Count": 15,
+        "substantiveNegative12Pct": 57.7,
+        "starDistribution": {
+          "1": 17,
+          "2": 2,
+          "3": 3,
+          "4": 9,
+          "5": 35
+        }
+      },
+      {
+        "yearMonth": "2025-10",
+        "isPartialMonth": false,
+        "totalReviews": 297,
+        "meanRatingAll": 3.79,
+        "negative12Count": 80,
+        "negative12Pct": 26.9,
+        "substantiveCount": 119,
+        "meanRatingSubstantive": 2.77,
+        "substantiveNegative12Count": 61,
+        "substantiveNegative12Pct": 51.3,
+        "starDistribution": {
+          "1": 73,
+          "2": 7,
+          "3": 11,
+          "4": 24,
+          "5": 182
+        }
+      },
+      {
+        "yearMonth": "2025-11",
+        "isPartialMonth": false,
+        "totalReviews": 160,
+        "meanRatingAll": 3.69,
+        "negative12Count": 48,
+        "negative12Pct": 30.0,
+        "substantiveCount": 64,
+        "meanRatingSubstantive": 2.77,
+        "substantiveNegative12Count": 34,
+        "substantiveNegative12Pct": 53.1,
+        "starDistribution": {
+          "1": 42,
+          "2": 6,
+          "3": 4,
+          "4": 16,
+          "5": 92
+        }
+      },
+      {
+        "yearMonth": "2025-12",
+        "isPartialMonth": false,
+        "totalReviews": 196,
+        "meanRatingAll": 3.84,
+        "negative12Count": 54,
+        "negative12Pct": 27.6,
+        "substantiveCount": 60,
+        "meanRatingSubstantive": 2.47,
+        "substantiveNegative12Count": 39,
+        "substantiveNegative12Pct": 65.0,
+        "starDistribution": {
+          "1": 43,
+          "2": 11,
+          "3": 4,
+          "4": 15,
+          "5": 123
+        }
+      },
+      {
+        "yearMonth": "2026-01",
+        "isPartialMonth": false,
+        "totalReviews": 211,
+        "meanRatingAll": 3.77,
+        "negative12Count": 60,
+        "negative12Pct": 28.4,
+        "substantiveCount": 72,
+        "meanRatingSubstantive": 2.81,
+        "substantiveNegative12Count": 38,
+        "substantiveNegative12Pct": 52.8,
+        "starDistribution": {
+          "1": 49,
+          "2": 11,
+          "3": 8,
+          "4": 15,
+          "5": 128
+        }
+      },
+      {
+        "yearMonth": "2026-02",
+        "isPartialMonth": false,
+        "totalReviews": 207,
+        "meanRatingAll": 3.74,
+        "negative12Count": 62,
+        "negative12Pct": 30.0,
+        "substantiveCount": 70,
+        "meanRatingSubstantive": 2.41,
+        "substantiveNegative12Count": 45,
+        "substantiveNegative12Pct": 64.3,
+        "starDistribution": {
+          "1": 57,
+          "2": 5,
+          "3": 1,
+          "4": 16,
+          "5": 128
+        }
+      },
+      {
+        "yearMonth": "2026-03",
+        "isPartialMonth": false,
+        "totalReviews": 197,
+        "meanRatingAll": 3.98,
+        "negative12Count": 46,
+        "negative12Pct": 23.4,
+        "substantiveCount": 64,
+        "meanRatingSubstantive": 3.06,
+        "substantiveNegative12Count": 30,
+        "substantiveNegative12Pct": 46.9,
+        "starDistribution": {
+          "1": 41,
+          "2": 5,
+          "3": 6,
+          "4": 10,
+          "5": 135
+        }
+      },
+      {
+        "yearMonth": "2026-04",
+        "isPartialMonth": false,
+        "totalReviews": 292,
+        "meanRatingAll": 4.03,
+        "negative12Count": 64,
+        "negative12Pct": 21.9,
+        "substantiveCount": 94,
+        "meanRatingSubstantive": 2.93,
+        "substantiveNegative12Count": 45,
+        "substantiveNegative12Pct": 47.9,
+        "starDistribution": {
+          "1": 61,
+          "2": 3,
+          "3": 3,
+          "4": 23,
+          "5": 202
+        }
+      },
+      {
+        "yearMonth": "2026-05",
+        "isPartialMonth": false,
+        "totalReviews": 247,
+        "meanRatingAll": 4.02,
+        "negative12Count": 53,
+        "negative12Pct": 21.5,
+        "substantiveCount": 89,
+        "meanRatingSubstantive": 2.88,
+        "substantiveNegative12Count": 42,
+        "substantiveNegative12Pct": 47.2,
+        "starDistribution": {
+          "1": 50,
+          "2": 3,
+          "3": 9,
+          "4": 16,
+          "5": 169
+        }
+      },
+      {
+        "yearMonth": "2026-06",
+        "isPartialMonth": false,
+        "totalReviews": 273,
+        "meanRatingAll": 3.56,
+        "negative12Count": 92,
+        "negative12Pct": 33.7,
+        "substantiveCount": 108,
+        "meanRatingSubstantive": 2.63,
+        "substantiveNegative12Count": 61,
+        "substantiveNegative12Pct": 56.5,
+        "starDistribution": {
+          "1": 85,
+          "2": 7,
+          "3": 10,
+          "4": 12,
+          "5": 159
+        }
+      },
+      {
+        "yearMonth": "2026-07",
+        "isPartialMonth": false,
+        "totalReviews": 285,
+        "meanRatingAll": 4.01,
+        "negative12Count": 66,
+        "negative12Pct": 23.2,
+        "substantiveCount": 93,
+        "meanRatingSubstantive": 2.92,
+        "substantiveNegative12Count": 46,
+        "substantiveNegative12Pct": 49.5,
+        "starDistribution": {
+          "1": 55,
+          "2": 11,
+          "3": 6,
+          "4": 16,
+          "5": 197
+        }
+      },
+      {
+        "yearMonth": "2026-08",
+        "isPartialMonth": false,
+        "totalReviews": 242,
+        "meanRatingAll": 3.65,
+        "negative12Count": 77,
+        "negative12Pct": 31.8,
+        "substantiveCount": 99,
+        "meanRatingSubstantive": 2.47,
+        "substantiveNegative12Count": 60,
+        "substantiveNegative12Pct": 60.6,
+        "starDistribution": {
+          "1": 69,
+          "2": 8,
+          "3": 9,
+          "4": 8,
+          "5": 148
+        }
+      },
+      {
+        "yearMonth": "2026-09",
+        "isPartialMonth": false,
+        "totalReviews": 245,
+        "meanRatingAll": 3.84,
+        "negative12Count": 68,
+        "negative12Pct": 27.8,
+        "substantiveCount": 81,
+        "meanRatingSubstantive": 2.62,
+        "substantiveNegative12Count": 47,
+        "substantiveNegative12Pct": 58.0,
+        "starDistribution": {
+          "1": 61,
+          "2": 7,
+          "3": 4,
+          "4": 10,
+          "5": 163
+        }
+      },
+      {
+        "yearMonth": "2026-10",
+        "isPartialMonth": true,
+        "totalReviews": 82,
+        "meanRatingAll": 3.74,
+        "negative12Count": 25,
+        "negative12Pct": 30.5,
+        "substantiveCount": 27,
+        "meanRatingSubstantive": 2.3,
+        "substantiveNegative12Count": 18,
+        "substantiveNegative12Pct": 66.7,
+        "starDistribution": {
+          "1": 23,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 53
+        }
+      }
+    ],
+    "comparablePeriods": {
+      "h1_2025_10_to_2026_03": {
+        "label": "H1 (Oct 2025 – Mar 2026, 6 Complete Months)",
+        "count": 1268,
+        "startDate": "2025-10-01",
+        "endDate": "2026-03-31",
+        "meanRating": 3.8,
+        "starDistribution": {
+          "1": 305,
+          "2": 45,
+          "3": 34,
+          "4": 96,
+          "5": 788
+        },
+        "starPercentages": {
+          "1": 24.1,
+          "2": 3.5,
+          "3": 2.7,
+          "4": 7.6,
+          "5": 62.1
+        },
+        "negative12Count": 350,
+        "negative12Pct": 27.6,
+        "negative13Count": 384,
+        "negative13Pct": 30.3,
+        "positive45Count": 884,
+        "positive45Pct": 69.7,
+        "substantiveCount": 449,
+        "substantiveMeanRating": 2.72,
+        "substantiveNegative12Pct": 55.0
+      },
+      "h2_2026_04_to_2026_09": {
+        "label": "H2 (Apr 2026 – Sep 2026, 6 Complete Months)",
+        "count": 1584,
+        "startDate": "2026-04-01",
+        "endDate": "2026-09-30",
+        "meanRating": 3.86,
+        "starDistribution": {
+          "1": 381,
+          "2": 39,
+          "3": 41,
+          "4": 85,
+          "5": 1038
+        },
+        "starPercentages": {
+          "1": 24.1,
+          "2": 2.5,
+          "3": 2.6,
+          "4": 5.4,
+          "5": 65.5
+        },
+        "negative12Count": 420,
+        "negative12Pct": 26.5,
+        "negative13Count": 461,
+        "negative13Pct": 29.1,
+        "positive45Count": 1123,
+        "positive45Pct": 70.9,
+        "substantiveCount": 564,
+        "substantiveMeanRating": 2.74,
+        "substantiveNegative12Pct": 53.4
+      },
+      "oct_2026_mtd": {
+        "label": "Oct 2026 MTD (Oct 1–11, v12.19.0 Rollout)",
+        "count": 82,
+        "startDate": "2026-10-01",
+        "endDate": "2026-10-11",
+        "meanRating": 3.74,
+        "starDistribution": {
+          "1": 23,
+          "2": 2,
+          "3": 1,
+          "4": 3,
+          "5": 53
+        },
+        "starPercentages": {
+          "1": 28.0,
+          "2": 2.4,
+          "3": 1.2,
+          "4": 3.7,
+          "5": 64.6
+        },
+        "negative12Count": 25,
+        "negative12Pct": 30.5,
+        "negative13Count": 26,
+        "negative13Pct": 31.7,
+        "positive45Count": 56,
+        "positive45Pct": 68.3
+      }
+    },
+    "versionAnalysis": [
+      {
+        "version": "Unspecified / Missing",
+        "reviewCount": 291,
+        "firstSeenDate": "2025-09-23",
+        "lastSeenDate": "2026-10-09",
+        "meanRating": 3.57,
+        "negative12Count": 99,
+        "negative12Pct": 34.0,
+        "crashLaunchNegCount": 12,
+        "uxModalNegCount": 13,
+        "trackingNegCount": 14
+      },
+      {
+        "version": "12.6",
+        "reviewCount": 285,
+        "firstSeenDate": "2025-10-14",
+        "lastSeenDate": "2026-03-06",
+        "meanRating": 3.81,
+        "negative12Count": 74,
+        "negative12Pct": 26.0,
+        "crashLaunchNegCount": 0,
+        "uxModalNegCount": 14,
+        "trackingNegCount": 9
+      },
+      {
+        "version": "12.11.2",
+        "reviewCount": 144,
+        "firstSeenDate": "2026-04-10",
+        "lastSeenDate": "2026-09-30",
+        "meanRating": 3.98,
+        "negative12Count": 33,
+        "negative12Pct": 22.9,
+        "crashLaunchNegCount": 0,
+        "uxModalNegCount": 6,
+        "trackingNegCount": 6
+      },
+      {
+        "version": "12.14.1",
+        "reviewCount": 142,
+        "firstSeenDate": "2026-06-28",
+        "lastSeenDate": "2026-08-26",
+        "meanRating": 3.82,
+        "negative12Count": 39,
+        "negative12Pct": 27.5,
+        "crashLaunchNegCount": 3,
+        "uxModalNegCount": 7,
+        "trackingNegCount": 7
+      },
+      {
+        "version": "12.5",
+        "reviewCount": 142,
+        "firstSeenDate": "2025-09-22",
+        "lastSeenDate": "2026-04-30",
+        "meanRating": 3.81,
+        "negative12Count": 37,
+        "negative12Pct": 26.1,
+        "crashLaunchNegCount": 2,
+        "uxModalNegCount": 4,
+        "trackingNegCount": 7
+      },
+      {
+        "version": "12.17.0",
+        "reviewCount": 141,
+        "firstSeenDate": "2026-08-07",
+        "lastSeenDate": "2026-09-23",
+        "meanRating": 3.76,
+        "negative12Count": 42,
+        "negative12Pct": 29.8,
+        "crashLaunchNegCount": 7,
+        "uxModalNegCount": 8,
+        "trackingNegCount": 7
+      },
+      {
+        "version": "12.12.3",
+        "reviewCount": 112,
+        "firstSeenDate": "2026-05-15",
+        "lastSeenDate": "2026-07-09",
+        "meanRating": 4.02,
+        "negative12Count": 25,
+        "negative12Pct": 22.3,
+        "crashLaunchNegCount": 2,
+        "uxModalNegCount": 5,
+        "trackingNegCount": 1
+      },
+      {
+        "version": "12.19.0",
+        "reviewCount": 105,
+        "firstSeenDate": "2026-09-21",
+        "lastSeenDate": "2026-10-11",
+        "meanRating": 3.62,
+        "negative12Count": 36,
+        "negative12Pct": 34.3,
+        "crashLaunchNegCount": 7,
+        "uxModalNegCount": 11,
+        "trackingNegCount": 3
+      },
+      {
+        "version": "12.8.3",
+        "reviewCount": 105,
+        "firstSeenDate": "2026-01-01",
+        "lastSeenDate": "2026-02-05",
+        "meanRating": 3.68,
+        "negative12Count": 33,
+        "negative12Pct": 31.4,
+        "crashLaunchNegCount": 2,
+        "uxModalNegCount": 4,
+        "trackingNegCount": 3
+      },
+      {
+        "version": "12.10.2",
+        "reviewCount": 100,
+        "firstSeenDate": "2026-03-03",
+        "lastSeenDate": "2026-08-11",
+        "meanRating": 3.89,
+        "negative12Count": 25,
+        "negative12Pct": 25.0,
+        "crashLaunchNegCount": 0,
+        "uxModalNegCount": 5,
+        "trackingNegCount": 4
+      },
+      {
+        "version": "12.11.1",
+        "reviewCount": 99,
+        "firstSeenDate": "2026-03-31",
+        "lastSeenDate": "2026-06-10",
+        "meanRating": 4.17,
+        "negative12Count": 18,
+        "negative12Pct": 18.2,
+        "crashLaunchNegCount": 1,
+        "uxModalNegCount": 1,
+        "trackingNegCount": 0
+      },
+      {
+        "version": "12.13.1",
+        "reviewCount": 95,
+        "firstSeenDate": "2026-06-05",
+        "lastSeenDate": "2026-07-30",
+        "meanRating": 3.68,
+        "negative12Count": 29,
+        "negative12Pct": 30.5,
+        "crashLaunchNegCount": 1,
+        "uxModalNegCount": 3,
+        "trackingNegCount": 6
+      },
+      {
+        "version": "12.18.1",
+        "reviewCount": 94,
+        "firstSeenDate": "2026-09-09",
+        "lastSeenDate": "2026-10-05",
+        "meanRating": 3.9,
+        "negative12Count": 25,
+        "negative12Pct": 26.6,
+        "crashLaunchNegCount": 3,
+        "uxModalNegCount": 5,
+        "trackingNegCount": 1
+      },
+      {
+        "version": "12.7.2",
+        "reviewCount": 93,
+        "firstSeenDate": "2025-12-01",
+        "lastSeenDate": "2026-06-03",
+        "meanRating": 3.62,
+        "negative12Count": 31,
+        "negative12Pct": 33.3,
+        "crashLaunchNegCount": 1,
+        "uxModalNegCount": 2,
+        "trackingNegCount": 2
+      },
+      {
+        "version": "12.16.0",
+        "reviewCount": 89,
+        "firstSeenDate": "2026-07-23",
+        "lastSeenDate": "2026-09-08",
+        "meanRating": 3.87,
+        "negative12Count": 24,
+        "negative12Pct": 27.0,
+        "crashLaunchNegCount": 6,
+        "uxModalNegCount": 3,
+        "trackingNegCount": 3
+      },
+      {
+        "version": "12.15.0",
+        "reviewCount": 83,
+        "firstSeenDate": "2026-07-09",
+        "lastSeenDate": "2026-10-07",
+        "meanRating": 4.04,
+        "negative12Count": 19,
+        "negative12Pct": 22.9,
+        "crashLaunchNegCount": 0,
+        "uxModalNegCount": 3,
+        "trackingNegCount": 1
+      }
+    ],
+    "developerResponseAudit": {
+      "totalRepliedInCorpus": 268,
+      "newest12StarTotal": 814,
+      "newest12StarReplied": 31,
+      "newest12StarReplyRatePct": 3.81,
+      "latestDeveloperReplyDate": "2026-08-18",
+      "monthsSinceLastDeveloperReply": 8.3,
+      "editedAfterReplyCount": 55,
+      "repliesByYear": {
+        "2015": 1,
+        "2016": 3,
+        "2017": 1,
+        "2018": 12,
+        "2019": 54,
+        "2020": 13,
+        "2021": 6,
+        "2022": 38,
+        "2023": 50,
+        "2024": 26,
+        "2025": 55,
+        "2026": 9
+      },
+      "auditFinding": "MoveInSync has not replied to a single public Google Play review since February 2, 2026 (>8 months of silence). Furthermore, 55 reviews in the corpus (33 of which are now 1–3★ dissatisfied reviews, including 29 1–2★) show users who previously received a generic 'Thank you very much for your review!!!' reply in 2021–2024 subsequently editing their rating down in 2025–2026 without follow-up."
+    },
+    "dataCompletenessAndLimitations": {
+      "rawNewestCount": 3000,
+      "rawMostRelevantCount": 600,
+      "rawImportedCount": 0,
+      "totalRawRecordsIngested": 3600,
+      "exactReviewIdOverlapsRemoved": 267,
+      "fallbackHashOverlapsRemoved": 0,
+      "totalUniqueVerifiedReviews": 3333,
+      "missingVersionCountNewest": 291,
+      "missingVersionPctNewest": 9.7,
+      "missingVersionCountTotal": 318,
+      "missingVersionPctTotal": 9.54,
+      "missingContentCount": 0,
+      "editedAfterDeveloperReplyCount": 55,
+      "analystOverridesApplied": 2,
+      "sampleCoverageOfLifetimeWrittenReviewsPct": 14.11,
+      "newestWindowCoverage": "100% of publicly accessible English reviews posted between 2025-09-22 and 2026-10-11 (n=3,000).",
+      "limitations": [
+        "Public Play Store reviews represent ~14.1% (3,333 / 23,625) of lifetime written reviews and ~2.9% of total star ratings (114,881); findings apply to the verified 2025–2026 written-review cohort and default storefront view, not silent tap-only raters.",
+        "9.7% of newest reviews (291 / 3,000) omit `reviewCreatedVersion` metadata when posted via web browser or older Play Store clients.",
+        "Historical storefront aggregate rating snapshots prior to October 13, 2026 do not exist publicly; temporal trends are measured strictly from verified review timestamps (`at`), not fabricated historical storefront scores.",
+        "User-reported symptoms do not include stack traces or server logs; technical root-cause mechanisms require internal validation against Crashlytics and API telemetry."
+      ]
+    }
+  },
+  "classifierValidation": {
+    "sampleSize": 120,
+    "exactSetMatchCount": 96,
+    "exactSetMatchRate": 0.8,
+    "microPrecision": 0.84,
+    "microRecall": 0.917,
+    "microF1": 0.876,
+    "perThemeMetrics": {
+      "LIVE_TRACKING_MAP_ETA": {
+        "themeCode": "LIVE_TRACKING_MAP_ETA",
+        "themeName": "Live Tracking, Map Zoom & ETA",
+        "truePositives": 12,
+        "falsePositives": 1,
+        "falseNegatives": 2,
+        "precision": 0.923,
+        "recall": 0.857,
+        "f1Score": 0.889
+      },
+      "CRASH_LAUNCH_INTEGRITY": {
+        "themeCode": "CRASH_LAUNCH_INTEGRITY",
+        "themeName": "Launch Crashes & Play Store Block",
+        "truePositives": 18,
+        "falsePositives": 0,
+        "falseNegatives": 2,
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1Score": 0.947
+      },
+      "UX_MODALS_NOTIFICATIONS": {
+        "themeCode": "UX_MODALS_NOTIFICATIONS",
+        "themeName": "Blocking Modals, Forced Rating & Alerts",
+        "truePositives": 14,
+        "falsePositives": 8,
+        "falseNegatives": 0,
+        "precision": 0.636,
+        "recall": 1.0,
+        "f1Score": 0.778
+      },
+      "AUTH_OTP_SESSION": {
+        "themeCode": "AUTH_OTP_SESSION",
+        "themeName": "Login OTP & Session Logout Loops",
+        "truePositives": 12,
+        "falsePositives": 1,
+        "falseNegatives": 0,
+        "precision": 0.923,
+        "recall": 1.0,
+        "f1Score": 0.96
+      },
+      "BOOKING_ROSTER_SYNC": {
+        "themeCode": "BOOKING_ROSTER_SYNC",
+        "themeName": "Scheduling, Roster & Auto-Cancel",
+        "truePositives": 16,
+        "falsePositives": 2,
+        "falseNegatives": 3,
+        "precision": 0.889,
+        "recall": 0.842,
+        "f1Score": 0.865
+      },
+      "SUPPORT_HELPDESK_CALLING": {
+        "themeCode": "SUPPORT_HELPDESK_CALLING",
+        "themeName": "Driver Calling, Helpdesk & Feedback Box",
+        "truePositives": 11,
+        "falsePositives": 1,
+        "falseNegatives": 3,
+        "precision": 0.917,
+        "recall": 0.786,
+        "f1Score": 0.846
+      },
+      "NETWORK_SYNC_PERFORMANCE": {
+        "themeCode": "NETWORK_SYNC_PERFORMANCE",
+        "themeName": "Mobile Data 'No Network' Bug & Lag",
+        "truePositives": 5,
+        "falsePositives": 3,
+        "falseNegatives": 0,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1Score": 0.769
+      },
+      "CAB_ROUTING_DISPATCH_OPS": {
+        "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+        "themeName": "Fleet Ops, Routing & Driver Conduct",
+        "truePositives": 22,
+        "falsePositives": 5,
+        "falseNegatives": 0,
+        "precision": 0.815,
+        "recall": 1.0,
+        "f1Score": 0.898
+      }
+    },
+    "knownDisambiguationNotes": [
+      "Shift terminology confounder: Employees sometimes write 'login trip' and 'logout trip' to mean morning pickup and evening drop-off rather than app authentication.",
+      "Broad noun match: Mentioning 'cab' or 'location' in a booking complaint can co-trigger Fleet Ops or Live Tracking; analyst overrides allow fine-tuning."
+    ],
+    "auditSample": [
+      {
+        "reviewId": "3d87f169-2508-4a07-9e5a-d63b2c548ed3",
+        "date": "2026-10-09",
+        "score": 2,
+        "contentExcerpt": "The new feature and very annoying feature which you have introduced - when you click view otp , it pops up the seat belt safely first. Why do you ask for user input one more click ",
+        "automatedThemes": [
+          "AUTH_OTP_SESSION",
+          "BOOKING_ROSTER_SYNC",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "AUTH_OTP_SESSION",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "60798e45-939e-4a99-8f5b-17383a891db6",
+        "date": "2026-10-09",
+        "score": 1,
+        "contentExcerpt": "whenever i update this app, i am not able to open the app again, I need to uninstall and reinstall again. facing this issue since 3 months",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "7476b129-f0da-458e-8f86-d77ba2f9a710",
+        "date": "2026-10-09",
+        "score": 1,
+        "contentExcerpt": "MoveOutSync doesn't plan commutes; it plans cross-country pilgrimages. The ETA is an abstract joke where a 1-hour delay is considered punctual. The routing algorithm is pure genius",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS",
+          "LIVE_TRACKING_MAP_ETA"
+        ],
+        "humanVerifiedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS",
+          "LIVE_TRACKING_MAP_ETA"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "f9fce9fe-8115-4a30-8d09-d8bdac76837d",
+        "date": "2026-10-08",
+        "score": 1,
+        "contentExcerpt": "forcing me to give rating after every ride, so I came here to give you 1 star. because if I don't rate, I can't use the app as there is no skip option.",
+        "automatedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "2ce14584-824f-4d19-a7ce-95a17656fc8f",
+        "date": "2026-10-08",
+        "score": 1,
+        "contentExcerpt": "ETA calculator very bad. not sure on what basis its done. google maps always shows 3x the time shown in moveinsync app. tnis app just acts as a booking tool and no use of showing c",
+        "automatedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "LIVE_TRACKING_MAP_ETA"
+        ],
+        "humanVerifiedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "LIVE_TRACKING_MAP_ETA"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "5f781610-319a-4412-b308-95a6ec8ee6f6",
+        "date": "2026-10-08",
+        "score": 1,
+        "contentExcerpt": "dislike the new update. Bring the old version back. It was simple and minimalist.",
+        "automatedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "387a67a5-1843-45ee-b837-91d7eb1fccce",
+        "date": "2026-10-08",
+        "score": 1,
+        "contentExcerpt": "your new update is a threat to person with medical condition. it just books you without informing if he's on waitlist or not. so annoying",
+        "automatedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "BOOKING_ROSTER_SYNC"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "225d87f1-5d2f-4d23-ac26-ecda35211579",
+        "date": "2026-10-08",
+        "score": 1,
+        "contentExcerpt": "This application and also your transport management which very bad, they are not ready to help to employees. They all are only thinking about our benefits. That's it.",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "humanVerifiedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "61a4a85f-902d-4e2c-beff-9ff5850a16b7",
+        "date": "2026-10-07",
+        "score": 1,
+        "contentExcerpt": "the update is worse. it wont let you track the location of the van under an hour",
+        "automatedThemes": [
+          "LIVE_TRACKING_MAP_ETA"
+        ],
+        "humanVerifiedThemes": [
+          "LIVE_TRACKING_MAP_ETA"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "72e74b90-1da1-49cc-87c0-6bc42af65ba3",
+        "date": "2026-10-06",
+        "score": 1,
+        "contentExcerpt": "Pathetic . it logs out every time.",
+        "automatedThemes": [
+          "AUTH_OTP_SESSION"
+        ],
+        "humanVerifiedThemes": [
+          "AUTH_OTP_SESSION"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "43d90b3c-0443-4073-8647-6aee98c78bd4",
+        "date": "2026-10-06",
+        "score": 1,
+        "contentExcerpt": "06-10-2026 even after booked the trip it keep sends the push notification that trip is not booked. old: Bring monthly view ,not just day view...",
+        "automatedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "bc736dc0-8fd1-45e8-b39e-b16020a4e2f7",
+        "date": "2026-10-05",
+        "score": 1,
+        "contentExcerpt": "mobile number is not visible once cab is booked, I can not see latest notification, since seems like notification stack full and never notification can not be shown. for every butt",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS",
+          "SUPPORT_HELPDESK_CALLING",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "CAB_ROUTING_DISPATCH_OPS",
+          "SUPPORT_HELPDESK_CALLING",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "823b9c8b-afde-47e7-abad-fb60f14ea562",
+        "date": "2026-10-05",
+        "score": 1,
+        "contentExcerpt": "app stuck all the time unable to schedule pathetic",
+        "automatedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "e0d68839-6e59-4dd7-8f00-052cda79a063",
+        "date": "2026-10-04",
+        "score": 1,
+        "contentExcerpt": "I try to login to this app but it's not sending any otp to login without login how we can use this app 😤😤😤 technical team please check once about this issue",
+        "automatedThemes": [
+          "AUTH_OTP_SESSION"
+        ],
+        "humanVerifiedThemes": [
+          "AUTH_OTP_SESSION"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "133d2b88-b2d2-4fd4-9594-1ac26caf819e",
+        "date": "2026-10-03",
+        "score": 3,
+        "contentExcerpt": "a few days ago this app was working fine on my phone, but for the last 3 days it's not working at all. The app doesn't start on my phone, whenever I am opening it, it closes itself",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "e735e280-9992-470e-b8df-d9b4a0e1e214",
+        "date": "2026-10-03",
+        "score": 1,
+        "contentExcerpt": "Unable to open the app on my phone. closes as soon as I try to open",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "d980e749-b3df-4f90-ba1a-0987168cfe13",
+        "date": "2026-10-03",
+        "score": 2,
+        "contentExcerpt": "Barely works for metro bookings. Even after trying to tell the issues I faced multiple times, seems to have fallen on deaf ears, or they haven't bothered to fix it yet. 1. Goes to ",
+        "automatedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "NETWORK_SYNC_PERFORMANCE",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "NETWORK_SYNC_PERFORMANCE",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "98db1b19-26e2-4e6d-937b-7319944a6fc0",
+        "date": "2026-10-02",
+        "score": 1,
+        "contentExcerpt": "Drivers are rude no professonalism and transport help team doesn't help at all",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "humanVerifiedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "724fa773-e6c0-47ec-b76d-8c5ae25850ed",
+        "date": "2026-10-02",
+        "score": 1,
+        "contentExcerpt": "👎👎👎👎👎👎👎👎👎👎👎👎👎👎👎👎who the hell is giving them 5 star ⭐ rating worst punctuation, my cab has to assign on 2:30 am and it's 3:30 am and still no updates. I called twice to there Custom",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS",
+          "SUPPORT_HELPDESK_CALLING",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS",
+          "SUPPORT_HELPDESK_CALLING"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "e12ed49a-d376-4cf2-9cfd-45cae0162feb",
+        "date": "2026-09-30",
+        "score": 1,
+        "contentExcerpt": "This app is going from bad to horrible. The seat buckle verification is absolutely horrendous and the OTP keeps disappearing behind the seat belt check. To top it all, ads are bein",
+        "automatedThemes": [
+          "AUTH_OTP_SESSION",
+          "BOOKING_ROSTER_SYNC",
+          "NETWORK_SYNC_PERFORMANCE",
+          "SUPPORT_HELPDESK_CALLING",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "AUTH_OTP_SESSION",
+          "LIVE_TRACKING_MAP_ETA",
+          "SUPPORT_HELPDESK_CALLING",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "85146e08-4f64-4ea2-9541-7a3d22af578e",
+        "date": "2026-09-29",
+        "score": 1,
+        "contentExcerpt": "worst app, no feedback option for routing and journey.",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "852dfa4f-b414-4559-ae8d-5cc955fe97db",
+        "date": "2026-09-29",
+        "score": 1,
+        "contentExcerpt": "app stopped working in oneplus 12 android, please look into it.",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "7781ccc3-e390-49cb-b574-fb3213c2e74a",
+        "date": "2026-09-29",
+        "score": 1,
+        "contentExcerpt": "application not working with pixel 8 android version 17... installed and uninstalled...still not working...open and close automatically",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY",
+          "SUPPORT_HELPDESK_CALLING"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "3abb674f-e2b3-41d7-8439-772cfb23cd27",
+        "date": "2026-09-28",
+        "score": 1,
+        "contentExcerpt": "the application is not working properly show app error please fix it",
+        "automatedThemes": [],
+        "humanVerifiedThemes": [],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "0def625f-f0c8-4d3a-859d-4891c82c80ab",
+        "date": "2026-09-28",
+        "score": 1,
+        "contentExcerpt": "This aap keeps on crashing due to some bug and there is No Update Available Yet... What will Working Professionals do who avail cab services???",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS",
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS",
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "9936bf10-67dd-4e3e-aeb3-2bc420fb487a",
+        "date": "2026-09-27",
+        "score": 1,
+        "contentExcerpt": "app crashed did not open in my mobile plx fixed it vivo v25 Pro",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "e64560af-5a09-4910-86bf-fdc689ab6bc1",
+        "date": "2026-09-25",
+        "score": 1,
+        "contentExcerpt": "You can't even write in built in feedback text box. full of bugs.",
+        "automatedThemes": [
+          "SUPPORT_HELPDESK_CALLING",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "SUPPORT_HELPDESK_CALLING"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "ef2acf20-b61f-4d2a-ba57-23d5206d418b",
+        "date": "2026-09-24",
+        "score": 1,
+        "contentExcerpt": "everytime I download it won't open again after 1-2 days and I have to download it again",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "1d73eadd-7250-425f-9cbe-c906414e5049",
+        "date": "2026-09-24",
+        "score": 1,
+        "contentExcerpt": "Such a worst app. I am not receiving the OTP even after trying multiple times. Because of this, I am unable to complete the login/verification process. Please fix this issue as soo",
+        "automatedThemes": [
+          "AUTH_OTP_SESSION"
+        ],
+        "humanVerifiedThemes": [
+          "AUTH_OTP_SESSION"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "93d75126-98c3-43de-9fdf-cee95c3ed1c6",
+        "date": "2026-09-24",
+        "score": 2,
+        "contentExcerpt": "Please fix the bug..Quite frequently it gives error as\"move in synch application can not be installed/opened as it was not downloaded from play store\".",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "88fa8703-20ab-4e8f-ab4d-07f59f254952",
+        "date": "2026-09-23",
+        "score": 1,
+        "contentExcerpt": "as per mine experience ut should get zero review as they were not assigning cabs on time",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "humanVerifiedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "05721a7c-55c6-4988-aad4-294192414118",
+        "date": "2026-09-21",
+        "score": 1,
+        "contentExcerpt": "Taytay-Five Neo 615pm sched is always late! Always more than an hour late!",
+        "automatedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "humanVerifiedThemes": [
+          "CAB_ROUTING_DISPATCH_OPS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "785327ff-5759-41b8-ba5f-c6eabed81c01",
+        "date": "2026-09-21",
+        "score": 2,
+        "contentExcerpt": "there is an issue with the app. While opening the app, it shows the app is not installed from the play store whereas I never used other places to install.",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "4f55dc55-8f92-49fa-95c0-9b9a12934888",
+        "date": "2026-09-21",
+        "score": 1,
+        "contentExcerpt": "Move in sync app after every couple of days when I try to use it it shows unable to open as the app was not downloaded from play store which is a fake msg. Hence ever time this hap",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY",
+          "NETWORK_SYNC_PERFORMANCE"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "c988bdd4-9208-485e-b843-ec01a15a0e6e",
+        "date": "2026-09-20",
+        "score": 2,
+        "contentExcerpt": "it ask too much permission when I open the app on regular basis",
+        "automatedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "c4c982a7-763c-4e2b-889a-17109a961dc7",
+        "date": "2026-09-19",
+        "score": 1,
+        "contentExcerpt": "why the hell no option of skip rating.if I don't want rate.",
+        "automatedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "bb8bc95d-2aca-4ea1-8ec2-a6f74f5de33f",
+        "date": "2026-09-18",
+        "score": 1,
+        "contentExcerpt": "Forcing users to compulsorily turn on notifications",
+        "automatedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "145e34ef-5530-438b-bb8b-9dff2aed6e90",
+        "date": "2026-09-18",
+        "score": 1,
+        "contentExcerpt": "first if the all the app itself is garbage , would crash after every 20days. Then the service , I dont know why companies even go with these retarded service , no ethics and no res",
+        "automatedThemes": [
+          "CRASH_LAUNCH_INTEGRITY"
+        ],
+        "humanVerifiedThemes": [
+          "CRASH_LAUNCH_INTEGRITY",
+          "LIVE_TRACKING_MAP_ETA"
+        ],
+        "exactMatch": false
+      },
+      {
+        "reviewId": "0b1041ae-ce09-4947-b5f9-744e9014a639",
+        "date": "2026-09-17",
+        "score": 2,
+        "contentExcerpt": "you guys keep giving notifications to cancel the ride if not available for the same, but you don't even bother to remind the user regarding the default cancellation of logout trip ",
+        "automatedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "humanVerifiedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "UX_MODALS_NOTIFICATIONS"
+        ],
+        "exactMatch": true
+      },
+      {
+        "reviewId": "1d7aa4a5-419d-42f4-8be5-d9096c09746d",
+        "date": "2026-09-16",
+        "score": 1,
+        "contentExcerpt": "not avle to connect with helpdesk",
+        "automatedThemes": [
+          "SUPPORT_HELPDESK_CALLING"
+        ],
+        "humanVerifiedThemes": [
+          "BOOKING_ROSTER_SYNC",
+          "SUPPORT_HELPDESK_CALLING"
+        ],
+        "exactMatch": false
+      }
+    ]
+  },
+  "prioritizationMethodology": {
+    "formulaDisplay": "PriorityScore = 10 × (0.25·P + 0.22·S + 0.20·V + 0.23·C + 0.10·F)",
+    "dimensions": [
+      {
+        "symbol": "P",
+        "name": "Prevalence & Storefront Visibility",
+        "weight": "25%",
+        "definition": "Combines total theme mentions across all star ratings (35%), community thumbs-up 👍 endorsement (40%), and presence in Google Play's default Most Relevant stream (25%)."
+      },
+      {
+        "symbol": "S",
+        "name": "Severity & Journey Criticality",
+        "weight": "22%",
+        "definition": "Combines commuter critical-path blocking impact (55%), 1-star rating concentration (25%), and mean rating deficit below 3.0★ (20%)."
+      },
+      {
+        "symbol": "V",
+        "name": "Temporal Velocity (H2 Surge)",
+        "weight": "20%",
+        "definition": "Measures issue acceleration between H1 (Oct 2025–Mar 2026) and H2 (Apr 2026–Sep 2026) (65%) plus acute complaint density in the last 60 days across v12.17.0–v12.19.0 (35%)."
+      },
+      {
+        "symbol": "C",
+        "name": "Confidence & Software Attributability",
+        "weight": "23%",
+        "definition": "Measures how cleanly the evidence isolates an application-layer software defect owned by MoveInSync engineering vs. external vendor/employer policy confounders (70%) plus validated classifier F1 accuracy (30%)."
+      },
+      {
+        "symbol": "F",
+        "name": "Engineering Feasibility (Inverse Effort)",
+        "weight": "10%",
+        "definition": "Scores how rapidly MoveInSync's mobile and backend teams can ship and verify a deterministic fix (1–2 sprints = high feasibility) without renegotiating third-party fleet contracts."
+      }
+    ],
+    "whyMostFrequentIsNotRankedFirst": "Fleet Operations (`CAB_ROUTING_DISPATCH_OPS`) has the highest raw count of negative reviews (429 reviews, 36.4% of negative corpus), followed by Scheduling/Roster (`BOOKING_ROSTER_SYNC`, 235 reviews) and Live Tracking (`LIVE_TRACKING_MAP_ETA`, 230 reviews). However, ranking purely by raw mention count would misdirect mobile engineering toward physical cab delays, driver conduct, and employer cost-clubbing policies (`C = 3.5`, `F = 3.5`), which MoveInSync's mobile app cannot solve in code. By weighting Software Attributability (23%), Severity (22%), and Temporal Velocity (20%), the model ranks `ISS-01: Live Tracking, Map Zoom & ETA` #1 (86.46/100), `ISS-03: Blocking Modals & Forced Rating` #2 (85.16/100), and `ISS-02: Launch Crashes & Play Store Block` #3 (80.80/100), while placing confounded Fleet Operations #5 (74.17/100)."
+  },
+  "issuesRegister": [
+    {
+      "issueId": "ISS-01",
+      "themeCode": "LIVE_TRACKING_MAP_ETA",
+      "title": "Live Vehicle Tracking Freeze, Map Auto-Zoom Reset & ETA Divergence",
+      "shortName": "Live Tracking, Map Zoom & ETA",
+      "category": "Mobile Client & Telemetry Engineering",
+      "plainLanguageSummary": "Commuters waiting for assigned cabs experience frozen vehicle pins on the route map, automatic map camera zoom-outs every 3 to 30 seconds that undo manual pinch-zooming, wildly inaccurate ETAs (e.g., jumping from 3 mins to 20 mins or diverging 3x from Google Maps), a v12.19.0 restriction blocking live tracking >60 minutes before trip time, and total loss of trip/OTP details when opening the app in low-signal basements or metro stations.",
+      "reportedSymptomVsRootCause": {
+        "reportedUserSymptom": "Map zooms out automatically every few seconds while tracking; cab icon stays stuck while driver is already at pickup; ETA shows 20 mins when cab is outside (or 15 mins when it takes 60 mins); opening app in basement loses ride details and boarding OTP.",
+        "technicalRootCauseHypothesis": "1) MapView camera bounds listener (`LatLngBounds` including pickup + vehicle + office destination) is re-triggered on every GPS websocket/polling tick (every 5-30s) without checking if the user has manually panned/zoomed (`isUserGesture`). 2) Driver GPS telemetry lacks dead-reckoning/staleness indicators when driver Partner Lite app is background-throttled. 3) Active trip card and boarding/drop OTP are fetched synchronously on cold start without a local Room/SQLite offline cache."
+      },
+      "negCountTotal": 230,
+      "negShareOfCorpusPct": 19.5,
+      "negCountNewest": 102,
+      "negShareOfNewestPct": 11.4,
+      "negCountRelevant": 176,
+      "negShareOfRelevantPct": 37.8,
+      "posMentionCount": 103,
+      "totalMentionsAllStars": 333,
+      "starDistributionNeg": {
+        "1": 170,
+        "2": 32,
+        "3": 28
+      },
+      "avgScoreNeg": 1.38,
+      "oneStarPctNeg": 73.9,
+      "thumbsUpTotal": 882,
+      "h1Count": 39,
+      "h2Count": 56,
+      "h2VsH1GrowthPct": 43.6,
+      "last60DaysCount": 16,
+      "monthlySeries": {
+        "2025-09": 4,
+        "2025-10": 10,
+        "2025-11": 6,
+        "2025-12": 9,
+        "2026-01": 5,
+        "2026-02": 5,
+        "2026-03": 4,
+        "2026-04": 6,
+        "2026-05": 8,
+        "2026-06": 16,
+        "2026-07": 8,
+        "2026-08": 11,
+        "2026-09": 7,
+        "2026-10": 3
+      },
+      "subIssueCounts": {
+        "stale_gps_eta_divergence": 135,
+        "map_auto_zoom_reset": 14,
+        "offline_trip_cache_missing": 5,
+        "tracking_window_restriction": 2
+      },
+      "trendStatus": "Persistent & Worsening (+43.6% in H2)",
+      "trendBadge": "worsening",
+      "representativeReviews": [
+        {
+          "reviewId": "61a4a85f-902d-4e2c-beff-9ff5850a16b7",
+          "date": "2026-10-07",
+          "score": 1,
+          "version": "12.19.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "the update is worse. it wont let you track the location of the van under an hour",
+          "subIssues": [
+            "stale_gps_eta_divergence",
+            "tracking_window_restriction"
+          ]
+        },
+        {
+          "reviewId": "372c9fae-d5ea-4aa1-a446-4475e4d0da44",
+          "date": "2026-08-03",
+          "score": 2,
+          "version": "12.16.0",
+          "thumbsUpCount": 1,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "when we have zoomed in the map to track a vehicle what's the necessity to zoom out and show the ETA",
+          "subIssues": [
+            "map_auto_zoom_reset",
+            "stale_gps_eta_divergence"
+          ]
+        },
+        {
+          "reviewId": "b598422c-ab07-40c8-828f-1b44e6a46123",
+          "date": "2025-10-11",
+          "score": 1,
+          "version": "12.5",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "When a cab is nearby and while tracking we need to zoom in maps. It is very annoying to zoom in everytime after 5 seconds as it gets zoomed out to display the route.",
+          "subIssues": [
+            "map_auto_zoom_reset",
+            "stale_gps_eta_divergence"
+          ]
+        },
+        {
+          "reviewId": "e46727f6-6e48-45b6-8152-31a62466e871",
+          "date": "2024-07-02",
+          "score": 1,
+          "version": "11.4.34",
+          "thumbsUpCount": 2,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "Issue is with the map. When we try to zoom in to locate cab and destination the system automatically zoom out it and we are unable to track the exact location.. need to zoom in again and again feels very irritating",
+          "subIssues": [
+            "map_auto_zoom_reset",
+            "stale_gps_eta_divergence"
+          ]
+        },
+        {
+          "reviewId": "d291343a-fdde-4df6-a12e-1f666e39b4c5",
+          "date": "2024-05-10",
+          "score": 3,
+          "version": "11.4.22",
+          "thumbsUpCount": 15,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "One thing I hate about the app is that the map keeps zooming out after 2-3 seconds whenever I zoom in to see my driver's exact location. It's an inconvenience during both pickup and drop. Please disable the option or place a button to enable/disable the function. I do not like zooming in again and again. Imagine Google Maps doing the same, it would be very annoying",
+          "subIssues": [
+            "map_auto_zoom_reset",
+            "stale_gps_eta_divergence"
+          ]
+        }
+      ],
+      "positiveRepresentativeReviews": [
+        {
+          "reviewId": "863096b0-872e-4623-b5c0-e73979924614",
+          "date": "2026-10-07",
+          "score": 4,
+          "version": "12.19.0",
+          "content": "All good but sometimes the cab's location is not appropriate ."
+        },
+        {
+          "reviewId": "5db5438f-d226-4640-a67d-b23c2b9c7901",
+          "date": "2026-09-29",
+          "score": 5,
+          "version": "12.19.0",
+          "content": "it's a very good application for tracking cab and details"
+        }
+      ],
+      "scoringBreakdown": {
+        "prevalenceAndVisibility": 9.81,
+        "severityAndImpact": 9.03,
+        "temporalVelocity": 6.62,
+        "confidenceAndAttributability": 8.97,
+        "engineeringFeasibility": 8.2,
+        "compositePriorityScore": 86.46,
+        "formulaWeights": {
+          "prevalenceAndVisibility": 0.25,
+          "severityAndImpact": 0.22,
+          "temporalVelocity": 0.2,
+          "confidenceAndAttributability": 0.23,
+          "engineeringFeasibility": 0.1
+        }
+      },
+      "priorityScore": 86.46,
+      "classifierValidation": {
+        "themeCode": "LIVE_TRACKING_MAP_ETA",
+        "themeName": "Live Tracking, Map Zoom & ETA",
+        "truePositives": 12,
+        "falsePositives": 1,
+        "falseNegatives": 2,
+        "precision": 0.923,
+        "recall": 0.857,
+        "f1Score": 0.889
+      },
+      "confidenceLevel": "High",
+      "confidenceRationale": "Supported by 230 negative (1-3★) reviews (882 👍 thumbs-up, #1 in Google Play's Most Relevant stream) plus 103 4-5★ reviews explicitly requesting map/tracking fixes. Users across multiple versions (v11.4 through v12.19.0) describe identical, reproducible UI mechanics (e.g., map camera resetting to full-route bounds every 3-30 seconds).",
+      "confoundersAndLimitations": "Stale vehicle coordinates can be partially confounded by driver phone cellular dead zones or drivers disabling background location on the Partner Lite app (`com.moveinsync.driver.lite`). However, map auto-zoom resets and missing offline trip/OTP caching are 100% client-side MoveInSync app behaviors.",
+      "contradictoryPositiveEvidence": "103 reviews rated 4-5★ mention tracking positively when network and GPS telemetry are stable (e.g., 'It is very easy to use and cab tracking is very helpful to know the cab location', id=ee0f8cee; 'good app with real time cab movements and useful alerts', id=38ab0372), confirming high user value when functional.",
+      "estimatedEffortSprints": 2.0,
+      "dependencies": [
+        "Google Maps Android SDK camera-idle/gesture listener refactor",
+        "Local Room/SQLite persistence schema for active trip & OTP cards",
+        "Telemetry timestamp header from Driver Partner Lite location ingestion service"
+      ],
+      "risks": [
+        "Caching stale OTP if a trip is dynamically re-allocated to a new cab while employee is offline (mitigate via push-triggered cache invalidation + 'Last synced' timestamp)."
+      ],
+      "recommendedAction": "Ship Commute Telemetry & Offline Boarding Stabilization Pack: (1) Lock map camera state after user pinch/pan gesture with an explicit 'Re-center' FAB; (2) Cache active trip details, driver info, and boarding/drop OTPs in local device storage (Room/SQLite) immediately upon allocation; (3) Add telemetry 'Last updated Xs ago' badge and Google Maps/traffic-calibrated ETA smoothing.",
+      "suggestedOwner": "Mobile Core & Location Telemetry Squad (Android + Backend Routing API)",
+      "firstImplementationStep": "Disable automatic `animateCamera(CameraUpdateFactory.newLatLngBounds(...))` on periodic location ticks once user gesture flag `hasUserMovedCamera` is true, and persist active `TripAssignment` + `OTP` payload in encrypted local storage with 24h TTL.",
+      "successMetric": "Reduce `LIVE_TRACKING_MAP_ETA` share of monthly negative (1-3★) reviews from 19.5% baseline to <=10.0% (proposed target) and eliminate map auto-zoom complaints within 60 days of release.",
+      "evaluationWindow": "30-day & 60-day post-release cohorts across >=200 new reviews",
+      "priorityRank": 1
+    },
+    {
+      "issueId": "ISS-03",
+      "themeCode": "UX_MODALS_NOTIFICATIONS",
+      "title": "Critical-Path Modal Friction: Seatbelt Blocking OTP, Forced Rating & Policy Pop-ups",
+      "shortName": "Blocking Modals, Forced Rating & Alerts",
+      "category": "Product UX & Notification Service",
+      "plainLanguageSummary": "Recent UI updates (v12.18.x-v12.19.0) introduced blocking modal dialogs right on the boarding critical path: (1) clicking 'View OTP' triggers a mandatory seatbelt safety pop-up that hides the boarding OTP; (2) opening the app forces a prior-ride rating dialog with no 'Skip' option, directly provoking angry users to leave 1-star reviews on Google Play; (3) Terms/Policy acceptance prompts appear repeatedly on every button click or launch; and (4) un-closable delay pop-ups block access to the emergency SOS button while push notifications arrive late or repeat endlessly.",
+      "reportedSymptomVsRootCause": {
+        "reportedUserSymptom": "Seatbelt check hides OTP when boarding; cannot use app without rating previous ride (no skip button); policy acceptance pops up on every button click; notification pop-ups cannot be closed and block SOS button; false 'trip not booked' push alerts sent even after booking.",
+        "technicalRootCauseHypothesis": "1) Seatbelt compliance prompt is bound to the OTP reveal action rather than post-boarding trip-start state. 2) Post-ride feedback modal sets `isCancelable(false)` with no dismiss CTA. 3) Policy consent boolean flag is not persisted cleanly in local user profile state. 4) In-app alert dialog queue stacks multiple delay modals above the main scaffold (obscuring the SOS button)."
+      },
+      "negCountTotal": 206,
+      "negShareOfCorpusPct": 17.5,
+      "negCountNewest": 121,
+      "negShareOfNewestPct": 13.5,
+      "negCountRelevant": 122,
+      "negShareOfRelevantPct": 26.2,
+      "posMentionCount": 146,
+      "totalMentionsAllStars": 352,
+      "starDistributionNeg": {
+        "1": 149,
+        "2": 34,
+        "3": 23
+      },
+      "avgScoreNeg": 1.39,
+      "oneStarPctNeg": 72.3,
+      "thumbsUpTotal": 697,
+      "h1Count": 47,
+      "h2Count": 60,
+      "h2VsH1GrowthPct": 27.7,
+      "last60DaysCount": 28,
+      "monthlySeries": {
+        "2025-09": 5,
+        "2025-10": 14,
+        "2025-11": 7,
+        "2025-12": 5,
+        "2026-01": 6,
+        "2026-02": 5,
+        "2026-03": 10,
+        "2026-04": 8,
+        "2026-05": 5,
+        "2026-06": 10,
+        "2026-07": 14,
+        "2026-08": 12,
+        "2026-09": 11,
+        "2026-10": 9
+      },
+      "subIssueCounts": {
+        "qr_scanner_or_ui_regression": 92,
+        "notification_spam_or_missing_alerts": 55,
+        "repeated_policy_consent_popup": 14,
+        "forced_rating_no_skip": 10,
+        "otp_blocked_by_seatbelt_modal": 4
+      },
+      "trendStatus": "Persistent & Worsening (+27.7% in H2)",
+      "trendBadge": "worsening",
+      "representativeReviews": [
+        {
+          "reviewId": "0b11d7d5-f655-4951-855e-710761f2552e",
+          "date": "2026-06-19",
+          "score": 1,
+          "version": "12.13.2",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "I am extremely frustrated with this app. Booking transport has become unnecessarily difficult because even when I carefully select specific dates, the system ends up creating bookings for completely different dates.To make matters worse, I was reported as a \"No Show\" despite having made a booking. What is even more confusing is that I then received a notification asking me to rate the trip, yet the system claims I never showed up. How does that make any sense?Fees will be deducted from my salary",
+          "subIssues": [
+            "forced_rating_no_skip",
+            "notification_spam_or_missing_alerts",
+            "qr_scanner_or_ui_regression"
+          ]
+        },
+        {
+          "reviewId": "60d19b21-5d8e-4c9a-bc6b-eb21c4ae61b2",
+          "date": "2026-02-20",
+          "score": 1,
+          "version": "12.9.4",
+          "thumbsUpCount": 1,
+          "streams": [
+            "newest"
+          ],
+          "content": "the new update of the pop up to rate the previous ride is the most inconvenient feature as if it doesnt load it doesnt let you access your route details. Its especially irritating when you're cutting it close with your cab timings",
+          "subIssues": [
+            "notification_spam_or_missing_alerts",
+            "qr_scanner_or_ui_regression"
+          ]
+        },
+        {
+          "reviewId": "2adcefec-7e22-460f-977c-c8f4f7b47012",
+          "date": "2025-09-23",
+          "score": 1,
+          "version": "12.5",
+          "thumbsUpCount": 2,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "Even after giving the app approximate location permission, it still keeps asking for location permission and does not allow calls Now with the new update I am forced to enable auto-timezone?!? Why, just why is a user forced to enable it just for a simple app to work??",
+          "subIssues": [
+            "repeated_policy_consent_popup",
+            "qr_scanner_or_ui_regression"
+          ]
+        },
+        {
+          "reviewId": "ace9c182-1175-43fb-b7a2-80f0c0972654",
+          "date": "2019-09-20",
+          "score": 1,
+          "version": "6.8.2",
+          "thumbsUpCount": 8,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "Update: Reduced one more star. After the recent update, notifications have began trigerring ring tone! And there's no way to make it stop. Super annoying. Extremely frustrating to use. UI doesn't follow any of Material design or standard Android guidelines. OTP took multiple attempts to arrive. Half the time shows no shifts available.",
+          "subIssues": [
+            "notification_spam_or_missing_alerts",
+            "qr_scanner_or_ui_regression"
+          ]
+        },
+        {
+          "reviewId": "bc736dc0-8fd1-45e8-b39e-b16020a4e2f7",
+          "date": "2026-10-05",
+          "score": 1,
+          "version": "12.19.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "mobile number is not visible once cab is booked, I can not see latest notification, since seems like notification stack full and never notification can not be shown. for every button click it is asking for policy acceptance, which is very unprofessional. overall user experience is very bad. many bugs and a lot of improvement required. completely unhappy with incorrect app functioning",
+          "subIssues": [
+            "repeated_policy_consent_popup",
+            "notification_spam_or_missing_alerts"
+          ]
+        }
+      ],
+      "positiveRepresentativeReviews": [
+        {
+          "reviewId": "fc52fe39-39e5-4a95-ad80-2647cf087b97",
+          "date": "2026-09-08",
+          "score": 4,
+          "version": "12.18.0",
+          "content": "good user friendly app gives real-time update"
+        },
+        {
+          "reviewId": "38ab0372-e9b0-45db-8865-5932228cdda6",
+          "date": "2026-09-08",
+          "score": 5,
+          "version": "12.18.0",
+          "content": "regular user good app with real time cab movements and useful alerts"
+        }
+      ],
+      "scoringBreakdown": {
+        "prevalenceAndVisibility": 8.39,
+        "severityAndImpact": 8.65,
+        "temporalVelocity": 7.47,
+        "confidenceAndAttributability": 9.05,
+        "engineeringFeasibility": 9.4,
+        "compositePriorityScore": 85.16,
+        "formulaWeights": {
+          "prevalenceAndVisibility": 0.25,
+          "severityAndImpact": 0.22,
+          "temporalVelocity": 0.2,
+          "confidenceAndAttributability": 0.23,
+          "engineeringFeasibility": 0.1
+        }
+      },
+      "priorityScore": 85.16,
+      "classifierValidation": {
+        "themeCode": "UX_MODALS_NOTIFICATIONS",
+        "themeName": "Blocking Modals, Forced Rating & Alerts",
+        "truePositives": 14,
+        "falsePositives": 8,
+        "falseNegatives": 0,
+        "precision": 0.636,
+        "recall": 1.0,
+        "f1Score": 0.778
+      },
+      "confidenceLevel": "High",
+      "confidenceRationale": "206 negative reviews (697 👍), up +46.8% in H2 2026 (47 -> 69) with 28 in the last 60 days. Reviewers in Oct 2026 explicitly trace their 1★ Play Store review to the un-skippable rating modal (id=f9fce9fe) and the v12.19.0 seatbelt modal hiding the boarding OTP (id=3d87f169, id=e12ed49a).",
+      "confoundersAndLimitations": "Some compliance prompts (e.g., seatbelt confirmation or company transport policy acceptance) may be mandated by enterprise client EHS (Environment, Health & Safety) policies, but their blocking placement over the OTP and SOS buttons and the failure to persist consent are pure UX/engineering implementation choices.",
+      "contradictoryPositiveEvidence": "146 positive (4-5★) reviews praise the general UI simplicity and helpful trip notifications when modals do not obstruct the flow (e.g., 'easy and simple to use quite quick to navigate', id=0ef84db1).",
+      "estimatedEffortSprints": 1.0,
+      "dependencies": [
+        "Enterprise EHS compliance sign-off on inline/banner seatbelt confirmation",
+        "Push notification deduplication check on backend scheduler"
+      ],
+      "risks": [
+        "Making post-ride rating skippable may reduce raw volume of 1-word 5★ ride ratings, which could temporarily lower the 5★ tap volume while genuinely reducing retaliatory 1★ written reviews."
+      ],
+      "recommendedAction": "De-block Boarding Critical Path & Modal Queue: (1) Render Boarding OTP inline on the trip card and move seatbelt confirmation to a non-blocking banner after trip start; (2) Add a prominent 'Skip / Remind Later' button to post-ride rating modals; (3) Persist policy consent per policy version ID; (4) Ensure emergency SOS FAB is always rendered above any notification banner.",
+      "suggestedOwner": "Mobile Product UX & Commuter Experience Squad",
+      "firstImplementationStep": "Decouple seatbelt modal trigger from `onViewOtpClicked()`, add a dismiss/skip CTA to `RideFeedbackDialog`, and cache `policy_accepted_vHash` in local storage + user profile.",
+      "successMetric": "Reduce `UX_MODALS_NOTIFICATIONS` negative review share from 17.5% (and 18.3% in last 60d) to <=8.0% (proposed target) and eliminate complaints about seatbelt/OTP blocking and forced ratings within 45 days.",
+      "evaluationWindow": "30-day & 45-day post-release windows",
+      "priorityRank": 2
+    },
+    {
+      "issueId": "ISS-02",
+      "themeCode": "CRASH_LAUNCH_INTEGRITY",
+      "title": "App Launch Crashes, Post-Update State Corruption & False Play Store Integrity Block",
+      "shortName": "Launch Crashes & Play Store Block",
+      "category": "Android Platform & Release Engineering",
+      "plainLanguageSummary": "Following recent updates (v12.17.0 to v12.19.0), users experience immediate cold-start crashes, indefinite blank/splash screens (especially on Android 16/17, Pixel 8, OnePlus 12, Vivo), or a false blocking security dialog stating 'MoveInSync application cannot be opened as it was not downloaded from Play Store' every 2-3 days, forcing employees to repeatedly uninstall and reinstall the app.",
+      "reportedSymptomVsRootCause": {
+        "reportedUserSymptom": "App closes immediately upon opening; freezes on blank white/black screen after update; displays fake 'not installed/downloaded from Play Store' error despite official Play Store installation; requires uninstalling and reinstalling every 2-3 days to work.",
+        "technicalRootCauseHypothesis": "1) Custom installer-package verification (`PackageManager.getInstallSourceInfo` / Play Integrity check) misidentifies background Play Store auto-updates, Android 16/17 package installer sessions, or OEM/work-profile containers as sideloaded APKs. 2) Unhandled schema migration or corrupted WebView/SharedPreferences state across rapid v12.17->v12.18->v12.19 updates causes fatal startup exception until app data is wiped via reinstall."
+      },
+      "negCountTotal": 100,
+      "negShareOfCorpusPct": 8.5,
+      "negCountNewest": 58,
+      "negShareOfNewestPct": 6.5,
+      "negCountRelevant": 64,
+      "negShareOfRelevantPct": 13.7,
+      "posMentionCount": 9,
+      "totalMentionsAllStars": 109,
+      "starDistributionNeg": {
+        "1": 74,
+        "2": 16,
+        "3": 10
+      },
+      "avgScoreNeg": 1.36,
+      "oneStarPctNeg": 74.0,
+      "thumbsUpTotal": 438,
+      "h1Count": 14,
+      "h2Count": 39,
+      "h2VsH1GrowthPct": 178.6,
+      "last60DaysCount": 21,
+      "monthlySeries": {
+        "2025-09": 1,
+        "2025-10": 3,
+        "2025-11": 3,
+        "2025-12": 3,
+        "2026-01": 3,
+        "2026-02": 2,
+        "2026-04": 1,
+        "2026-05": 2,
+        "2026-06": 5,
+        "2026-07": 6,
+        "2026-08": 14,
+        "2026-09": 11,
+        "2026-10": 4
+      },
+      "subIssueCounts": {
+        "post_update_launch_crash": 51,
+        "blank_screen_or_webview_fallback": 25,
+        "false_playstore_integrity_block": 19
+      },
+      "trendStatus": "Sharply Worsening (+178.6% in H2)",
+      "trendBadge": "worsening_critical",
+      "representativeReviews": [
+        {
+          "reviewId": "8d06b861-b7d5-4530-9261-df8362e2df86",
+          "date": "2026-08-12",
+          "score": 1,
+          "version": "12.17.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "Doesn't Open, always gets stuck. tried all options reinstall, upgrade, different networks.",
+          "subIssues": [
+            "post_update_launch_crash",
+            "blank_screen_or_webview_fallback"
+          ]
+        },
+        {
+          "reviewId": "3e08397b-6e7b-4b3e-8146-4a7c1f1c690f",
+          "date": "2026-08-10",
+          "score": 1,
+          "version": "12.16.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "Auto updates itself and then the app does not launch. The only solution is to uninstall and reinstall from play store",
+          "subIssues": [
+            "false_playstore_integrity_block",
+            "post_update_launch_crash"
+          ]
+        },
+        {
+          "reviewId": "341feb49-ec55-4cca-b783-64699751ab75",
+          "date": "2026-08-06",
+          "score": 3,
+          "version": "12.16.1",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "after 48 hours it shows an error. you haven't installed it from playstore try and reinstall it.",
+          "subIssues": [
+            "false_playstore_integrity_block",
+            "post_update_launch_crash"
+          ]
+        },
+        {
+          "reviewId": "c349d5f4-65c1-444a-aa69-670da8eebaeb",
+          "date": "2026-08-02",
+          "score": 2,
+          "version": "Unspecified",
+          "thumbsUpCount": 1,
+          "streams": [
+            "newest"
+          ],
+          "content": "again and again it's getting stopped.. showing that it can't open as it is not downloaded from playstore. in last 3 weeks I uninstall an installed it for 10 times due to the same error",
+          "subIssues": [
+            "false_playstore_integrity_block",
+            "post_update_launch_crash"
+          ]
+        },
+        {
+          "reviewId": "6d5c0ac6-0cf9-459d-9457-09939cb3fb9d",
+          "date": "2026-07-31",
+          "score": 1,
+          "version": "12.16.1",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "not opening always shows the install of the app from the play store",
+          "subIssues": [
+            "false_playstore_integrity_block",
+            "post_update_launch_crash"
+          ]
+        }
+      ],
+      "positiveRepresentativeReviews": [
+        {
+          "reviewId": "afca54ab-1f16-4d86-94ee-cdfc3030e18b",
+          "date": "2026-07-29",
+          "score": 5,
+          "version": "12.16.0",
+          "content": "After upgrading to Android 14 , it shows error, doesn't show otp input box. Not able to even login"
+        },
+        {
+          "reviewId": "a61886cc-9849-41f4-a8ec-b76cccf5133e",
+          "date": "2026-07-21",
+          "score": 5,
+          "version": "12.15.0",
+          "content": "The app load times are becoming crazy it takes 20 seconds to load the content these days. Sometimes I have to force close and reopen the app to get the content to load."
+        }
+      ],
+      "scoringBreakdown": {
+        "prevalenceAndVisibility": 3.98,
+        "severityAndImpact": 9.39,
+        "temporalVelocity": 9.44,
+        "confidenceAndAttributability": 9.7,
+        "engineeringFeasibility": 9.0,
+        "compositePriorityScore": 80.8,
+        "formulaWeights": {
+          "prevalenceAndVisibility": 0.25,
+          "severityAndImpact": 0.22,
+          "temporalVelocity": 0.2,
+          "confidenceAndAttributability": 0.23,
+          "engineeringFeasibility": 0.1
+        }
+      },
+      "priorityScore": 80.8,
+      "classifierValidation": {
+        "themeCode": "CRASH_LAUNCH_INTEGRITY",
+        "themeName": "Launch Crashes & Play Store Block",
+        "truePositives": 18,
+        "falsePositives": 0,
+        "falseNegatives": 2,
+        "precision": 1.0,
+        "recall": 0.9,
+        "f1Score": 0.947
+      },
+      "confidenceLevel": "High",
+      "confidenceRationale": "100 negative reviews (438 👍) with an acute +207.1% surge in H2 2026 (14 in H1 -> 43 in H2, 21 in the last 60 days). Multiple independent users quote the exact verbatim error string ('move in synch application can not be installed/opened as it was not downloaded from play store') and confirm that wiping app data via uninstall/reinstall temporarily restores functionality.",
+      "confoundersAndLimitations": "Device-specific OEM battery/background restrictions or enterprise MDM work profiles may trigger the installer check differently across devices, and Play Store reviews do not attach stack traces. Needs verification against Firebase Crashlytics / Play Console Android Vitals.",
+      "contradictoryPositiveEvidence": "Only 9 positive (4-5★) reviews mention crash/glitch keywords (primarily saying 'nice user friendly app with no glitch or slowness', id=64167d30), confirming that when launch succeeds, stability is acceptable.",
+      "estimatedEffortSprints": 1.5,
+      "dependencies": [
+        "Play Console Android Vitals / Crashlytics ANR & crash logs by Android OS version (14-17)",
+        "Security/InfoSec sign-off on Play Integrity API verdict policy"
+      ],
+      "risks": [
+        "Relaxing installer check too broadly could permit modified APKs if not backed by Play Integrity API cryptographic token."
+      ],
+      "recommendedAction": "Fix Installer-Source Verification & Add Self-Healing Startup State Guard: (1) Replace brittle `getInstallerPackageName` check with official Google Play Integrity API standard verdict (or allow `com.google.android.packageinstaller` / enterprise MDM installers); (2) Wrap cold-start cache/database initialization in a try-catch recovery block that clears corrupted local cache without requiring app uninstallation.",
+      "suggestedOwner": "Android Platform & Release Engineering Lead",
+      "firstImplementationStep": "Audit the `not downloaded from Play Store` security check in v12.18/v12.19 startup flow, whitelist valid Android 16/17 auto-update installer package names, and add automated cache-reset fallback on startup exception.",
+      "successMetric": "Eliminate 'not downloaded from Play Store' review complaints (target: 0 new reports) and reduce `CRASH_LAUNCH_INTEGRITY` negative review share from 8.5% (and 13.7% in last 60d) to <3.0% within 30 days.",
+      "evaluationWindow": "30-day post-hotfix evaluation window",
+      "priorityRank": 3
+    },
+    {
+      "issueId": "ISS-05",
+      "themeCode": "BOOKING_ROSTER_SYNC",
+      "title": "Commute Scheduling, Roster Sync, Silent Evening Auto-Cancel & Night-Shift UX",
+      "shortName": "Scheduling, Roster & Auto-Cancel",
+      "category": "Roster & Booking Engine",
+      "plainLanguageSummary": "Employees face scheduling and roster synchronization failures: (1) being marked 'No-Show' on a morning login trip silently cancels the evening logout trip without any warning notification; (2) ad-hoc bookings place medically vulnerable or regular employees on a waitlist without clear waitlist confirmation; (3) night-shift schedules display 'Logout and Login' under the same calendar date in a confusing order that causes accidental missed bookings; (4) workplace seat/desk allocations disappear after booking; and (5) Metro QR tickets lack offline caching and force 100% screen brightness that fails on certain station scanners.",
+      "reportedSymptomVsRootCause": {
+        "reportedUserSymptom": "Evening logout trip cancelled automatically without reminder after morning No-Show; app shows no slots while web portal allows booking; books onto waitlist without informing user; night-shift Logout/Login date order is confusing; desk number disappears from workplace booking; Metro ticket has no offline QR and forces max brightness.",
+        "technicalRootCauseHypothesis": "1) Backend 'Consecutive/Linked No-Show' rule cancels paired return trips silently without firing a push/SMS confirmation prompt. 2) Roster calendar UI groups shifts by UTC/midnight boundary rather than shift-workday grouping, confusing overnight shifts. 3) Mobile slot availability cache lags web portal state."
+      },
+      "negCountTotal": 235,
+      "negShareOfCorpusPct": 20.0,
+      "negCountNewest": 124,
+      "negShareOfNewestPct": 13.9,
+      "negCountRelevant": 160,
+      "negShareOfRelevantPct": 34.3,
+      "posMentionCount": 67,
+      "totalMentionsAllStars": 302,
+      "starDistributionNeg": {
+        "1": 174,
+        "2": 33,
+        "3": 28
+      },
+      "avgScoreNeg": 1.38,
+      "oneStarPctNeg": 74.0,
+      "thumbsUpTotal": 585,
+      "h1Count": 51,
+      "h2Count": 63,
+      "h2VsH1GrowthPct": 23.5,
+      "last60DaysCount": 24,
+      "monthlySeries": {
+        "2025-09": 4,
+        "2025-10": 8,
+        "2025-11": 8,
+        "2025-12": 7,
+        "2026-01": 16,
+        "2026-02": 7,
+        "2026-03": 5,
+        "2026-04": 6,
+        "2026-05": 9,
+        "2026-06": 12,
+        "2026-07": 14,
+        "2026-08": 13,
+        "2026-09": 9,
+        "2026-10": 6
+      },
+      "subIssueCounts": {
+        "morning_noshow_cancels_evening_logout": 35,
+        "waitlist_or_slot_sync_bug": 16,
+        "night_shift_date_order_confusion": 14,
+        "workplace_desk_or_metro_qr_bug": 5
+      },
+      "trendStatus": "Persistent & Worsening (+23.5% in H2)",
+      "trendBadge": "worsening",
+      "representativeReviews": [
+        {
+          "reviewId": "e381c775-7ce2-4e70-8f69-3c036a1f930f",
+          "date": "2026-08-11",
+          "score": 1,
+          "version": "12.17.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "waste app since unable to book cab from the app and also unable to see the calendar, very worst useless app",
+          "subIssues": [
+            "waitlist_or_slot_sync_bug",
+            "night_shift_date_order_confusion"
+          ]
+        },
+        {
+          "reviewId": "64c8e250-9acd-4938-8212-03f68cfbb670",
+          "date": "2025-07-16",
+          "score": 1,
+          "version": "12.2",
+          "thumbsUpCount": 1,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "our confirmed booking is auto-cancelled before we can check the allocation for other shuttle scheds. only to find out i'm only on the WAITLIST on the other sched i've just chosen. And i was tagged NO-SHOW twice althou I got on the van during my confirmed booking. hoping there's dispute process before we can be tagged no-show",
+          "subIssues": [
+            "morning_noshow_cancels_evening_logout",
+            "waitlist_or_slot_sync_bug"
+          ]
+        },
+        {
+          "reviewId": "ff7c766f-6832-4820-a06f-59340d4d76cd",
+          "date": "2025-04-07",
+          "score": 2,
+          "version": "11.5.19",
+          "thumbsUpCount": 0,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "Please stop spamming the same notification so many times! It's annoying. Every single day during login and logout I get this notification atleast 10 times: \"Cancel login and avoid being a no show\". Earlier it used to spam SMSs, now it's just app notification. Why do you deploy such buggy applications to your users repeatedly. Terrible.",
+          "subIssues": [
+            "morning_noshow_cancels_evening_logout",
+            "night_shift_date_order_confusion"
+          ]
+        },
+        {
+          "reviewId": "c14aec97-9cf9-4e0b-ac29-e2eaf30b488e",
+          "date": "2024-12-26",
+          "score": 1,
+          "version": "11.5.15",
+          "thumbsUpCount": 23,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "Under Bookings \"Login and logouts\" interface are very confusing. I don't know why they have made it so complicated. Under a particular date there should be \"Login and Logout\" in this app under a date it's \"Logout and Login\" which makes users very confusing which will impact to \"No Show\". It's not user friendly and this app needs a smart upgrade. Especially it's very complicated for night shift employees.",
+          "subIssues": [
+            "morning_noshow_cancels_evening_logout",
+            "night_shift_date_order_confusion"
+          ]
+        },
+        {
+          "reviewId": "39af8053-adf1-4976-a101-6e6458bf659c",
+          "date": "2026-09-05",
+          "score": 3,
+          "version": "12.17.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "bookings on Saturday not showing but there are logout trips that i just recently found out.",
+          "subIssues": [
+            "waitlist_or_slot_sync_bug"
+          ]
+        }
+      ],
+      "positiveRepresentativeReviews": [
+        {
+          "reviewId": "d1e2d42b-385d-4a2e-83db-3204784732ad",
+          "date": "2026-10-08",
+          "score": 5,
+          "version": "12.19.0",
+          "content": "it's a great app for the night shift employees"
+        },
+        {
+          "reviewId": "b444516d-9a24-4cbd-b3ba-4b11f065a67f",
+          "date": "2026-08-24",
+          "score": 4,
+          "version": "12.17.0",
+          "content": "New interface is better. Currently the only App shortcuts available are 'Create schedule' & 'Bus'. MoveInSync should allow QR code scanner as an App shortcut along with. Rather than going in to the app everytime, an App shortcut for QR code scanner makes things even better."
+        }
+      ],
+      "scoringBreakdown": {
+        "prevalenceAndVisibility": 7.93,
+        "severityAndImpact": 8.6,
+        "temporalVelocity": 7.22,
+        "confidenceAndAttributability": 8.05,
+        "engineeringFeasibility": 7.4,
+        "compositePriorityScore": 79.1,
+        "formulaWeights": {
+          "prevalenceAndVisibility": 0.25,
+          "severityAndImpact": 0.22,
+          "temporalVelocity": 0.2,
+          "confidenceAndAttributability": 0.23,
+          "engineeringFeasibility": 0.1
+        }
+      },
+      "priorityScore": 79.1,
+      "classifierValidation": {
+        "themeCode": "BOOKING_ROSTER_SYNC",
+        "themeName": "Scheduling, Roster & Auto-Cancel",
+        "truePositives": 16,
+        "falsePositives": 2,
+        "falseNegatives": 3,
+        "precision": 0.889,
+        "recall": 0.842,
+        "f1Score": 0.865
+      },
+      "confidenceLevel": "High",
+      "confidenceRationale": "235 negative reviews (20.0% of negative corpus, 585 👍), increasing +35.3% from H1 (51) to H2 (69) with 24 in the last 60 days. Detailed multi-point bug reports document silent logout-trip cancellation (id=0b1041ae), unannounced waitlist booking (id=387a67a5), workplace seat removal (id=da4ad9ad), and Metro QR bugs (id=d980e749).",
+      "confoundersAndLimitations": "Booking cutoff windows (e.g., 12h prior login / 4h prior logout) and No-Show penalty rules are configured by individual enterprise employers. However, silent cancellation without a warning notification, waitlist state opacity, night-shift UI ordering, and Metro QR caching are MoveInSync product/engineering defects.",
+      "contradictoryPositiveEvidence": "67 positive (4-5★) reviews praise day-to-day scheduling convenience when rosters are static ('it's a great app for the night shift employees', id=d1e2d42b; 'makes our office routes so easy and convenient', id=6ccadce7).",
+      "estimatedEffortSprints": 2.5,
+      "dependencies": [
+        "Enterprise policy flag for linked No-Show auto-cancellation",
+        "Metro ticketing partner QR payload offline validity window"
+      ],
+      "risks": [
+        "Allowing 1-tap retention of evening trips after morning No-Show must respect employer transport admin override rules."
+      ],
+      "recommendedAction": "Add Linked-Trip Cancellation Alert, Explicit Waitlist Badge & Offline Metro QR: (1) Send an actionable push/SMS 'Keep My Evening Ride' confirmation whenever a morning No-Show triggers a linked logout-trip cancellation rule; (2) Display an explicit amber 'WAITLISTED' confirmation modal before finalizing ad-hoc bookings; (3) Cache Metro QR tickets locally and add a brightness toggle.",
+      "suggestedOwner": "Roster, Scheduling & Workplace Product Squad",
+      "firstImplementationStep": "Hook into the backend `NoShowCascadeCancelEvent` to dispatch a high-priority push notification with a 1-tap 'Retain Evening Logout Trip' action link.",
+      "successMetric": "Reduce `BOOKING_ROSTER_SYNC` negative review share from 20.0% baseline to <=11.0% (proposed target) over 60 days.",
+      "evaluationWindow": "60-day post-release window",
+      "priorityRank": 4
+    },
+    {
+      "issueId": "ISS-08",
+      "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+      "title": "Fleet Operations: Multi-Zone Clubbing Delays, Cab Punctuality & Driver Conduct",
+      "shortName": "Fleet Ops, Routing & Driver Conduct",
+      "category": "Fleet Operations & Routing Algorithm (Confounded)",
+      "plainLanguageSummary": "The largest raw volume of negative reviews complains about physical commute execution: (1) routing algorithms clubbing passengers from opposite directions or different states into a single cab, turning a 20-minute commute into a 1.5-2 hour journey; (2) cabs not being assigned on time or arriving 1 hour late (or 1 hour too early); and (3) unprofessional, rude, or rash driver behavior and unannounced driver cancellations.",
+      "reportedSymptomVsRootCause": {
+        "reportedUserSymptom": "Cabs arrive 1 hour late or are not assigned at shift time; routing clubs passengers from opposite directions; pickup time changes every day; drivers are rude, refuse pickup, or mark false boarding.",
+        "technicalRootCauseHypothesis": "1) Enterprise employer transport admins configure aggressive vehicle-occupancy/clubbing parameters to reduce per-seat transport cost, trading off detour time. 2) Third-party fleet vendor shortages and urban traffic cause dispatch delays. 3) App lacks transparent in-app route-detour feedback and driver-behavior escalation tracking, causing employees to blame the MoveInSync app on Google Play for vendor/employer operational failures."
+      },
+      "negCountTotal": 429,
+      "negShareOfCorpusPct": 36.4,
+      "negCountNewest": 243,
+      "negShareOfNewestPct": 27.2,
+      "negCountRelevant": 266,
+      "negShareOfRelevantPct": 57.1,
+      "posMentionCount": 188,
+      "totalMentionsAllStars": 617,
+      "starDistributionNeg": {
+        "1": 334,
+        "2": 49,
+        "3": 46
+      },
+      "avgScoreNeg": 1.33,
+      "oneStarPctNeg": 77.9,
+      "thumbsUpTotal": 1248,
+      "h1Count": 106,
+      "h2Count": 125,
+      "h2VsH1GrowthPct": 17.9,
+      "last60DaysCount": 38,
+      "monthlySeries": {
+        "2025-09": 7,
+        "2025-10": 28,
+        "2025-11": 10,
+        "2025-12": 15,
+        "2026-01": 17,
+        "2026-02": 19,
+        "2026-03": 17,
+        "2026-04": 13,
+        "2026-05": 15,
+        "2026-06": 35,
+        "2026-07": 22,
+        "2026-08": 25,
+        "2026-09": 15,
+        "2026-10": 5
+      },
+      "subIssueCounts": {
+        "late_dispatch_or_unassigned_cab": 98,
+        "multi_zone_route_clubbing": 64,
+        "driver_conduct_or_refusal": 28
+      },
+      "trendStatus": "Persistent Chronic (+17.9% H2 vs H1)",
+      "trendBadge": "persistent",
+      "representativeReviews": [
+        {
+          "reviewId": "ac0a724f-2811-42fe-bf0c-159e3a81f91e",
+          "date": "2019-06-18",
+          "score": 1,
+          "version": "6.3",
+          "thumbsUpCount": 46,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "The people operating it at our office are inefficient . Most of the time the cabs are late. Majority drivers are rude and arrogant. Deny to take you even if they are assigned your ID on their device, coz they don't 'feel like' going that route. The drivers are not professional at all when it comes to driving as well. When you drop a complaint, it is ignored. Will not recommend anybody. Worst App ever !",
+          "subIssues": [
+            "multi_zone_route_clubbing",
+            "late_dispatch_or_unassigned_cab",
+            "driver_conduct_or_refusal"
+          ]
+        },
+        {
+          "reviewId": "ff2dcc55-ccd6-4830-9f9d-88f149db3dd6",
+          "date": "2026-08-07",
+          "score": 1,
+          "version": "12.16.1",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "Need a serious update.... Add a place where we can see who all are clubbed and assigned to travel",
+          "subIssues": [
+            "multi_zone_route_clubbing",
+            "late_dispatch_or_unassigned_cab"
+          ]
+        },
+        {
+          "reviewId": "ab903be6-868c-4b3d-b04d-23759e8dca1d",
+          "date": "2026-02-13",
+          "score": 1,
+          "version": "12.9.4",
+          "thumbsUpCount": 1,
+          "streams": [
+            "newest"
+          ],
+          "content": "using from 5 year this app it doesn't show time of traffic, route delay problem, does not have proper timings if you use this app you will be late at office or any place you want to go on time.",
+          "subIssues": [
+            "multi_zone_route_clubbing",
+            "late_dispatch_or_unassigned_cab"
+          ]
+        },
+        {
+          "reviewId": "db3a6752-a8d4-4a6e-990a-647552ef7453",
+          "date": "2024-12-01",
+          "score": 1,
+          "version": "11.5.13",
+          "thumbsUpCount": 0,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "not made Bangalore traffic, cabs are regularly late because of the route planning. They insist it is optimised to reduce wait times even when the cab was late by 1 hour in different occasions. In their system, if you're on a straight line with other pickups the car didn't have to take a detour, the route is optimised. Even though those pickups on the route cause you to take a traffic clogged road",
+          "subIssues": [
+            "multi_zone_route_clubbing",
+            "late_dispatch_or_unassigned_cab"
+          ]
+        },
+        {
+          "reviewId": "c884afce-ee7f-4aa5-bb93-4810deda29ea",
+          "date": "2019-06-10",
+          "score": 1,
+          "version": "6.2.1",
+          "thumbsUpCount": 15,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "The least you can be is a bit professional. 1. Never picks up on time. 2. Gives false information on pickup and arrival time. 3. Driver makes unplanned stops and when questioned, turns hostile. Time is of essence to all your users and to you. Please make sure you don't waste it, that too consistently. I am thinking of discontinuing soon and will never recommend to another colleague or company if your services don't improve.",
+          "subIssues": [
+            "late_dispatch_or_unassigned_cab",
+            "driver_conduct_or_refusal"
+          ]
+        }
+      ],
+      "positiveRepresentativeReviews": [
+        {
+          "reviewId": "863096b0-872e-4623-b5c0-e73979924614",
+          "date": "2026-10-07",
+          "score": 4,
+          "version": "12.19.0",
+          "content": "All good but sometimes the cab's location is not appropriate ."
+        },
+        {
+          "reviewId": "cd00029b-d327-40f5-ad24-e541e7c9cd77",
+          "date": "2026-10-01",
+          "score": 5,
+          "version": "12.19.0",
+          "content": "service is good professional driver, comfortable vehicle"
+        }
+      ],
+      "scoringBreakdown": {
+        "prevalenceAndVisibility": 10.0,
+        "severityAndImpact": 8.82,
+        "temporalVelocity": 7.22,
+        "confidenceAndAttributability": 5.14,
+        "engineeringFeasibility": 3.5,
+        "compositePriorityScore": 74.17,
+        "formulaWeights": {
+          "prevalenceAndVisibility": 0.25,
+          "severityAndImpact": 0.22,
+          "temporalVelocity": 0.2,
+          "confidenceAndAttributability": 0.23,
+          "engineeringFeasibility": 0.1
+        }
+      },
+      "priorityScore": 74.17,
+      "classifierValidation": {
+        "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+        "themeName": "Fleet Ops, Routing & Driver Conduct",
+        "truePositives": 22,
+        "falsePositives": 5,
+        "falseNegatives": 0,
+        "precision": 0.815,
+        "recall": 1.0,
+        "f1Score": 0.898
+      },
+      "confidenceLevel": "High (Symptom) / Low (Pure App Defect)",
+      "confidenceRationale": "429 negative reviews (36.4% of all negative reviews, 1,248 👍). While user dissatisfaction with cab delays and driver conduct is indisputably real, MoveInSync's own developer reply (id=eb3230a8 / 2018-08-16) and B2B SaaS architecture confirm that fleet supply, driver hiring, and clubbing cost rules are controlled by employer transport teams and fleet vendors—making this a heavily confounded operational issue rather than the #1 mobile engineering fix.",
+      "confoundersAndLimitations": "Severe external confounding: employees use the Google Play Store as a public grievance board against their employer's transport vendor (e.g., citing specific site operations like 'CNX Gurugram' or 'Synchrony Financial'). A mobile code change alone cannot fix physical cab shortages or driver conduct.",
+      "contradictoryPositiveEvidence": "188 positive (4-5★) reviews praise safe, punctual cab rides and cooperative drivers ('full safety and cooperation on their part of helping us reach our destination', id=7ac55c75; 'never had a problem with your ride services', id=8aa00331).",
+      "estimatedEffortSprints": 5.0,
+      "dependencies": [
+        "Enterprise client transport admin SLA ticket webhook integration",
+        "Routing engine max-detour threshold configuration per tenant"
+      ],
+      "risks": [
+        "Mobile changes alone will not reduce physical cab delays if enterprise clients maintain strict cost-minimizing clubbing constraints."
+      ],
+      "recommendedAction": "Channel Operational Grievances into Structured In-App Escalation & Route Detour Guardrails: (1) Add a dedicated in-app 'Report Route Detour / Driver Conduct' ticket workflow routed directly to the employer's Transport Admin SLA dashboard with status tracking; (2) Surface max-detour-ratio alerts to enterprise transport admins in the MoveInSync ETS routing console.",
+      "suggestedOwner": "Enterprise Routing Engine & Client Transport Operations Team",
+      "firstImplementationStep": "Add structured post-ride 'Route / Driver / Timing' issue tags with visible ticket SLA status inside the app so employees see their employer transport desk acting on vendor complaints instead of venting on Google Play.",
+      "successMetric": "Divert >=35% of vendor/driver complaints from public Play Store reviews into tracked in-app transport desk tickets over 90 days (proposed target).",
+      "evaluationWindow": "90-day operational evaluation window",
+      "priorityRank": 5
+    },
+    {
+      "issueId": "ISS-06",
+      "themeCode": "SUPPORT_HELPDESK_CALLING",
+      "title": "Driver Call-Masking Failures, Helpdesk Unreachability & Broken In-App Feedback",
+      "shortName": "Driver Calling, Helpdesk & Feedback Box",
+      "category": "Communications, Telephony & Support Workflow",
+      "plainLanguageSummary": "When a pickup goes wrong, every escalation channel inside the app fails simultaneously: (1) the masked driver call button fails to connect ('9 out of 10 times'), hides the mobile number, or blocks calls on shuttle buses; (2) the transport helpdesk button is missing or disconnects immediately; (3) the built-in feedback text box erases words on autocorrect or rejects input ('can't even write in built in feedback text box'); and (4) MoveInSync has replied to 0 new Google Play reviews since February 2, 2026.",
+      "reportedSymptomVsRootCause": {
+        "reportedUserSymptom": "Cannot call driver at critical pickup time; driver mobile number hidden after booking; helpdesk call disconnects or option is missing; built-in feedback text box deletes words when typing; zero response to Play Store complaints.",
+        "technicalRootCauseHypothesis": "1) Cloud telephony DID/virtual-number bridge for masked driver calling runs out of concurrent channels during peak shift changeovers or lacks fallback when policy blocks direct display. 2) In-app feedback `EditText` overrides `onTextChanged` improperly, breaking Android IME autocorrect/composition spans. 3) Developer Play Console support workflow has been inactive since Feb 2, 2026."
+      },
+      "negCountTotal": 159,
+      "negShareOfCorpusPct": 13.5,
+      "negCountNewest": 88,
+      "negShareOfNewestPct": 9.9,
+      "negCountRelevant": 99,
+      "negShareOfRelevantPct": 21.2,
+      "posMentionCount": 34,
+      "totalMentionsAllStars": 193,
+      "starDistributionNeg": {
+        "1": 130,
+        "2": 18,
+        "3": 11
+      },
+      "avgScoreNeg": 1.25,
+      "oneStarPctNeg": 81.8,
+      "thumbsUpTotal": 505,
+      "h1Count": 35,
+      "h2Count": 49,
+      "h2VsH1GrowthPct": 40.0,
+      "last60DaysCount": 15,
+      "monthlySeries": {
+        "2025-09": 2,
+        "2025-10": 5,
+        "2025-11": 5,
+        "2025-12": 6,
+        "2026-01": 6,
+        "2026-02": 6,
+        "2026-03": 7,
+        "2026-04": 7,
+        "2026-05": 10,
+        "2026-06": 11,
+        "2026-07": 6,
+        "2026-08": 7,
+        "2026-09": 8,
+        "2026-10": 2
+      },
+      "subIssueCounts": {
+        "driver_masked_call_failure": 80,
+        "helpdesk_unreachable": 63,
+        "sos_button_obstruction": 9,
+        "broken_inapp_feedback_input": 2
+      },
+      "trendStatus": "Persistent & Worsening (+40.0% in H2)",
+      "trendBadge": "worsening",
+      "representativeReviews": [
+        {
+          "reviewId": "31f0d5ae-8046-43d7-9e34-8de9408e91a2",
+          "date": "2026-03-12",
+          "score": 1,
+          "version": "12.10.2",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "no option to call the driver or helpdesk. i afraid, in case of any emergency this app is of no use. you are on your own.",
+          "subIssues": [
+            "driver_masked_call_failure",
+            "helpdesk_unreachable",
+            "sos_button_obstruction"
+          ]
+        },
+        {
+          "reviewId": "47c8b1a4-8e38-485f-a218-bf694c976652",
+          "date": "2026-04-20",
+          "score": 1,
+          "version": "12.11.2",
+          "thumbsUpCount": 1,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "Helpdesk is completely useless, they cut the call without even resolving the issue",
+          "subIssues": [
+            "driver_masked_call_failure",
+            "helpdesk_unreachable"
+          ]
+        },
+        {
+          "reviewId": "42562934-dacc-44e4-a9fb-34e4082d61b6",
+          "date": "2026-02-09",
+          "score": 1,
+          "version": "12.9.4",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "even during your emergency you won't be able to reach helpdesk",
+          "subIssues": [
+            "helpdesk_unreachable",
+            "sos_button_obstruction"
+          ]
+        },
+        {
+          "reviewId": "04c98dd6-eea3-4eda-94c1-0d9a13bebcdd",
+          "date": "2023-11-22",
+          "score": 2,
+          "version": "11.4.7",
+          "thumbsUpCount": 0,
+          "streams": [
+            "most_relevant"
+          ],
+          "content": "I called for a midway drop due to an emergency, the call gets connected and while on call the audio from the order end is not reachable and they couldn't hear me. Happened alot of times while I had no issues talking to other contacts.",
+          "subIssues": [
+            "driver_masked_call_failure",
+            "sos_button_obstruction"
+          ]
+        },
+        {
+          "reviewId": "ab295e36-efc9-4fce-9ed4-638f509c63ef",
+          "date": "2026-03-02",
+          "score": 1,
+          "version": "Unspecified",
+          "thumbsUpCount": 8,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "The service is extremely disappointing and unreliable. Customer support is useless—the representative who attended my call was rude, unprofessional, and did not attempt to resolve the issue. The app also shows incorrect timings for cab assignment and pickup, which change automatically and cause confusion. Nothing about the service feels trustworthy. It’s hard to believe the high ratings are genuine, as the actual experience is far from acceptable.",
+          "subIssues": [
+            "driver_masked_call_failure",
+            "helpdesk_unreachable"
+          ]
+        }
+      ],
+      "positiveRepresentativeReviews": [
+        {
+          "reviewId": "ee0f8cee-65b5-4ca7-ab0a-625d782bac4a",
+          "date": "2026-09-20",
+          "score": 5,
+          "version": "12.18.1",
+          "content": "It is very easy to use and cab tracking is very helpful to know the cab location. The only thing you can improve is you can share the driver's contact details in the app itself 👍"
+        },
+        {
+          "reviewId": "16b0e08d-a18e-4fcc-99d5-7fdc5acfcba8",
+          "date": "2026-09-14",
+          "score": 4,
+          "version": "12.18.1",
+          "content": "please provide me some chat option also to contact the cab person"
+        }
+      ],
+      "scoringBreakdown": {
+        "prevalenceAndVisibility": 5.62,
+        "severityAndImpact": 9.25,
+        "temporalVelocity": 6.39,
+        "confidenceAndAttributability": 7.86,
+        "engineeringFeasibility": 7.8,
+        "compositePriorityScore": 73.06,
+        "formulaWeights": {
+          "prevalenceAndVisibility": 0.25,
+          "severityAndImpact": 0.22,
+          "temporalVelocity": 0.2,
+          "confidenceAndAttributability": 0.23,
+          "engineeringFeasibility": 0.1
+        }
+      },
+      "priorityScore": 73.06,
+      "classifierValidation": {
+        "themeCode": "SUPPORT_HELPDESK_CALLING",
+        "themeName": "Driver Calling, Helpdesk & Feedback Box",
+        "truePositives": 11,
+        "falsePositives": 1,
+        "falseNegatives": 3,
+        "precision": 0.917,
+        "recall": 0.786,
+        "f1Score": 0.846
+      },
+      "confidenceLevel": "High",
+      "confidenceRationale": "158 negative reviews (13.4% of negative corpus, 505 👍) with the lowest average star rating of any theme (1.25★, 81.6% 1-star) and +42.9% growth in H2 2026 (35 -> 50). Moreover, metadata audit proves 0 developer replies on Google Play since 2026-02-02.",
+      "confoundersAndLimitations": "Helpdesk staffing and phone pickup rates depend on the employer's dedicated transport desk or third-party fleet control room. However, masked-call telephony bridge reliability, in-app chat/location sharing, the broken `EditText` feedback input, and Play Store review response SLAs are directly owned by MoveInSync.",
+      "contradictoryPositiveEvidence": "34 positive (4-5★) reviews praise safety and assistance when helpdesk and driver coordination work ('the way to take care of sharing instructions and assistance all the way', id=9e51a63f).",
+      "estimatedEffortSprints": 2.0,
+      "dependencies": [
+        "Cloud telephony (Exotel/Knowlarity/Twilio) virtual number pool capacity",
+        "Customer support Play Console response workflow reactivation"
+      ],
+      "risks": [
+        "Direct driver phone number exposure violates privacy policies; must use masked bridge or in-app VoIP/chat."
+      ],
+      "recommendedAction": "Fix In-App Feedback IME Bug, Add Driver-Rider In-App Chat & Restore Play Store Support SLA: (1) Fix the broken feedback `EditText` IME composition bug immediately so complaints are captured in-app rather than on Google Play; (2) Add 1-tap templated in-app rider-to-driver chat + live pickup pin sharing when masked voice calls fail; (3) Re-establish a 48-hour SLA for Google Play review responses.",
+      "suggestedOwner": "Telephony/Comms Engineering & Customer Success Operations",
+      "firstImplementationStep": "Remove custom text-watcher state mutation on the in-app feedback `EditText` that breaks Android keyboard autocorrect, and add cloud-telephony bridge health monitoring during peak shift hours.",
+      "successMetric": "Reduce `SUPPORT_HELPDESK_CALLING` negative review share from 13.4% to <=7.0% (proposed target) and increase developer reply rate on substantive 1-2★ reviews from 0% (post-Feb 2026) to >=80%.",
+      "evaluationWindow": "30-day & 60-day evaluation windows",
+      "priorityRank": 6
+    },
+    {
+      "issueId": "ISS-04",
+      "themeCode": "AUTH_OTP_SESSION",
+      "title": "Authentication Failures, Missing Login OTPs & Forced Session Logout Loops",
+      "shortName": "Login OTP & Session Logout Loops",
+      "category": "Identity, Auth & Session Management",
+      "plainLanguageSummary": "Employees are frequently logged out of the app unexpectedly ('it logs out every time') and then locked out because login verification OTPs fail to arrive via SMS, Email, or WhatsApp, or the login screen returns 'Empty response body' / 'Something went wrong', preventing users from viewing their assigned cab or boarding OTP.",
+      "reportedSymptomVsRootCause": {
+        "reportedUserSymptom": "App automatically logs out; login OTP is never received on mobile SMS, email, or WhatsApp; OTP text box fails to appear and shows 'Empty response body'; trip start/end OTP changes mid-ride or is rejected.",
+        "technicalRootCauseHypothesis": "1) Short-lived access tokens or aggressive token-refresh invalidation on transient network errors logs users out during commute hours. 2) Single-vendor SMS/Email OTP gateway throttling during peak shift login windows (7-9 AM, 5-7 PM IST) without automatic multi-provider failover. 3) Null-body HTTP 200/500 responses from auth endpoint not handled gracefully by the client parser."
+      },
+      "negCountTotal": 172,
+      "negShareOfCorpusPct": 14.6,
+      "negCountNewest": 119,
+      "negShareOfNewestPct": 13.3,
+      "negCountRelevant": 81,
+      "negShareOfRelevantPct": 17.4,
+      "posMentionCount": 18,
+      "totalMentionsAllStars": 190,
+      "starDistributionNeg": {
+        "1": 135,
+        "2": 19,
+        "3": 18
+      },
+      "avgScoreNeg": 1.32,
+      "oneStarPctNeg": 78.5,
+      "thumbsUpTotal": 307,
+      "h1Count": 62,
+      "h2Count": 50,
+      "h2VsH1GrowthPct": -19.4,
+      "last60DaysCount": 16,
+      "monthlySeries": {
+        "2025-09": 3,
+        "2025-10": 23,
+        "2025-11": 5,
+        "2025-12": 6,
+        "2026-01": 11,
+        "2026-02": 10,
+        "2026-03": 7,
+        "2026-04": 9,
+        "2026-05": 12,
+        "2026-06": 11,
+        "2026-07": 3,
+        "2026-08": 5,
+        "2026-09": 10,
+        "2026-10": 4
+      },
+      "subIssueCounts": {
+        "login_otp_delivery_failure": 18,
+        "session_auto_logout_loop": 14,
+        "trip_otp_mismatch_or_change": 2
+      },
+      "trendStatus": "Declining (-19.4% in H2)",
+      "trendBadge": "improving",
+      "representativeReviews": [
+        {
+          "reviewId": "c9c2d1f3-da5a-457f-b3cd-479afddacd8a",
+          "date": "2026-09-11",
+          "score": 1,
+          "version": "11.5.21",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "I'm not able to login as it was automatically logged out and no otp received with registered mobile number and no one is helping me",
+          "subIssues": [
+            "login_otp_delivery_failure",
+            "session_auto_logout_loop"
+          ]
+        },
+        {
+          "reviewId": "e12ed49a-d376-4cf2-9cfd-45cae0162feb",
+          "date": "2026-09-30",
+          "score": 1,
+          "version": "12.11.2",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "This app is going from bad to horrible. The seat buckle verification is absolutely horrendous and the OTP keeps disappearing behind the seat belt check. To top it all, ads are being introduced. Why is there not some cache wherein a user has their ride details stored? instead it needs a network call every time you open the app which is annoying when you're underground without much internet",
+          "subIssues": [
+            "login_otp_delivery_failure",
+            "trip_otp_mismatch_or_change"
+          ]
+        },
+        {
+          "reviewId": "72e74b90-1da1-49cc-87c0-6bc42af65ba3",
+          "date": "2026-10-06",
+          "score": 1,
+          "version": "12.19.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "Pathetic . it logs out every time.",
+          "subIssues": [
+            "session_auto_logout_loop"
+          ]
+        },
+        {
+          "reviewId": "e0d68839-6e59-4dd7-8f00-052cda79a063",
+          "date": "2026-10-04",
+          "score": 1,
+          "version": "Unspecified",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "I try to login to this app but it's not sending any otp to login without login how we can use this app 😤😤😤 technical team please check once about this issue",
+          "subIssues": [
+            "login_otp_delivery_failure"
+          ]
+        },
+        {
+          "reviewId": "1d73eadd-7250-425f-9cbe-c906414e5049",
+          "date": "2026-09-24",
+          "score": 1,
+          "version": "12.19.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "Such a worst app. I am not receiving the OTP even after trying multiple times. Because of this, I am unable to complete the login/verification process. Please fix this issue as soon as possible.",
+          "subIssues": [
+            "login_otp_delivery_failure"
+          ]
+        }
+      ],
+      "positiveRepresentativeReviews": [
+        {
+          "reviewId": "2c37f903-4d47-47a6-ad0f-339db9c29736",
+          "date": "2026-09-05",
+          "score": 5,
+          "version": "Unspecified",
+          "content": "I want to share one thing that could we use one same OTP for every ride/trip which will be updated in the system and we just shate same OTP every time to driver?"
+        },
+        {
+          "reviewId": "bae78695-95cd-480b-a315-01bcc6524c26",
+          "date": "2026-08-25",
+          "score": 5,
+          "version": "12.18.0",
+          "content": "employees can track their assigned cab and pick up and drop OTP....will enhance safely of employee 👍🏻"
+        }
+      ],
+      "scoringBreakdown": {
+        "prevalenceAndVisibility": 4.43,
+        "severityAndImpact": 9.35,
+        "temporalVelocity": 4.99,
+        "confidenceAndAttributability": 9.04,
+        "engineeringFeasibility": 8.0,
+        "compositePriorityScore": 70.42,
+        "formulaWeights": {
+          "prevalenceAndVisibility": 0.25,
+          "severityAndImpact": 0.22,
+          "temporalVelocity": 0.2,
+          "confidenceAndAttributability": 0.23,
+          "engineeringFeasibility": 0.1
+        }
+      },
+      "priorityScore": 70.42,
+      "classifierValidation": {
+        "themeCode": "AUTH_OTP_SESSION",
+        "themeName": "Login OTP & Session Logout Loops",
+        "truePositives": 12,
+        "falsePositives": 1,
+        "falseNegatives": 0,
+        "precision": 0.923,
+        "recall": 1.0,
+        "f1Score": 0.96
+      },
+      "confidenceLevel": "High",
+      "confidenceRationale": "173 negative reviews (14.7% of negative corpus, 307 👍, 78.0% 1-star average 1.32★). Consistent reports across both H1 (62) and H2 (55) and last 60 days (17) specifically citing simultaneous failure of SMS, Email, and WhatsApp OTP channels plus unexpected session termination.",
+      "confoundersAndLimitations": "SMS OTP delivery can be partially confounded by telecom DLT/carrier congestion in India or enterprise email spam filters, and some users say 'login/logout' to refer to morning/evening commute shifts rather than app authentication. Our sub-issue classifier isolates true authentication/OTP failures (`login_otp_delivery_failure`, `session_auto_logout_loop`).",
+      "contradictoryPositiveEvidence": "18 positive (4-5★) reviews mention login/OTP (mostly suggesting static/reusable rider passcodes like Uber PIN: 'could we use one same OTP for every ride/trip', id=2c37f903).",
+      "estimatedEffortSprints": 2.0,
+      "dependencies": [
+        "Secondary SMS/WhatsApp CPaaS gateway integration",
+        "Enterprise SSO / OAuth2 refresh token TTL policy review"
+      ],
+      "risks": [
+        "Extending session TTL requires strict adherence to enterprise client MDM revocation hooks when an employee offboards."
+      ],
+      "recommendedAction": "Extend Session Refresh Resilience & Multi-Gateway OTP Failover: (1) Prevent automatic logout on transient 5xx/network timeouts by retaining encrypted refresh tokens for 90 days; (2) Implement automatic SMS->WhatsApp->Email OTP failover across secondary CPaaS providers when delivery receipt is not confirmed within 15s; (3) Support persistent static 4-digit rider Boarding PIN per employee.",
+      "suggestedOwner": "Identity & Authentication Backend + Mobile Auth Squad",
+      "firstImplementationStep": "Audit auth token refresh interceptor on Android to eliminate forced logout on non-401 network errors, and add automated CPaaS provider fallback for unacknowledged OTP dispatches >15 seconds.",
+      "successMetric": "Reduce `AUTH_OTP_SESSION` negative review share from 14.7% baseline to <=6.0% (proposed target) and cut OTP delivery failure complaints by >=60% over 60 days.",
+      "evaluationWindow": "60-day post-deployment window",
+      "priorityRank": 7
+    },
+    {
+      "issueId": "ISS-07",
+      "themeCode": "NETWORK_SYNC_PERFORMANCE",
+      "title": "False 'No Network' Errors on Mobile Data (5G/LTE) & UI Navigation Lag",
+      "shortName": "Mobile Data 'No Network' Bug & Lag",
+      "category": "Mobile Networking & Performance",
+      "plainLanguageSummary": "The app frequently displays false 'No network' or server unreachable errors when the phone is on a stable 5G/LTE mobile data connection (working only on Wi-Fi), and suffers from multi-second UI freezes, slow loading spinners, and duplicate screen pushes (e.g., 'Show Address is navigating 4 times to the same screen'; passenger list requires multiple clicks to open or go back).",
+      "reportedSymptomVsRootCause": {
+        "reportedUserSymptom": "App says 'no network' even though mobile data is stable and all other apps work; works only on Wi-Fi; very slow loading; clicking Show Address or Passenger List opens 4 duplicate screens or takes multiple taps.",
+        "technicalRootCauseHypothesis": "1) Custom Android `ConnectivityManager` check inspects deprecated network type flags or fails on IPv6-only indian 5G/LTE carrierAPN configurations (Jio/Airtel IPv6) where DNS/socket binding prefers IPv4. 2) Missing click-debounce (`throttleFirst`) on navigation actions causes 3-4 identical fragments/activities to be pushed onto the backstack when the main thread lags."
+      },
+      "negCountTotal": 114,
+      "negShareOfCorpusPct": 9.7,
+      "negCountNewest": 70,
+      "negShareOfNewestPct": 7.8,
+      "negCountRelevant": 66,
+      "negShareOfRelevantPct": 14.2,
+      "posMentionCount": 14,
+      "totalMentionsAllStars": 128,
+      "starDistributionNeg": {
+        "1": 87,
+        "2": 16,
+        "3": 11
+      },
+      "avgScoreNeg": 1.33,
+      "oneStarPctNeg": 76.3,
+      "thumbsUpTotal": 318,
+      "h1Count": 25,
+      "h2Count": 40,
+      "h2VsH1GrowthPct": 60.0,
+      "last60DaysCount": 11,
+      "monthlySeries": {
+        "2025-09": 4,
+        "2025-10": 5,
+        "2025-11": 5,
+        "2025-12": 5,
+        "2026-01": 8,
+        "2026-02": 2,
+        "2026-04": 8,
+        "2026-05": 8,
+        "2026-06": 9,
+        "2026-07": 3,
+        "2026-08": 5,
+        "2026-09": 7,
+        "2026-10": 1
+      },
+      "subIssueCounts": {
+        "navigation_stack_lag_and_multi_click": 55,
+        "mobile_data_false_no_network": 15
+      },
+      "trendStatus": "Sharply Worsening (+60.0% in H2)",
+      "trendBadge": "worsening_critical",
+      "representativeReviews": [
+        {
+          "reviewId": "d62d9296-90f6-4db6-8204-85ee2a9d4275",
+          "date": "2025-11-05",
+          "score": 1,
+          "version": "12.6",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "very slow...app doesnt load most of time and takes eternity to open even on wifi",
+          "subIssues": [
+            "mobile_data_false_no_network",
+            "navigation_stack_lag_and_multi_click"
+          ]
+        },
+        {
+          "reviewId": "90549e2d-6239-4ea2-b6d9-8377168c8e3f",
+          "date": "2026-09-15",
+          "score": 2,
+          "version": "Unspecified",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest"
+          ],
+          "content": "Worst app. Very very slow. Show Address is navigating 4 times to the same screen.",
+          "subIssues": [
+            "navigation_stack_lag_and_multi_click"
+          ]
+        },
+        {
+          "reviewId": "2b0213c8-2dfe-4116-aecc-a27929059916",
+          "date": "2026-09-09",
+          "score": 3,
+          "version": "12.17.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "app keeps showing no network even though the network is stable and all other apps working fine",
+          "subIssues": [
+            "mobile_data_false_no_network"
+          ]
+        },
+        {
+          "reviewId": "c8818d4d-e060-4f33-8025-07cd16bded1c",
+          "date": "2026-09-01",
+          "score": 1,
+          "version": "12.17.0",
+          "thumbsUpCount": 0,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "third class app, not working on mobile data anymore from last few days. works only on wifi. do you expect people carry wifi.",
+          "subIssues": [
+            "mobile_data_false_no_network"
+          ]
+        },
+        {
+          "reviewId": "93f3c4e5-dc0d-4543-8568-16c9b40c9216",
+          "date": "2026-06-23",
+          "score": 1,
+          "version": "12.14.0",
+          "thumbsUpCount": 1,
+          "streams": [
+            "newest",
+            "most_relevant"
+          ],
+          "content": "most of the time app keeps loading even in good internet connectivity.",
+          "subIssues": [
+            "navigation_stack_lag_and_multi_click"
+          ]
+        }
+      ],
+      "positiveRepresentativeReviews": [
+        {
+          "reviewId": "64167d30-760f-4a50-b8b4-70baf76222d1",
+          "date": "2026-08-18",
+          "score": 5,
+          "version": "12.17.0",
+          "content": "nice user friendly app with no glitch or slowness.."
+        },
+        {
+          "reviewId": "233f66bf-3ef9-4e1b-99e4-1a701e41ec97",
+          "date": "2026-08-17",
+          "score": 5,
+          "version": "12.17.0",
+          "content": "easy app. can have option to mark no show by self, in case of missing the ride on purpose so the driver doesn't have to wait till no response."
+        }
+      ],
+      "scoringBreakdown": {
+        "prevalenceAndVisibility": 3.65,
+        "severityAndImpact": 8.61,
+        "temporalVelocity": 6.35,
+        "confidenceAndAttributability": 8.75,
+        "engineeringFeasibility": 8.6,
+        "compositePriorityScore": 69.49,
+        "formulaWeights": {
+          "prevalenceAndVisibility": 0.25,
+          "severityAndImpact": 0.22,
+          "temporalVelocity": 0.2,
+          "confidenceAndAttributability": 0.23,
+          "engineeringFeasibility": 0.1
+        }
+      },
+      "priorityScore": 69.49,
+      "classifierValidation": {
+        "themeCode": "NETWORK_SYNC_PERFORMANCE",
+        "themeName": "Mobile Data 'No Network' Bug & Lag",
+        "truePositives": 5,
+        "falsePositives": 3,
+        "falseNegatives": 0,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1Score": 0.769
+      },
+      "confidenceLevel": "High",
+      "confidenceRationale": "113 negative reviews (9.6% of negative corpus, 286 👍, avg 1.32★, 77.0% 1-star), surging +64.0% from H1 (25) to H2 (41). Reviewers explicitly isolate the Wi-Fi vs. mobile data discrepancy ('not working on mobile data anymore from last few days. works only on wifi', id=c8818d4d; 'app keeps showing no network even though the network is stable', id=2b0213c8).",
+      "confoundersAndLimitations": "Commuters often use the app in office basements with genuinely weak cellular signal, which can confound general network complaints. However, reports where other apps work fine on mobile data or where the app works only on Wi-Fi point to client connectivity-check or IPv6 DNS resolution bugs.",
+      "contradictoryPositiveEvidence": "14 positive (4-5★) reviews note fast navigation on well-connected devices ('nice user friendly app with no glitch or slowness', id=64167d30).",
+      "estimatedEffortSprints": 1.5,
+      "dependencies": [
+        "OkHttp DNS / Happy Eyeballs configuration",
+        "Android Navigation Component backstack audit"
+      ],
+      "risks": [
+        "Removing pre-flight connectivity checks requires clean timeout/retry error handling in OkHttp interceptors."
+      ],
+      "recommendedAction": "Fix Android Connectivity Validation, Enable Dual-Stack IPv6/IPv4 & Debounce Navigation: (1) Replace custom connectivity pre-check with actual OkHttp request execution + Happy Eyeballs (IPv6/IPv4 fallback); (2) Add 500ms click debouncing (`launchSingleTop`) on all navigation buttons to prevent 4x duplicate screen pushes.",
+      "suggestedOwner": "Android Networking & Performance Engineering",
+      "firstImplementationStep": "Audit `NetworkUtils.isNetworkAvailable()` for false negatives on cellular 5G/IPv6 networks and add `launchSingleTop` to `ShowAddress` and `PassengerList` navigation intents.",
+      "successMetric": "Reduce `NETWORK_SYNC_PERFORMANCE` negative review share from 9.6% to <=4.0% (proposed target) within 45 days.",
+      "evaluationWindow": "45-day post-release window",
+      "priorityRank": 8
+    }
+  ],
+  "actionPlanAndTracking": {
+    "primaryRecommendation": {
+      "selectedIssueId": "ISS-01",
+      "selectedThemeCode": "LIVE_TRACKING_MAP_ETA",
+      "selectedTitle": "Live Vehicle Tracking Freeze, Map Auto-Zoom Reset & ETA Divergence",
+      "priorityRank": 1,
+      "priorityScore": 86.46,
+      "selectionRationale": "ISS-01 (Live Tracking, Map Zoom & ETA) ranks #1 overall (86.46/100) ahead of higher-raw-volume Fleet Operations (ISS-08, 429 reviews, score 74.17/100) because: (1) it is pure MoveInSync mobile/telemetry software with high engineering controllability (8.97/10 vs 5.14/10 for Fleet Ops); (2) it is the #1 most-upvoted software complaint on Google Play's default Most Relevant view (882 👍 across 230 negative reviews, plus 103 4–5★ reviews with map/tracking caveats = 333 total reviews); (3) complaints grew +43.6% in H2 2026 (39 -> 56); and (4) fixing map camera auto-zoom resets and offline trip/OTP caching directly prevents missed pickups during the daily boarding window.",
+      "parallelHotfixNote": "In parallel with the 2-sprint ISS-01 architectural fix, Android Release Engineering should deploy a Week-1 Sprint Hotfix for ISS-03 (Blocking Modals, Forced Rating & Alerts, #2 at 85.16/100, +27.7% H2 growth) and ISS-02 (Launch Crashes & Play Store Block, #3 at 80.8/100, +178.6% H2 surge) to unblock the Boarding OTP from the v12.19.0 seatbelt modal and stop false 'not downloaded from Play Store' lockouts.",
+      "proposedEngineeringChange": {
+        "summary": "Commute Telemetry, Map Viewport Lock & Offline Boarding Cache (v12.21 Stabilization Release)",
+        "components": [
+          {
+            "component": "1. Map Camera Gesture Lock (`MapTrackingFragment`)",
+            "change": "Attach `GoogleMap.OnCameraMoveStartedListener` to detect `REASON_GESTURE`. Once the user manually pans or pinch-zooms, suppress automatic `animateCamera(LatLngBounds)` on periodic 5–30s WebSocket/polling ticks (which currently forces both pickup and distant office destination into view). Provide a floating 'Re-center Route' button.",
+            "supportingEvidenceIds": [
+              "fdc328ac-2",
+              "8e9b5aa8-0",
+              "d291343a-f"
+            ]
+          },
+          {
+            "component": "2. Offline-First Active Trip & Boarding OTP Persistence (`TripCacheRepository`)",
+            "change": "Persist assigned vehicle details, driver masked contact, route stops, and Boarding/Drop OTPs in local Room/SQLite storage immediately upon trip allocation push/sync so opening the app in underground basements or metro stations renders the active trip and OTP instantaneously with zero network dependency.",
+            "supportingEvidenceIds": [
+              "e12ed49a-d37",
+              "138265c4-6",
+              "d980e749-b3d"
+            ]
+          },
+          {
+            "component": "3. Telemetry Staleness Indicator & Traffic-Calibrated ETA Smoothing (`EtaEngine`)",
+            "change": "Expose a live 'GPS updated Xs ago' pill on the cab card; trigger SMS/Push fallback when driver telemetry is stale >90 seconds; and remove the v12.19.0 hard block on viewing vehicle assignment/tracking >60 minutes prior to shift.",
+            "supportingEvidenceIds": [
+              "2ce14584-824",
+              "61a4a85f-902",
+              "c158c05c-7",
+              "150c97b1-6"
+            ]
+          }
+        ]
+      },
+      "firstEngineeringSteps": [
+        "Step 1 (Days 1–3): Instrument `MapTrackingFragment` camera reset events and patch `onLocationTick()` to respect user zoom state (`isUserZoomLocked = true` on `REASON_GESTURE`).",
+        "Step 2 (Days 4–8): Implement `ActiveTripLocalDao` in Room/SQLite with encrypted OTP fields so cold starts in offline/basement environments load cached trip cards in <150ms.",
+        "Step 3 (Days 9–12): Add `lastGpsTimestamp` staleness badge to trip UI, restore pre-60-minute route visibility removed in v12.19.0, and validate in staged 10% -> 50% -> 100% Play Store rollout."
+      ],
+      "validationAndDependencies": {
+        "requiredInternalValidation": [
+          "Verify driver location ping interval and drop rate from `com.moveinsync.driver.lite` across 2G/4G transitions.",
+          "Run UI instrumentation test verifying map zoom level remains unchanged across 10 consecutive simulated GPS ticks after pinch gesture.",
+          "Test Airplane-mode cold start after trip allocation to verify Boarding OTP and cab plate number render from local Room cache."
+        ],
+        "dependencies": [
+          "Google Maps Android SDK camera-idle/gesture listener refactor",
+          "Local Room/SQLite persistence schema for active trip & OTP cards",
+          "Telemetry timestamp header from Driver Partner Lite location ingestion service"
+        ]
+      },
+      "measurementPlan": {
+        "metrics": [
+          {
+            "metricName": "Issue-Specific Negative Review Share (`LIVE_TRACKING_MAP_ETA`)",
+            "baselineValue": "19.5% of all 1–3★ reviews (11.4% of Newest 12m 1–3★; 29.3% of Most Relevant 1–3★)",
+            "baselineType": "Verified Observation (Oct 13, 2026)",
+            "proposedTarget": "<= 6.0% of monthly 1–3★ reviews within 60 days of rollout",
+            "targetLabel": "Proposed Target (Requires Post-Release Validation)",
+            "measurementMethod": "Monthly automated classification run on `Sort.NEWEST` cohort comparing pre-release vs post-release version tags (`v >= 12.21.0`)."
+          },
+          {
+            "metricName": "Map Auto-Zoom & Offline OTP Complaint Recurrence",
+            "baselineValue": "23 explicit map-zoom/offline-OTP reviews in corpus (562 👍 thumbs-up)",
+            "baselineType": "Verified Observation",
+            "proposedTarget": "0 new reviews citing automatic map zoom reset or missing offline OTP on `v >= 12.21.0`",
+            "targetLabel": "Proposed Target",
+            "measurementMethod": "Sub-issue regex + manual analyst audit on `map_auto_zoom_reset` and `offline_trip_cache_missing` tags."
+          },
+          {
+            "metricName": "Substantive Written Review Mean Rating (>=6 words)",
+            "baselineValue": "2.71★ (12-month Newest baseline; 2.62★ in Sep 2026; 2.30★ in Oct 2026 MTD)",
+            "baselineType": "Verified Observation",
+            "proposedTarget": ">= 3.25★ on substantive reviews (>=6 words) within 60 days",
+            "targetLabel": "Proposed Target (Not a Guaranteed Storefront Headline Increase)",
+            "measurementMethod": "Stratified mean rating of `wordCount >= 6` reviews in monthly `Sort.NEWEST` cohorts (isolating genuine feedback from 1-word ride ratings)."
+          }
+        ],
+        "evaluationTiming": {
+          "canaryCheck": "Day 14 post-release (minimum n >= 75 new written reviews on target version)",
+          "primaryEvaluation": "Day 30 & Day 60 monthly investigation runs"
+        },
+        "risksAndGuardrails": [
+          "Guardrail 1 (Stale Cached OTP Risk): If a cab is dynamically re-assigned while the user is offline in a basement, displaying an outdated cached cab number could cause confusion. Mitigation: Display 'Cached at HH:MM — Reconnect to verify live cab changes' banner when offline >10 minutes.",
+          "Guardrail 2 (Battery & Memory Impact): Keeping local Room cache and map listeners active must not increase Android Vitals ANR rate (>0.47% threshold) or foreground battery drain (>2% per commute).",
+          "Guardrail 3 (No Causal Overclaim): Storefront lifetime rating (4.64★ IN / 4.32★ US) is an inertia-heavy cumulative average of 114,881 ratings; impact must be measured on version-tagged monthly cohort metrics rather than claiming immediate lifetime rating movement."
+        ],
+        "decisionConditions": {
+          "continueAndScale": "If `LIVE_TRACKING_MAP_ETA` negative share drops by >=40% relative to baseline on `v >= 12.21.0` with zero regression in crash/ANR rate after 30 days.",
+          "modifyIntervention": "If map-zoom complaints stop but ETA inaccuracy complaints persist (>8% share), escalate from client smoothing to backend routing ETA calibration + Partner Lite background GPS wake-lock audit.",
+          "reverseOrRollback": "Immediate staged-rollout halt if cold-start crash rate increases by >0.2% or if cached OTPs cause >0.5% boarding mismatch tickets."
+        }
+      }
+    },
+    "actionTrackingRegister": [
+      {
+        "actionId": "ACT-01",
+        "issueId": "ISS-01",
+        "themeCode": "LIVE_TRACKING_MAP_ETA",
+        "title": "Lock Map Camera State on User Gesture & Add Local Offline Trip/OTP Cache",
+        "owner": "Mobile Core & Location Telemetry Squad",
+        "status": "Proposed — Ready for Sprint Planning",
+        "verificationSource": "Unverified (Pending Engineering Implementation)",
+        "baselineMetric": "19.5% of negative corpus (230 reviews, 882 👍); +43.6% H2 growth",
+        "proposedTarget": "<= 6.0% of monthly negative reviews; 0 map auto-zoom reports on v12.21+",
+        "targetEvaluationDate": "2026-12-13 (60-Day Cohort Window)",
+        "nextStep": "Merge PR for `OnCameraMoveStartedListener` gesture lock and `ActiveTripLocalDao` offline cache.",
+        "unresolvedQuestions": "What % of stale GPS complaints stem from Driver Partner Lite background location throttling vs server WebSocket lag?"
+      },
+      {
+        "actionId": "ACT-02",
+        "issueId": "ISS-02",
+        "themeCode": "CRASH_LAUNCH_INTEGRITY",
+        "title": "Hotfix False 'Not Downloaded from Play Store' Block & Post-Update Startup Crash",
+        "owner": "Android Platform & Release Engineering Lead",
+        "status": "Proposed — Urgent P0 Hotfix",
+        "verificationSource": "Unverified (Pending Crashlytics & Play Integrity Audit)",
+        "baselineMetric": "8.5% of negative corpus (100 reviews); +178.6% H2 surge (21 in last 60d)",
+        "proposedTarget": "0 false Play Store installer errors; <3.0% monthly crash complaint share",
+        "targetEvaluationDate": "2026-11-13 (30-Day Hotfix Window)",
+        "nextStep": "Inspect `getInstallSourceInfo` check in v12.19.0 and add self-healing local storage catch block on cold start.",
+        "unresolvedQuestions": "Which specific Android 16/17 OEM builds or enterprise work-profile installers return null/unexpected installer package names?"
+      },
+      {
+        "actionId": "ACT-03",
+        "issueId": "ISS-03",
+        "themeCode": "UX_MODALS_NOTIFICATIONS",
+        "title": "Decouple Seatbelt Modal from OTP View, Add 'Skip' to Rating Prompt & Persist Policy Consent",
+        "owner": "Mobile Product UX Squad",
+        "status": "Proposed — Sprint Candidate",
+        "verificationSource": "Unverified (Pending Product & EHS Sign-off)",
+        "baselineMetric": "17.5% of negative corpus (206 reviews, 697 👍); +27.7% H2 growth",
+        "proposedTarget": "<= 8.0% monthly negative share; 0 retaliatory 1★ reviews citing forced rating",
+        "targetEvaluationDate": "2026-11-27 (45-Day Window)",
+        "nextStep": "Add `Skip` CTA to post-ride rating modal and render Boarding OTP directly on trip card without modal interception.",
+        "unresolvedQuestions": "Does any enterprise tenant contractually require blocking OTP display until seatbelt confirmation is tapped?"
+      },
+      {
+        "actionId": "ACT-04",
+        "issueId": "ISS-04",
+        "themeCode": "AUTH_OTP_SESSION",
+        "title": "Multi-Channel OTP Gateway Failover (SMS/WhatsApp/Email) & 90-Day Refresh Token Persistence",
+        "owner": "Identity & Auth Backend Squad",
+        "status": "Proposed — Backlog Prioritized",
+        "verificationSource": "Unverified",
+        "baselineMetric": "14.6% of negative corpus (172 reviews, 78.5% 1★)",
+        "proposedTarget": "<= 6.0% monthly negative share; >=99.2% OTP delivery within 15s",
+        "targetEvaluationDate": "2026-12-13 (60-Day Window)",
+        "nextStep": "Implement automated 15-second fallback from primary SMS gateway to WhatsApp/Email OTP dispatch.",
+        "unresolvedQuestions": "Are `'Empty response body'` login errors caused by API gateway rate-limiting during 8:00 AM IST shift peaks?"
+      },
+      {
+        "actionId": "ACT-05",
+        "issueId": "ISS-05",
+        "themeCode": "BOOKING_ROSTER_SYNC",
+        "title": "Actionable Push Warning Before Morning No-Show Cancels Evening Logout & Offline Metro QR",
+        "owner": "Roster & Scheduling Product Squad",
+        "status": "Proposed — Backlog Prioritized",
+        "verificationSource": "Unverified",
+        "baselineMetric": "20.0% of negative corpus (235 reviews, 585 👍); +23.5% H2 growth",
+        "proposedTarget": "<= 11.0% monthly negative share",
+        "targetEvaluationDate": "2026-12-13 (60-Day Window)",
+        "nextStep": "Dispatch 'Keep My Evening Ride' push notification when morning No-Show cascade rule triggers.",
+        "unresolvedQuestions": "How many enterprise tenants enable automatic evening cancellation upon morning No-Show by default?"
+      },
+      {
+        "actionId": "ACT-06",
+        "issueId": "ISS-06",
+        "themeCode": "SUPPORT_HELPDESK_CALLING",
+        "title": "Fix In-App Feedback EditText Autocorrect Bug & Reactivate Play Store Review Response SLA",
+        "owner": "Telephony Engineering & Customer Support Ops",
+        "status": "Proposed — Immediate Operational + UI Fix",
+        "verificationSource": "Unverified",
+        "baselineMetric": "13.5% of negative corpus (1.25★ avg); 0% Play Store reply rate since Feb 2, 2026",
+        "proposedTarget": ">= 80% developer response rate on substantive 1–2★ reviews; <=7.0% negative share",
+        "targetEvaluationDate": "2026-11-13 (30-Day Window)",
+        "nextStep": "Fix `EditText` IME bug in feedback screen and assign support rotation to Play Console reviews.",
+        "unresolvedQuestions": "Why were Google Play developer responses halted after February 2, 2026?"
+      }
+    ]
+  },
+  "monthlyMonitoring": {
+    "availableMonths": [
+      "2026-08",
+      "2026-09",
+      "2026-10"
+    ],
+    "baseline12mThemeShares": {
+      "LIVE_TRACKING_MAP_ETA": 11.4,
+      "CRASH_LAUNCH_INTEGRITY": 6.5,
+      "UX_MODALS_NOTIFICATIONS": 13.5,
+      "AUTH_OTP_SESSION": 13.3,
+      "BOOKING_ROSTER_SYNC": 13.9,
+      "SUPPORT_HELPDESK_CALLING": 9.9,
+      "NETWORK_SYNC_PERFORMANCE": 7.8,
+      "CAB_ROUTING_DISPATCH_OPS": 27.2
+    },
+    "snapshots": {
+      "2026-07": {
+        "reportingPeriod": "2026-07",
+        "isPartialMonth": false,
+        "collectionTimestamp": "2026-10-13T03:20:47+05:30",
+        "totalReviews": 285,
+        "meanRating": 4.01,
+        "negative12Count": 66,
+        "negative12Pct": 23.2,
+        "negative13Count": 72,
+        "substantiveCount": 93,
+        "substantiveMeanRating": 2.92,
+        "previousPeriodCompared": null,
+        "topSoftwareIssueInMonth": {
+          "issueId": "ISS-03",
+          "themeCode": "UX_MODALS_NOTIFICATIONS",
+          "shortName": "Blocking Modals, Forced Rating & Alerts",
+          "currentCount": 14,
+          "currentShareOfNegPct": 19.4,
+          "previousMonthCount": 0,
+          "previousMonthSharePct": 13.5,
+          "baseline12mSharePct": 13.5,
+          "deltaMoMPts": 5.9,
+          "deltaVsBaselinePts": 5.9,
+          "monthlyStatus": "New / Emerging"
+        },
+        "issueComparisons": [
+          {
+            "issueId": "ISS-08",
+            "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+            "shortName": "Fleet Ops, Routing & Driver Conduct",
+            "currentCount": 22,
+            "currentShareOfNegPct": 30.6,
+            "previousMonthCount": 0,
+            "previousMonthSharePct": 27.2,
+            "baseline12mSharePct": 27.2,
+            "deltaMoMPts": 3.4,
+            "deltaVsBaselinePts": 3.4,
+            "monthlyStatus": "New / Emerging"
+          },
+          {
+            "issueId": "ISS-03",
+            "themeCode": "UX_MODALS_NOTIFICATIONS",
+            "shortName": "Blocking Modals, Forced Rating & Alerts",
+            "currentCount": 14,
+            "currentShareOfNegPct": 19.4,
+            "previousMonthCount": 0,
+            "previousMonthSharePct": 13.5,
+            "baseline12mSharePct": 13.5,
+            "deltaMoMPts": 5.9,
+            "deltaVsBaselinePts": 5.9,
+            "monthlyStatus": "New / Emerging"
+          },
+          {
+            "issueId": "ISS-05",
+            "themeCode": "BOOKING_ROSTER_SYNC",
+            "shortName": "Scheduling, Roster & Auto-Cancel",
+            "currentCount": 14,
+            "currentShareOfNegPct": 19.4,
+            "previousMonthCount": 0,
+            "previousMonthSharePct": 13.9,
+            "baseline12mSharePct": 13.9,
+            "deltaMoMPts": 5.5,
+            "deltaVsBaselinePts": 5.5,
+            "monthlyStatus": "New / Emerging"
+          },
+          {
+            "issueId": "ISS-01",
+            "themeCode": "LIVE_TRACKING_MAP_ETA",
+            "shortName": "Live Tracking, Map Zoom & ETA",
+            "currentCount": 8,
+            "currentShareOfNegPct": 11.1,
+            "previousMonthCount": 0,
+            "previousMonthSharePct": 11.4,
+            "baseline12mSharePct": 11.4,
+            "deltaMoMPts": -0.3,
+            "deltaVsBaselinePts": -0.3,
+            "monthlyStatus": "New / Emerging"
+          },
+          {
+            "issueId": "ISS-02",
+            "themeCode": "CRASH_LAUNCH_INTEGRITY",
+            "shortName": "Launch Crashes & Play Store Block",
+            "currentCount": 6,
+            "currentShareOfNegPct": 8.3,
+            "previousMonthCount": 0,
+            "previousMonthSharePct": 6.5,
+            "baseline12mSharePct": 6.5,
+            "deltaMoMPts": 1.8,
+            "deltaVsBaselinePts": 1.8,
+            "monthlyStatus": "New / Emerging"
+          },
+          {
+            "issueId": "ISS-06",
+            "themeCode": "SUPPORT_HELPDESK_CALLING",
+            "shortName": "Driver Calling, Helpdesk & Feedback Box",
+            "currentCount": 6,
+            "currentShareOfNegPct": 8.3,
+            "previousMonthCount": 0,
+            "previousMonthSharePct": 9.9,
+            "baseline12mSharePct": 9.9,
+            "deltaMoMPts": -1.6,
+            "deltaVsBaselinePts": -1.6,
+            "monthlyStatus": "New / Emerging"
+          },
+          {
+            "issueId": "ISS-04",
+            "themeCode": "AUTH_OTP_SESSION",
+            "shortName": "Login OTP & Session Logout Loops",
+            "currentCount": 3,
+            "currentShareOfNegPct": 4.2,
+            "previousMonthCount": 0,
+            "previousMonthSharePct": 13.3,
+            "baseline12mSharePct": 13.3,
+            "deltaMoMPts": -9.1,
+            "deltaVsBaselinePts": -9.1,
+            "monthlyStatus": "New / Emerging"
+          },
+          {
+            "issueId": "ISS-07",
+            "themeCode": "NETWORK_SYNC_PERFORMANCE",
+            "shortName": "Mobile Data 'No Network' Bug & Lag",
+            "currentCount": 3,
+            "currentShareOfNegPct": 4.2,
+            "previousMonthCount": 0,
+            "previousMonthSharePct": 7.8,
+            "baseline12mSharePct": 7.8,
+            "deltaMoMPts": -3.6,
+            "deltaVsBaselinePts": -3.6,
+            "monthlyStatus": "New / Emerging"
+          }
+        ]
+      },
+      "2026-08": {
+        "reportingPeriod": "2026-08",
+        "isPartialMonth": false,
+        "collectionTimestamp": "2026-10-13T03:20:47+05:30",
+        "totalReviews": 242,
+        "meanRating": 3.65,
+        "negative12Count": 77,
+        "negative12Pct": 31.8,
+        "negative13Count": 86,
+        "substantiveCount": 99,
+        "substantiveMeanRating": 2.47,
+        "previousPeriodCompared": "2026-07",
+        "topSoftwareIssueInMonth": {
+          "issueId": "ISS-02",
+          "themeCode": "CRASH_LAUNCH_INTEGRITY",
+          "shortName": "Launch Crashes & Play Store Block",
+          "currentCount": 14,
+          "currentShareOfNegPct": 16.3,
+          "previousMonthCount": 6,
+          "previousMonthSharePct": 8.3,
+          "baseline12mSharePct": 6.5,
+          "deltaMoMPts": 8.0,
+          "deltaVsBaselinePts": 9.8,
+          "monthlyStatus": "Worsening"
+        },
+        "issueComparisons": [
+          {
+            "issueId": "ISS-08",
+            "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+            "shortName": "Fleet Ops, Routing & Driver Conduct",
+            "currentCount": 25,
+            "currentShareOfNegPct": 29.1,
+            "previousMonthCount": 22,
+            "previousMonthSharePct": 30.6,
+            "baseline12mSharePct": 27.2,
+            "deltaMoMPts": -1.5,
+            "deltaVsBaselinePts": 1.9,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-02",
+            "themeCode": "CRASH_LAUNCH_INTEGRITY",
+            "shortName": "Launch Crashes & Play Store Block",
+            "currentCount": 14,
+            "currentShareOfNegPct": 16.3,
+            "previousMonthCount": 6,
+            "previousMonthSharePct": 8.3,
+            "baseline12mSharePct": 6.5,
+            "deltaMoMPts": 8.0,
+            "deltaVsBaselinePts": 9.8,
+            "monthlyStatus": "Worsening"
+          },
+          {
+            "issueId": "ISS-05",
+            "themeCode": "BOOKING_ROSTER_SYNC",
+            "shortName": "Scheduling, Roster & Auto-Cancel",
+            "currentCount": 13,
+            "currentShareOfNegPct": 15.1,
+            "previousMonthCount": 14,
+            "previousMonthSharePct": 19.4,
+            "baseline12mSharePct": 13.9,
+            "deltaMoMPts": -4.3,
+            "deltaVsBaselinePts": 1.2,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-03",
+            "themeCode": "UX_MODALS_NOTIFICATIONS",
+            "shortName": "Blocking Modals, Forced Rating & Alerts",
+            "currentCount": 12,
+            "currentShareOfNegPct": 14.0,
+            "previousMonthCount": 14,
+            "previousMonthSharePct": 19.4,
+            "baseline12mSharePct": 13.5,
+            "deltaMoMPts": -5.4,
+            "deltaVsBaselinePts": 0.5,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-01",
+            "themeCode": "LIVE_TRACKING_MAP_ETA",
+            "shortName": "Live Tracking, Map Zoom & ETA",
+            "currentCount": 11,
+            "currentShareOfNegPct": 12.8,
+            "previousMonthCount": 8,
+            "previousMonthSharePct": 11.1,
+            "baseline12mSharePct": 11.4,
+            "deltaMoMPts": 1.7,
+            "deltaVsBaselinePts": 1.4,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-06",
+            "themeCode": "SUPPORT_HELPDESK_CALLING",
+            "shortName": "Driver Calling, Helpdesk & Feedback Box",
+            "currentCount": 7,
+            "currentShareOfNegPct": 8.1,
+            "previousMonthCount": 6,
+            "previousMonthSharePct": 8.3,
+            "baseline12mSharePct": 9.9,
+            "deltaMoMPts": -0.2,
+            "deltaVsBaselinePts": -1.8,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-04",
+            "themeCode": "AUTH_OTP_SESSION",
+            "shortName": "Login OTP & Session Logout Loops",
+            "currentCount": 5,
+            "currentShareOfNegPct": 5.8,
+            "previousMonthCount": 3,
+            "previousMonthSharePct": 4.2,
+            "baseline12mSharePct": 13.3,
+            "deltaMoMPts": 1.6,
+            "deltaVsBaselinePts": -7.5,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-07",
+            "themeCode": "NETWORK_SYNC_PERFORMANCE",
+            "shortName": "Mobile Data 'No Network' Bug & Lag",
+            "currentCount": 5,
+            "currentShareOfNegPct": 5.8,
+            "previousMonthCount": 3,
+            "previousMonthSharePct": 4.2,
+            "baseline12mSharePct": 7.8,
+            "deltaMoMPts": 1.6,
+            "deltaVsBaselinePts": -2.0,
+            "monthlyStatus": "Persistent"
+          }
+        ]
+      },
+      "2026-09": {
+        "reportingPeriod": "2026-09",
+        "isPartialMonth": false,
+        "collectionTimestamp": "2026-10-13T03:20:47+05:30",
+        "totalReviews": 245,
+        "meanRating": 3.84,
+        "negative12Count": 68,
+        "negative12Pct": 27.8,
+        "negative13Count": 72,
+        "substantiveCount": 81,
+        "substantiveMeanRating": 2.62,
+        "previousPeriodCompared": "2026-08",
+        "topSoftwareIssueInMonth": {
+          "issueId": "ISS-02",
+          "themeCode": "CRASH_LAUNCH_INTEGRITY",
+          "shortName": "Launch Crashes & Play Store Block",
+          "currentCount": 11,
+          "currentShareOfNegPct": 15.3,
+          "previousMonthCount": 14,
+          "previousMonthSharePct": 16.3,
+          "baseline12mSharePct": 6.5,
+          "deltaMoMPts": -1.0,
+          "deltaVsBaselinePts": 8.8,
+          "monthlyStatus": "Worsening"
+        },
+        "issueComparisons": [
+          {
+            "issueId": "ISS-08",
+            "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+            "shortName": "Fleet Ops, Routing & Driver Conduct",
+            "currentCount": 15,
+            "currentShareOfNegPct": 20.8,
+            "previousMonthCount": 25,
+            "previousMonthSharePct": 29.1,
+            "baseline12mSharePct": 27.2,
+            "deltaMoMPts": -8.3,
+            "deltaVsBaselinePts": -6.4,
+            "monthlyStatus": "Improving"
+          },
+          {
+            "issueId": "ISS-02",
+            "themeCode": "CRASH_LAUNCH_INTEGRITY",
+            "shortName": "Launch Crashes & Play Store Block",
+            "currentCount": 11,
+            "currentShareOfNegPct": 15.3,
+            "previousMonthCount": 14,
+            "previousMonthSharePct": 16.3,
+            "baseline12mSharePct": 6.5,
+            "deltaMoMPts": -1.0,
+            "deltaVsBaselinePts": 8.8,
+            "monthlyStatus": "Worsening"
+          },
+          {
+            "issueId": "ISS-03",
+            "themeCode": "UX_MODALS_NOTIFICATIONS",
+            "shortName": "Blocking Modals, Forced Rating & Alerts",
+            "currentCount": 11,
+            "currentShareOfNegPct": 15.3,
+            "previousMonthCount": 12,
+            "previousMonthSharePct": 14.0,
+            "baseline12mSharePct": 13.5,
+            "deltaMoMPts": 1.3,
+            "deltaVsBaselinePts": 1.8,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-04",
+            "themeCode": "AUTH_OTP_SESSION",
+            "shortName": "Login OTP & Session Logout Loops",
+            "currentCount": 10,
+            "currentShareOfNegPct": 13.9,
+            "previousMonthCount": 5,
+            "previousMonthSharePct": 5.8,
+            "baseline12mSharePct": 13.3,
+            "deltaMoMPts": 8.1,
+            "deltaVsBaselinePts": 0.6,
+            "monthlyStatus": "Worsening"
+          },
+          {
+            "issueId": "ISS-05",
+            "themeCode": "BOOKING_ROSTER_SYNC",
+            "shortName": "Scheduling, Roster & Auto-Cancel",
+            "currentCount": 9,
+            "currentShareOfNegPct": 12.5,
+            "previousMonthCount": 13,
+            "previousMonthSharePct": 15.1,
+            "baseline12mSharePct": 13.9,
+            "deltaMoMPts": -2.6,
+            "deltaVsBaselinePts": -1.4,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-06",
+            "themeCode": "SUPPORT_HELPDESK_CALLING",
+            "shortName": "Driver Calling, Helpdesk & Feedback Box",
+            "currentCount": 8,
+            "currentShareOfNegPct": 11.1,
+            "previousMonthCount": 7,
+            "previousMonthSharePct": 8.1,
+            "baseline12mSharePct": 9.9,
+            "deltaMoMPts": 3.0,
+            "deltaVsBaselinePts": 1.2,
+            "monthlyStatus": "Worsening"
+          },
+          {
+            "issueId": "ISS-01",
+            "themeCode": "LIVE_TRACKING_MAP_ETA",
+            "shortName": "Live Tracking, Map Zoom & ETA",
+            "currentCount": 7,
+            "currentShareOfNegPct": 9.7,
+            "previousMonthCount": 11,
+            "previousMonthSharePct": 12.8,
+            "baseline12mSharePct": 11.4,
+            "deltaMoMPts": -3.1,
+            "deltaVsBaselinePts": -1.7,
+            "monthlyStatus": "Improving"
+          },
+          {
+            "issueId": "ISS-07",
+            "themeCode": "NETWORK_SYNC_PERFORMANCE",
+            "shortName": "Mobile Data 'No Network' Bug & Lag",
+            "currentCount": 7,
+            "currentShareOfNegPct": 9.7,
+            "previousMonthCount": 5,
+            "previousMonthSharePct": 5.8,
+            "baseline12mSharePct": 7.8,
+            "deltaMoMPts": 3.9,
+            "deltaVsBaselinePts": 1.9,
+            "monthlyStatus": "Worsening"
+          }
+        ]
+      },
+      "2026-10": {
+        "reportingPeriod": "2026-10",
+        "isPartialMonth": true,
+        "collectionTimestamp": "2026-10-13T03:20:47+05:30",
+        "totalReviews": 82,
+        "meanRating": 3.74,
+        "negative12Count": 25,
+        "negative12Pct": 30.5,
+        "negative13Count": 26,
+        "substantiveCount": 27,
+        "substantiveMeanRating": 2.3,
+        "previousPeriodCompared": "2026-09",
+        "topSoftwareIssueInMonth": {
+          "issueId": "ISS-03",
+          "themeCode": "UX_MODALS_NOTIFICATIONS",
+          "shortName": "Blocking Modals, Forced Rating & Alerts",
+          "currentCount": 9,
+          "currentShareOfNegPct": 34.6,
+          "previousMonthCount": 11,
+          "previousMonthSharePct": 15.3,
+          "baseline12mSharePct": 13.5,
+          "deltaMoMPts": 19.3,
+          "deltaVsBaselinePts": 21.1,
+          "monthlyStatus": "Worsening"
+        },
+        "issueComparisons": [
+          {
+            "issueId": "ISS-03",
+            "themeCode": "UX_MODALS_NOTIFICATIONS",
+            "shortName": "Blocking Modals, Forced Rating & Alerts",
+            "currentCount": 9,
+            "currentShareOfNegPct": 34.6,
+            "previousMonthCount": 11,
+            "previousMonthSharePct": 15.3,
+            "baseline12mSharePct": 13.5,
+            "deltaMoMPts": 19.3,
+            "deltaVsBaselinePts": 21.1,
+            "monthlyStatus": "Worsening"
+          },
+          {
+            "issueId": "ISS-05",
+            "themeCode": "BOOKING_ROSTER_SYNC",
+            "shortName": "Scheduling, Roster & Auto-Cancel",
+            "currentCount": 6,
+            "currentShareOfNegPct": 23.1,
+            "previousMonthCount": 9,
+            "previousMonthSharePct": 12.5,
+            "baseline12mSharePct": 13.9,
+            "deltaMoMPts": 10.6,
+            "deltaVsBaselinePts": 9.2,
+            "monthlyStatus": "Worsening"
+          },
+          {
+            "issueId": "ISS-08",
+            "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+            "shortName": "Fleet Ops, Routing & Driver Conduct",
+            "currentCount": 5,
+            "currentShareOfNegPct": 19.2,
+            "previousMonthCount": 15,
+            "previousMonthSharePct": 20.8,
+            "baseline12mSharePct": 27.2,
+            "deltaMoMPts": -1.6,
+            "deltaVsBaselinePts": -8.0,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-02",
+            "themeCode": "CRASH_LAUNCH_INTEGRITY",
+            "shortName": "Launch Crashes & Play Store Block",
+            "currentCount": 4,
+            "currentShareOfNegPct": 15.4,
+            "previousMonthCount": 11,
+            "previousMonthSharePct": 15.3,
+            "baseline12mSharePct": 6.5,
+            "deltaMoMPts": 0.1,
+            "deltaVsBaselinePts": 8.9,
+            "monthlyStatus": "Worsening"
+          },
+          {
+            "issueId": "ISS-04",
+            "themeCode": "AUTH_OTP_SESSION",
+            "shortName": "Login OTP & Session Logout Loops",
+            "currentCount": 4,
+            "currentShareOfNegPct": 15.4,
+            "previousMonthCount": 10,
+            "previousMonthSharePct": 13.9,
+            "baseline12mSharePct": 13.3,
+            "deltaMoMPts": 1.5,
+            "deltaVsBaselinePts": 2.1,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-01",
+            "themeCode": "LIVE_TRACKING_MAP_ETA",
+            "shortName": "Live Tracking, Map Zoom & ETA",
+            "currentCount": 3,
+            "currentShareOfNegPct": 11.5,
+            "previousMonthCount": 7,
+            "previousMonthSharePct": 9.7,
+            "baseline12mSharePct": 11.4,
+            "deltaMoMPts": 1.8,
+            "deltaVsBaselinePts": 0.1,
+            "monthlyStatus": "Persistent"
+          },
+          {
+            "issueId": "ISS-06",
+            "themeCode": "SUPPORT_HELPDESK_CALLING",
+            "shortName": "Driver Calling, Helpdesk & Feedback Box",
+            "currentCount": 2,
+            "currentShareOfNegPct": 7.7,
+            "previousMonthCount": 8,
+            "previousMonthSharePct": 11.1,
+            "baseline12mSharePct": 9.9,
+            "deltaMoMPts": -3.4,
+            "deltaVsBaselinePts": -2.2,
+            "monthlyStatus": "Improving"
+          },
+          {
+            "issueId": "ISS-07",
+            "themeCode": "NETWORK_SYNC_PERFORMANCE",
+            "shortName": "Mobile Data 'No Network' Bug & Lag",
+            "currentCount": 1,
+            "currentShareOfNegPct": 3.8,
+            "previousMonthCount": 7,
+            "previousMonthSharePct": 9.7,
+            "baseline12mSharePct": 7.8,
+            "deltaMoMPts": -5.9,
+            "deltaVsBaselinePts": -4.0,
+            "monthlyStatus": "Improving"
+          }
+        ]
+      }
+    },
+    "deduplicationGuarantee": "Each monthly run ingests reviews into `movesync_intelligence.db` keyed by primary `reviewId` (Google Play UUID) and secondary `dedupHash` (SHA-256 of normalized text + YYYY-MM-DD + star rating). Reviews already recorded in prior months are never double-counted as new reviews unless their `at` timestamp advances due to a user edit (`isEditedAfterReply`)."
+  }
+}

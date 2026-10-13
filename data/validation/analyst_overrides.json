@@ -1,0 +1,21 @@
+{
+  "527ddedf-47f0-4a8e-8f5b-6511fb40fb95": {
+    "reviewIdPrefix": "527ddedf",
+    "correctedThemes": [],
+    "correctedSentiment": "mixed_or_mismatch",
+    "analystNote": "Verified star-text mismatch: User selected 1\u2605 but wrote 'good'. Excluded from defect counts.",
+    "updatedAt": "2026-10-13T03:25:00Z",
+    "auditor": "FDE-Lead-Audit"
+  },
+  "e64560af-5a0c-43ca-9a76-4df7d61a02f1": {
+    "reviewIdPrefix": "e64560af",
+    "correctedThemes": [
+      "SUPPORT_HELPDESK_CALLING",
+      "UX_MODALS_NOTIFICATIONS"
+    ],
+    "correctedSentiment": "negative",
+    "analystNote": "User reports broken in-app feedback textbox ('can't even write in built in feedback text box. full of bugs'). Tagged under both Support/Feedback and UX.",
+    "updatedAt": "2026-10-13T03:26:00Z",
+    "auditor": "FDE-Lead-Audit"
+  }
+}

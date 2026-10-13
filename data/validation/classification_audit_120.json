@@ -1,0 +1,653 @@
+{
+  "sampleSize": 120,
+  "exactSetMatchCount": 96,
+  "exactSetMatchRate": 0.8,
+  "microPrecision": 0.84,
+  "microRecall": 0.917,
+  "microF1": 0.876,
+  "perThemeMetrics": {
+    "LIVE_TRACKING_MAP_ETA": {
+      "themeCode": "LIVE_TRACKING_MAP_ETA",
+      "themeName": "Live Tracking, Map Zoom & ETA",
+      "truePositives": 12,
+      "falsePositives": 1,
+      "falseNegatives": 2,
+      "precision": 0.923,
+      "recall": 0.857,
+      "f1Score": 0.889
+    },
+    "CRASH_LAUNCH_INTEGRITY": {
+      "themeCode": "CRASH_LAUNCH_INTEGRITY",
+      "themeName": "Launch Crashes & Play Store Block",
+      "truePositives": 18,
+      "falsePositives": 0,
+      "falseNegatives": 2,
+      "precision": 1.0,
+      "recall": 0.9,
+      "f1Score": 0.947
+    },
+    "UX_MODALS_NOTIFICATIONS": {
+      "themeCode": "UX_MODALS_NOTIFICATIONS",
+      "themeName": "Blocking Modals, Forced Rating & Alerts",
+      "truePositives": 14,
+      "falsePositives": 8,
+      "falseNegatives": 0,
+      "precision": 0.636,
+      "recall": 1.0,
+      "f1Score": 0.778
+    },
+    "AUTH_OTP_SESSION": {
+      "themeCode": "AUTH_OTP_SESSION",
+      "themeName": "Login OTP & Session Logout Loops",
+      "truePositives": 12,
+      "falsePositives": 1,
+      "falseNegatives": 0,
+      "precision": 0.923,
+      "recall": 1.0,
+      "f1Score": 0.96
+    },
+    "BOOKING_ROSTER_SYNC": {
+      "themeCode": "BOOKING_ROSTER_SYNC",
+      "themeName": "Scheduling, Roster & Auto-Cancel",
+      "truePositives": 16,
+      "falsePositives": 2,
+      "falseNegatives": 3,
+      "precision": 0.889,
+      "recall": 0.842,
+      "f1Score": 0.865
+    },
+    "SUPPORT_HELPDESK_CALLING": {
+      "themeCode": "SUPPORT_HELPDESK_CALLING",
+      "themeName": "Driver Calling, Helpdesk & Feedback Box",
+      "truePositives": 11,
+      "falsePositives": 1,
+      "falseNegatives": 3,
+      "precision": 0.917,
+      "recall": 0.786,
+      "f1Score": 0.846
+    },
+    "NETWORK_SYNC_PERFORMANCE": {
+      "themeCode": "NETWORK_SYNC_PERFORMANCE",
+      "themeName": "Mobile Data 'No Network' Bug & Lag",
+      "truePositives": 5,
+      "falsePositives": 3,
+      "falseNegatives": 0,
+      "precision": 0.625,
+      "recall": 1.0,
+      "f1Score": 0.769
+    },
+    "CAB_ROUTING_DISPATCH_OPS": {
+      "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+      "themeName": "Fleet Ops, Routing & Driver Conduct",
+      "truePositives": 22,
+      "falsePositives": 5,
+      "falseNegatives": 0,
+      "precision": 0.815,
+      "recall": 1.0,
+      "f1Score": 0.898
+    }
+  },
+  "knownDisambiguationNotes": [
+    "Shift terminology confounder: Employees sometimes write 'login trip' and 'logout trip' to mean morning pickup and evening drop-off rather than app authentication.",
+    "Broad noun match: Mentioning 'cab' or 'location' in a booking complaint can co-trigger Fleet Ops or Live Tracking; analyst overrides allow fine-tuning."
+  ],
+  "auditSample": [
+    {
+      "reviewId": "3d87f169-2508-4a07-9e5a-d63b2c548ed3",
+      "date": "2026-10-09",
+      "score": 2,
+      "contentExcerpt": "The new feature and very annoying feature which you have introduced - when you click view otp , it pops up the seat belt safely first. Why do you ask for user input one more click ",
+      "automatedThemes": [
+        "AUTH_OTP_SESSION",
+        "BOOKING_ROSTER_SYNC",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "AUTH_OTP_SESSION",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "60798e45-939e-4a99-8f5b-17383a891db6",
+      "date": "2026-10-09",
+      "score": 1,
+      "contentExcerpt": "whenever i update this app, i am not able to open the app again, I need to uninstall and reinstall again. facing this issue since 3 months",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "7476b129-f0da-458e-8f86-d77ba2f9a710",
+      "date": "2026-10-09",
+      "score": 1,
+      "contentExcerpt": "MoveOutSync doesn't plan commutes; it plans cross-country pilgrimages. The ETA is an abstract joke where a 1-hour delay is considered punctual. The routing algorithm is pure genius",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS",
+        "LIVE_TRACKING_MAP_ETA"
+      ],
+      "humanVerifiedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS",
+        "LIVE_TRACKING_MAP_ETA"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "f9fce9fe-8115-4a30-8d09-d8bdac76837d",
+      "date": "2026-10-08",
+      "score": 1,
+      "contentExcerpt": "forcing me to give rating after every ride, so I came here to give you 1 star. because if I don't rate, I can't use the app as there is no skip option.",
+      "automatedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "2ce14584-824f-4d19-a7ce-95a17656fc8f",
+      "date": "2026-10-08",
+      "score": 1,
+      "contentExcerpt": "ETA calculator very bad. not sure on what basis its done. google maps always shows 3x the time shown in moveinsync app. tnis app just acts as a booking tool and no use of showing c",
+      "automatedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "LIVE_TRACKING_MAP_ETA"
+      ],
+      "humanVerifiedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "LIVE_TRACKING_MAP_ETA"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "5f781610-319a-4412-b308-95a6ec8ee6f6",
+      "date": "2026-10-08",
+      "score": 1,
+      "contentExcerpt": "dislike the new update. Bring the old version back. It was simple and minimalist.",
+      "automatedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "387a67a5-1843-45ee-b837-91d7eb1fccce",
+      "date": "2026-10-08",
+      "score": 1,
+      "contentExcerpt": "your new update is a threat to person with medical condition. it just books you without informing if he's on waitlist or not. so annoying",
+      "automatedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "BOOKING_ROSTER_SYNC"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "225d87f1-5d2f-4d23-ac26-ecda35211579",
+      "date": "2026-10-08",
+      "score": 1,
+      "contentExcerpt": "This application and also your transport management which very bad, they are not ready to help to employees. They all are only thinking about our benefits. That's it.",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "humanVerifiedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "61a4a85f-902d-4e2c-beff-9ff5850a16b7",
+      "date": "2026-10-07",
+      "score": 1,
+      "contentExcerpt": "the update is worse. it wont let you track the location of the van under an hour",
+      "automatedThemes": [
+        "LIVE_TRACKING_MAP_ETA"
+      ],
+      "humanVerifiedThemes": [
+        "LIVE_TRACKING_MAP_ETA"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "72e74b90-1da1-49cc-87c0-6bc42af65ba3",
+      "date": "2026-10-06",
+      "score": 1,
+      "contentExcerpt": "Pathetic . it logs out every time.",
+      "automatedThemes": [
+        "AUTH_OTP_SESSION"
+      ],
+      "humanVerifiedThemes": [
+        "AUTH_OTP_SESSION"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "43d90b3c-0443-4073-8647-6aee98c78bd4",
+      "date": "2026-10-06",
+      "score": 1,
+      "contentExcerpt": "06-10-2026 even after booked the trip it keep sends the push notification that trip is not booked. old: Bring monthly view ,not just day view...",
+      "automatedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "bc736dc0-8fd1-45e8-b39e-b16020a4e2f7",
+      "date": "2026-10-05",
+      "score": 1,
+      "contentExcerpt": "mobile number is not visible once cab is booked, I can not see latest notification, since seems like notification stack full and never notification can not be shown. for every butt",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS",
+        "SUPPORT_HELPDESK_CALLING",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "CAB_ROUTING_DISPATCH_OPS",
+        "SUPPORT_HELPDESK_CALLING",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "823b9c8b-afde-47e7-abad-fb60f14ea562",
+      "date": "2026-10-05",
+      "score": 1,
+      "contentExcerpt": "app stuck all the time unable to schedule pathetic",
+      "automatedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "e0d68839-6e59-4dd7-8f00-052cda79a063",
+      "date": "2026-10-04",
+      "score": 1,
+      "contentExcerpt": "I try to login to this app but it's not sending any otp to login without login how we can use this app 😤😤😤 technical team please check once about this issue",
+      "automatedThemes": [
+        "AUTH_OTP_SESSION"
+      ],
+      "humanVerifiedThemes": [
+        "AUTH_OTP_SESSION"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "133d2b88-b2d2-4fd4-9594-1ac26caf819e",
+      "date": "2026-10-03",
+      "score": 3,
+      "contentExcerpt": "a few days ago this app was working fine on my phone, but for the last 3 days it's not working at all. The app doesn't start on my phone, whenever I am opening it, it closes itself",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "e735e280-9992-470e-b8df-d9b4a0e1e214",
+      "date": "2026-10-03",
+      "score": 1,
+      "contentExcerpt": "Unable to open the app on my phone. closes as soon as I try to open",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "d980e749-b3df-4f90-ba1a-0987168cfe13",
+      "date": "2026-10-03",
+      "score": 2,
+      "contentExcerpt": "Barely works for metro bookings. Even after trying to tell the issues I faced multiple times, seems to have fallen on deaf ears, or they haven't bothered to fix it yet. 1. Goes to ",
+      "automatedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "NETWORK_SYNC_PERFORMANCE",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "NETWORK_SYNC_PERFORMANCE",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "98db1b19-26e2-4e6d-937b-7319944a6fc0",
+      "date": "2026-10-02",
+      "score": 1,
+      "contentExcerpt": "Drivers are rude no professonalism and transport help team doesn't help at all",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "humanVerifiedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "724fa773-e6c0-47ec-b76d-8c5ae25850ed",
+      "date": "2026-10-02",
+      "score": 1,
+      "contentExcerpt": "👎👎👎👎👎👎👎👎👎👎👎👎👎👎👎👎who the hell is giving them 5 star ⭐ rating worst punctuation, my cab has to assign on 2:30 am and it's 3:30 am and still no updates. I called twice to there Custom",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS",
+        "SUPPORT_HELPDESK_CALLING",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS",
+        "SUPPORT_HELPDESK_CALLING"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "e12ed49a-d376-4cf2-9cfd-45cae0162feb",
+      "date": "2026-09-30",
+      "score": 1,
+      "contentExcerpt": "This app is going from bad to horrible. The seat buckle verification is absolutely horrendous and the OTP keeps disappearing behind the seat belt check. To top it all, ads are bein",
+      "automatedThemes": [
+        "AUTH_OTP_SESSION",
+        "BOOKING_ROSTER_SYNC",
+        "NETWORK_SYNC_PERFORMANCE",
+        "SUPPORT_HELPDESK_CALLING",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "AUTH_OTP_SESSION",
+        "LIVE_TRACKING_MAP_ETA",
+        "SUPPORT_HELPDESK_CALLING",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "85146e08-4f64-4ea2-9541-7a3d22af578e",
+      "date": "2026-09-29",
+      "score": 1,
+      "contentExcerpt": "worst app, no feedback option for routing and journey.",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "852dfa4f-b414-4559-ae8d-5cc955fe97db",
+      "date": "2026-09-29",
+      "score": 1,
+      "contentExcerpt": "app stopped working in oneplus 12 android, please look into it.",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "7781ccc3-e390-49cb-b574-fb3213c2e74a",
+      "date": "2026-09-29",
+      "score": 1,
+      "contentExcerpt": "application not working with pixel 8 android version 17... installed and uninstalled...still not working...open and close automatically",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY",
+        "SUPPORT_HELPDESK_CALLING"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "3abb674f-e2b3-41d7-8439-772cfb23cd27",
+      "date": "2026-09-28",
+      "score": 1,
+      "contentExcerpt": "the application is not working properly show app error please fix it",
+      "automatedThemes": [],
+      "humanVerifiedThemes": [],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "0def625f-f0c8-4d3a-859d-4891c82c80ab",
+      "date": "2026-09-28",
+      "score": 1,
+      "contentExcerpt": "This aap keeps on crashing due to some bug and there is No Update Available Yet... What will Working Professionals do who avail cab services???",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS",
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS",
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "9936bf10-67dd-4e3e-aeb3-2bc420fb487a",
+      "date": "2026-09-27",
+      "score": 1,
+      "contentExcerpt": "app crashed did not open in my mobile plx fixed it vivo v25 Pro",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "e64560af-5a09-4910-86bf-fdc689ab6bc1",
+      "date": "2026-09-25",
+      "score": 1,
+      "contentExcerpt": "You can't even write in built in feedback text box. full of bugs.",
+      "automatedThemes": [
+        "SUPPORT_HELPDESK_CALLING",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "SUPPORT_HELPDESK_CALLING"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "ef2acf20-b61f-4d2a-ba57-23d5206d418b",
+      "date": "2026-09-24",
+      "score": 1,
+      "contentExcerpt": "everytime I download it won't open again after 1-2 days and I have to download it again",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "1d73eadd-7250-425f-9cbe-c906414e5049",
+      "date": "2026-09-24",
+      "score": 1,
+      "contentExcerpt": "Such a worst app. I am not receiving the OTP even after trying multiple times. Because of this, I am unable to complete the login/verification process. Please fix this issue as soo",
+      "automatedThemes": [
+        "AUTH_OTP_SESSION"
+      ],
+      "humanVerifiedThemes": [
+        "AUTH_OTP_SESSION"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "93d75126-98c3-43de-9fdf-cee95c3ed1c6",
+      "date": "2026-09-24",
+      "score": 2,
+      "contentExcerpt": "Please fix the bug..Quite frequently it gives error as\"move in synch application can not be installed/opened as it was not downloaded from play store\".",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "88fa8703-20ab-4e8f-ab4d-07f59f254952",
+      "date": "2026-09-23",
+      "score": 1,
+      "contentExcerpt": "as per mine experience ut should get zero review as they were not assigning cabs on time",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "humanVerifiedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "05721a7c-55c6-4988-aad4-294192414118",
+      "date": "2026-09-21",
+      "score": 1,
+      "contentExcerpt": "Taytay-Five Neo 615pm sched is always late! Always more than an hour late!",
+      "automatedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "humanVerifiedThemes": [
+        "CAB_ROUTING_DISPATCH_OPS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "785327ff-5759-41b8-ba5f-c6eabed81c01",
+      "date": "2026-09-21",
+      "score": 2,
+      "contentExcerpt": "there is an issue with the app. While opening the app, it shows the app is not installed from the play store whereas I never used other places to install.",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "4f55dc55-8f92-49fa-95c0-9b9a12934888",
+      "date": "2026-09-21",
+      "score": 1,
+      "contentExcerpt": "Move in sync app after every couple of days when I try to use it it shows unable to open as the app was not downloaded from play store which is a fake msg. Hence ever time this hap",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY",
+        "NETWORK_SYNC_PERFORMANCE"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "c988bdd4-9208-485e-b843-ec01a15a0e6e",
+      "date": "2026-09-20",
+      "score": 2,
+      "contentExcerpt": "it ask too much permission when I open the app on regular basis",
+      "automatedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "c4c982a7-763c-4e2b-889a-17109a961dc7",
+      "date": "2026-09-19",
+      "score": 1,
+      "contentExcerpt": "why the hell no option of skip rating.if I don't want rate.",
+      "automatedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "bb8bc95d-2aca-4ea1-8ec2-a6f74f5de33f",
+      "date": "2026-09-18",
+      "score": 1,
+      "contentExcerpt": "Forcing users to compulsorily turn on notifications",
+      "automatedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "145e34ef-5530-438b-bb8b-9dff2aed6e90",
+      "date": "2026-09-18",
+      "score": 1,
+      "contentExcerpt": "first if the all the app itself is garbage , would crash after every 20days. Then the service , I dont know why companies even go with these retarded service , no ethics and no res",
+      "automatedThemes": [
+        "CRASH_LAUNCH_INTEGRITY"
+      ],
+      "humanVerifiedThemes": [
+        "CRASH_LAUNCH_INTEGRITY",
+        "LIVE_TRACKING_MAP_ETA"
+      ],
+      "exactMatch": false
+    },
+    {
+      "reviewId": "0b1041ae-ce09-4947-b5f9-744e9014a639",
+      "date": "2026-09-17",
+      "score": 2,
+      "contentExcerpt": "you guys keep giving notifications to cancel the ride if not available for the same, but you don't even bother to remind the user regarding the default cancellation of logout trip ",
+      "automatedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "humanVerifiedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "UX_MODALS_NOTIFICATIONS"
+      ],
+      "exactMatch": true
+    },
+    {
+      "reviewId": "1d7aa4a5-419d-42f4-8be5-d9096c09746d",
+      "date": "2026-09-16",
+      "score": 1,
+      "contentExcerpt": "not avle to connect with helpdesk",
+      "automatedThemes": [
+        "SUPPORT_HELPDESK_CALLING"
+      ],
+      "humanVerifiedThemes": [
+        "BOOKING_ROSTER_SYNC",
+        "SUPPORT_HELPDESK_CALLING"
+      ],
+      "exactMatch": false
+    }
+  ]
+}

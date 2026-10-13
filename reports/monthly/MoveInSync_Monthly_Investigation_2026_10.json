@@ -1,0 +1,239 @@
+{
+  "runId": "monthly-2026-10-20261012222252",
+  "reportingPeriod": "2026-10",
+  "isPartialMonth": true,
+  "executedAtUtc": "2026-10-12T22:22:52.303045+00:00",
+  "previousPeriodCompared": "2026-09",
+  "corpusTotals": {
+    "totalUniqueVerifiedReviews": 3333,
+    "duplicatesRemoved": 267,
+    "importedRecordsCount": 0
+  },
+  "monthMetrics": {
+    "totalReviews": 82,
+    "meanRating": 3.74,
+    "negative12Count": 25,
+    "negative12Pct": 30.5,
+    "negative13Count": 26,
+    "substantiveCount": 27,
+    "substantiveMeanRating": 2.3
+  },
+  "statusBreakdown": {
+    "worseningIssues": [
+      {
+        "issueId": "ISS-03",
+        "themeCode": "UX_MODALS_NOTIFICATIONS",
+        "shortName": "Blocking Modals, Forced Rating & Alerts",
+        "currentCount": 9,
+        "currentShareOfNegPct": 34.6,
+        "previousMonthCount": 11,
+        "previousMonthSharePct": 15.3,
+        "baseline12mSharePct": 13.5,
+        "deltaMoMPts": 19.3,
+        "deltaVsBaselinePts": 21.1,
+        "monthlyStatus": "Worsening"
+      },
+      {
+        "issueId": "ISS-05",
+        "themeCode": "BOOKING_ROSTER_SYNC",
+        "shortName": "Scheduling, Roster & Auto-Cancel",
+        "currentCount": 6,
+        "currentShareOfNegPct": 23.1,
+        "previousMonthCount": 9,
+        "previousMonthSharePct": 12.5,
+        "baseline12mSharePct": 13.9,
+        "deltaMoMPts": 10.6,
+        "deltaVsBaselinePts": 9.2,
+        "monthlyStatus": "Worsening"
+      },
+      {
+        "issueId": "ISS-02",
+        "themeCode": "CRASH_LAUNCH_INTEGRITY",
+        "shortName": "Launch Crashes & Play Store Block",
+        "currentCount": 4,
+        "currentShareOfNegPct": 15.4,
+        "previousMonthCount": 11,
+        "previousMonthSharePct": 15.3,
+        "baseline12mSharePct": 6.5,
+        "deltaMoMPts": 0.1,
+        "deltaVsBaselinePts": 8.9,
+        "monthlyStatus": "Worsening"
+      }
+    ],
+    "improvingIssues": [
+      {
+        "issueId": "ISS-06",
+        "themeCode": "SUPPORT_HELPDESK_CALLING",
+        "shortName": "Driver Calling, Helpdesk & Feedback Box",
+        "currentCount": 2,
+        "currentShareOfNegPct": 7.7,
+        "previousMonthCount": 8,
+        "previousMonthSharePct": 11.1,
+        "baseline12mSharePct": 9.9,
+        "deltaMoMPts": -3.4,
+        "deltaVsBaselinePts": -2.2,
+        "monthlyStatus": "Improving"
+      },
+      {
+        "issueId": "ISS-07",
+        "themeCode": "NETWORK_SYNC_PERFORMANCE",
+        "shortName": "Mobile Data 'No Network' Bug & Lag",
+        "currentCount": 1,
+        "currentShareOfNegPct": 3.8,
+        "previousMonthCount": 7,
+        "previousMonthSharePct": 9.7,
+        "baseline12mSharePct": 7.8,
+        "deltaMoMPts": -5.9,
+        "deltaVsBaselinePts": -4.0,
+        "monthlyStatus": "Improving"
+      }
+    ],
+    "persistentIssues": [
+      {
+        "issueId": "ISS-08",
+        "themeCode": "CAB_ROUTING_DISPATCH_OPS",
+        "shortName": "Fleet Ops, Routing & Driver Conduct",
+        "currentCount": 5,
+        "currentShareOfNegPct": 19.2,
+        "previousMonthCount": 15,
+        "previousMonthSharePct": 20.8,
+        "baseline12mSharePct": 27.2,
+        "deltaMoMPts": -1.6,
+        "deltaVsBaselinePts": -8.0,
+        "monthlyStatus": "Persistent"
+      },
+      {
+        "issueId": "ISS-04",
+        "themeCode": "AUTH_OTP_SESSION",
+        "shortName": "Login OTP & Session Logout Loops",
+        "currentCount": 4,
+        "currentShareOfNegPct": 15.4,
+        "previousMonthCount": 11,
+        "previousMonthSharePct": 15.3,
+        "baseline12mSharePct": 13.4,
+        "deltaMoMPts": 0.1,
+        "deltaVsBaselinePts": 2.0,
+        "monthlyStatus": "Persistent"
+      },
+      {
+        "issueId": "ISS-01",
+        "themeCode": "LIVE_TRACKING_MAP_ETA",
+        "shortName": "Live Tracking, Map Zoom & ETA",
+        "currentCount": 3,
+        "currentShareOfNegPct": 11.5,
+        "previousMonthCount": 7,
+        "previousMonthSharePct": 9.7,
+        "baseline12mSharePct": 11.4,
+        "deltaMoMPts": 1.8,
+        "deltaVsBaselinePts": 0.1,
+        "monthlyStatus": "Persistent"
+      }
+    ],
+    "emergingIssues": []
+  },
+  "priorityReassessment": {
+    "overallRank1IssueId": "ISS-01",
+    "overallRank1Title": "Live Vehicle Tracking Freeze, Map Auto-Zoom Reset & ETA Divergence",
+    "overallRank1Score": 86.46,
+    "monthTopSoftwareIssue": {
+      "issueId": "ISS-03",
+      "themeCode": "UX_MODALS_NOTIFICATIONS",
+      "shortName": "Blocking Modals, Forced Rating & Alerts",
+      "currentCount": 9,
+      "currentShareOfNegPct": 34.6,
+      "previousMonthCount": 11,
+      "previousMonthSharePct": 15.3,
+      "baseline12mSharePct": 13.5,
+      "deltaMoMPts": 19.3,
+      "deltaVsBaselinePts": 21.1,
+      "monthlyStatus": "Worsening"
+    },
+    "reassessmentDecision": "Maintain ISS-01 (Live Tracking, Map Zoom & ETA, score 86.46/100) as Primary 2-Sprint Architectural Initiative while executing urgent Week-1 Hotfixes for month-specific spikes in ISS-03 (Blocking Modals, Forced Rating & Alerts, 34.6% of 2026-10 negative reviews)."
+  },
+  "actionTrackerSnapshot": [
+    {
+      "actionId": "ACT-01",
+      "issueId": "ISS-01",
+      "themeCode": "LIVE_TRACKING_MAP_ETA",
+      "title": "Lock Map Camera State on User Gesture & Add Local Offline Trip/OTP Cache",
+      "owner": "Mobile Core & Location Telemetry Squad",
+      "status": "Proposed — Ready for Sprint Planning",
+      "verificationSource": "Unverified (Pending Engineering Implementation)",
+      "baselineMetric": "19.5% of negative corpus (230 reviews, 882 👍); +43.6% H2 growth",
+      "proposedTarget": "<= 6.0% of monthly negative reviews; 0 map auto-zoom reports on v12.21+",
+      "targetEvaluationDate": "2026-12-13 (60-Day Cohort Window)",
+      "nextStep": "Merge PR for `OnCameraMoveStartedListener` gesture lock and `ActiveTripLocalDao` offline cache.",
+      "unresolvedQuestions": "What % of stale GPS complaints stem from Driver Partner Lite background location throttling vs server WebSocket lag?"
+    },
+    {
+      "actionId": "ACT-02",
+      "issueId": "ISS-02",
+      "themeCode": "CRASH_LAUNCH_INTEGRITY",
+      "title": "Hotfix False 'Not Downloaded from Play Store' Block & Post-Update Startup Crash",
+      "owner": "Android Platform & Release Engineering Lead",
+      "status": "Proposed — Urgent P0 Hotfix",
+      "verificationSource": "Unverified (Pending Crashlytics & Play Integrity Audit)",
+      "baselineMetric": "8.5% of negative corpus (100 reviews); +178.6% H2 surge (21 in last 60d)",
+      "proposedTarget": "0 false Play Store installer errors; <3.0% monthly crash complaint share",
+      "targetEvaluationDate": "2026-11-13 (30-Day Hotfix Window)",
+      "nextStep": "Inspect `getInstallSourceInfo` check in v12.19.0 and add self-healing local storage catch block on cold start.",
+      "unresolvedQuestions": "Which specific Android 16/17 OEM builds or enterprise work-profile installers return null/unexpected installer package names?"
+    },
+    {
+      "actionId": "ACT-03",
+      "issueId": "ISS-03",
+      "themeCode": "UX_MODALS_NOTIFICATIONS",
+      "title": "Decouple Seatbelt Modal from OTP View, Add 'Skip' to Rating Prompt & Persist Policy Consent",
+      "owner": "Mobile Product UX Squad",
+      "status": "Proposed — Sprint Candidate",
+      "verificationSource": "Unverified (Pending Product & EHS Sign-off)",
+      "baselineMetric": "17.5% of negative corpus (206 reviews, 697 👍); +27.7% H2 growth",
+      "proposedTarget": "<= 8.0% monthly negative share; 0 retaliatory 1★ reviews citing forced rating",
+      "targetEvaluationDate": "2026-11-27 (45-Day Window)",
+      "nextStep": "Add `Skip` CTA to post-ride rating modal and render Boarding OTP directly on trip card without modal interception.",
+      "unresolvedQuestions": "Does any enterprise tenant contractually require blocking OTP display until seatbelt confirmation is tapped?"
+    },
+    {
+      "actionId": "ACT-04",
+      "issueId": "ISS-04",
+      "themeCode": "AUTH_OTP_SESSION",
+      "title": "Multi-Channel OTP Gateway Failover (SMS/WhatsApp/Email) & 90-Day Refresh Token Persistence",
+      "owner": "Identity & Auth Backend Squad",
+      "status": "Proposed — Backlog Prioritized",
+      "verificationSource": "Unverified",
+      "baselineMetric": "14.7% of negative corpus (173 reviews, 78.0% 1★)",
+      "proposedTarget": "<= 6.0% monthly negative share; >=99.2% OTP delivery within 15s",
+      "targetEvaluationDate": "2026-12-13 (60-Day Window)",
+      "nextStep": "Implement automated 15-second fallback from primary SMS gateway to WhatsApp/Email OTP dispatch.",
+      "unresolvedQuestions": "Are `'Empty response body'` login errors caused by API gateway rate-limiting during 8:00 AM IST shift peaks?"
+    },
+    {
+      "actionId": "ACT-05",
+      "issueId": "ISS-05",
+      "themeCode": "BOOKING_ROSTER_SYNC",
+      "title": "Actionable Push Warning Before Morning No-Show Cancels Evening Logout & Offline Metro QR",
+      "owner": "Roster & Scheduling Product Squad",
+      "status": "Proposed — Backlog Prioritized",
+      "verificationSource": "Unverified",
+      "baselineMetric": "20.0% of negative corpus (235 reviews, 585 👍); +23.5% H2 growth",
+      "proposedTarget": "<= 11.0% monthly negative share",
+      "targetEvaluationDate": "2026-12-13 (60-Day Window)",
+      "nextStep": "Dispatch 'Keep My Evening Ride' push notification when morning No-Show cascade rule triggers.",
+      "unresolvedQuestions": "How many enterprise tenants enable automatic evening cancellation upon morning No-Show by default?"
+    },
+    {
+      "actionId": "ACT-06",
+      "issueId": "ISS-06",
+      "themeCode": "SUPPORT_HELPDESK_CALLING",
+      "title": "Fix In-App Feedback EditText Autocorrect Bug & Reactivate Play Store Review Response SLA",
+      "owner": "Telephony Engineering & Customer Support Ops",
+      "status": "Proposed — Immediate Operational + UI Fix",
+      "verificationSource": "Unverified",
+      "baselineMetric": "13.5% of negative corpus (1.25★ avg); 0% Play Store reply rate since Feb 2, 2026",
+      "proposedTarget": ">= 80% developer response rate on substantive 1–2★ reviews; <=7.0% negative share",
+      "targetEvaluationDate": "2026-11-13 (30-Day Window)",
+      "nextStep": "Fix `EditText` IME bug in feedback screen and assign support rotation to Play Console reviews.",
+      "unresolvedQuestions": "Why were Google Play developer responses halted after February 2, 2026?"
+    }
+  ]
+}

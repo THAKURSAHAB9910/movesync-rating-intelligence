@@ -1,0 +1,907 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MoveInSync Rating Intelligence — Product & Engineering Investigation</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <!-- Top Header -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="brand-block">
+        <div class="brand-pills-row">
+          <span class="brand-badge">EVIDENCE-FIRST INVESTIGATION</span>
+          <span class="version-pill" id="hdr-version">v12.19.0 Verified</span>
+          <span class="corpus-pill">3,333 Verified Reviews</span>
+        </div>
+        <div class="brand-title-row">
+          <h1>MoveInSync Rating Intelligence</h1>
+        </div>
+        <p class="brand-subtitle" id="hdr-identity">
+          Official Google Play App: <code>com.moveinsync.ets</code> &bull; Developer: <strong>MoveInSync Technology Solutions Pvt. Ltd.</strong> &bull; Observed: <strong id="hdr-date">2026-10-13</strong>
+        </p>
+      </div>
+      <div class="header-actions">
+        <button class="btn btn-secondary" id="btn-open-import" title="Import JSON or CSV reviews with automatic duplicate protection">
+          <span>&#8682;</span> Import Reviews
+        </button>
+        <button class="btn btn-secondary" id="btn-quick-monthly" title="Run repeatable monthly investigation">
+          <span>&#8635;</span> Run Monthly Audit
+        </button>
+        <a class="btn btn-primary btn-glow" href="/api/export/report.pdf" target="_blank" rel="noopener">
+          <span>&#128196;</span> Download 8-Page Case Study (PDF)
+        </a>
+      </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="nav-tabs" role="tablist">
+      <button class="nav-tab active" data-tab="overview" role="tab">
+        <span class="tab-icon">&#128202;</span>
+        <span>1. Executive Overview</span>
+      </button>
+      <button class="nav-tab" data-tab="explorer" role="tab">
+        <span class="tab-icon">&#128269;</span>
+        <span>2. Review Explorer</span>
+        <span class="tab-badge" id="nav-review-count">3,333</span>
+      </button>
+      <button class="nav-tab" data-tab="prioritization" role="tab">
+        <span class="tab-icon">&#127919;</span>
+        <span>3. What to Fix First (Priorities)</span>
+      </button>
+      <button class="nav-tab" data-tab="actions" role="tab">
+        <span class="tab-icon">&#128736;</span>
+        <span>4. Engineering Plan &amp; Tracker</span>
+      </button>
+      <button class="nav-tab" data-tab="monthly" role="tab">
+        <span class="tab-icon">&#128197;</span>
+        <span>5. Monthly Monitor &amp; Exports</span>
+      </button>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main class="main-container">
+    <!-- ================================================================== -->
+    <!-- TAB 1: EXECUTIVE OVERVIEW                                          -->
+    <!-- ================================================================== -->
+    <section id="tab-overview" class="tab-panel active">
+      <!-- 3-Question Plain-English Story Grid -->
+      <div class="story-hero">
+        <div class="story-hero-header">
+          <div>
+            <span class="eyebrow-tag">THE 60-SECOND EXECUTIVE BRIEFING</span>
+            <h2>Three Questions Every Product &amp; Engineering Leader Needs Answered</h2>
+          </div>
+          <a class="btn btn-sm btn-outline-light" href="/api/export/report.pdf" target="_blank">
+            Read Full 8-Page PDF Report &rarr;
+          </a>
+        </div>
+
+        <div class="story-cards-grid">
+          <!-- Question 1 -->
+          <div class="story-card story-card-q1">
+            <div class="story-step-badge">1. WHY RATINGS ARE LOW</div>
+            <h3>The "4.64&#9733;" Headline Score Is an Illusion</h3>
+            <p id="overview-headline-text">
+              MoveInSync forces commuters to rate their previous ride before they can use the app—with <strong>no "Skip" button</strong>. Nearly half (46.9%) of newest reviews are 1–2 word compliance taps (<em>"good"</em>, <em>"ok"</em>) averaging <strong>4.64&#9733;</strong>. Among commuters who write real sentences (&ge;6 words), the rating drops to <strong>2.71&#9733;</strong>, and Google Play's default storefront view averages <strong>2.11&#9733;</strong> (68% 1–2&#9733;).
+            </p>
+            <div class="mini-compare-bars">
+              <div class="mini-bar-row">
+                <span>1–2 Word Forced Taps</span>
+                <div class="mini-track"><div class="mini-fill fill-green" style="width:92.8%"></div></div>
+                <strong>4.64&#9733;</strong>
+              </div>
+              <div class="mini-bar-row">
+                <span>Real Written Reviews (&ge;6w)</span>
+                <div class="mini-track"><div class="mini-fill fill-amber" style="width:54.2%"></div></div>
+                <strong>2.71&#9733;</strong>
+              </div>
+              <div class="mini-bar-row">
+                <span>Detailed Reviews (15+ words)</span>
+                <div class="mini-track"><div class="mini-fill fill-red" style="width:43.8%"></div></div>
+                <strong>2.19&#9733;</strong>
+              </div>
+              <div class="mini-bar-row">
+                <span>Default Storefront View</span>
+                <div class="mini-track"><div class="mini-fill fill-red" style="width:42.2%"></div></div>
+                <strong>2.11&#9733;</strong>
+              </div>
+            </div>
+          </div>
+
+          <!-- Question 2 -->
+          <div class="story-card story-card-q2">
+            <div class="story-step-badge">2. WHAT TO FIX FIRST</div>
+            <h3 id="overview-top-issue-title">Fix Live Map Auto-Zoom &amp; Offline OTP Cache (#1)</h3>
+            <p>
+              While physical cab delays have the most raw complaints (429), mobile code cannot fix city traffic or third-party fleet vendors. Our model ranks <strong>controllable software bugs</strong> first:
+            </p>
+            <ul class="story-bullet-list">
+              <li><strong>#1 Primary Fix (<code>ISS-01</code>, Score 86.5):</strong> Stop the live map from resetting user pinch-zoom every 5 seconds, and cache Boarding OTPs offline for basement parking.</li>
+              <li><strong>#2 Week-1 Hotfix (<code>ISS-03</code>, Score 85.2):</strong> Stop the <code>v12.19.0</code> Seatbelt popup from hiding the Boarding OTP, and add a <em>"Skip"</em> button to ride ratings.</li>
+              <li><strong>#3 Week-1 Hotfix (<code>ISS-02</code>, Score 80.8):</strong> Fix the false <em>"Not downloaded from Play Store"</em> block (+178.6% surge).</li>
+            </ul>
+            <div class="story-card-actions">
+              <button class="btn btn-sm btn-primary" data-goto-tab="actions">See Engineering Blueprint &rarr;</button>
+              <button class="btn btn-sm btn-outline" id="btn-explore-top-issue">Read 230 Tracking Reviews</button>
+            </div>
+          </div>
+
+          <!-- Question 3 -->
+          <div class="story-card story-card-q3">
+            <div class="story-step-badge">3. HOW TO MEASURE IMPACT</div>
+            <h3>Track Version Cohorts Over 60 Days (Not Lifetime Inertia)</h3>
+            <p>
+              Because 114,881 lifetime ratings have massive mathematical inertia, we measure success on <strong>new monthly reviews for <code>v12.21+</code></strong> against verified baselines:
+            </p>
+            <div class="target-pills-stack">
+              <div class="target-pill-item">
+                <div class="target-pill-label">Live Tracking &amp; Map Complaints</div>
+                <div class="target-pill-vals">
+                  <span class="val-base">19.5% now</span> &rarr; <span class="val-goal">&le; 6.0% target</span>
+                </div>
+              </div>
+              <div class="target-pill-item">
+                <div class="target-pill-label">Map Auto-Zoom &amp; Offline OTP Bugs</div>
+                <div class="target-pill-vals">
+                  <span class="val-base">23 reports (562 &#128077;)</span> &rarr; <span class="val-goal">0 on v12.21+</span>
+                </div>
+              </div>
+              <div class="target-pill-item">
+                <div class="target-pill-label">Written Review Rating (&ge;6 words)</div>
+                <div class="target-pill-vals">
+                  <span class="val-base">2.71&#9733; now</span> &rarr; <span class="val-goal">&ge; 3.25&#9733; target</span>
+                </div>
+              </div>
+            </div>
+            <div id="overview-top-issue-metrics" class="hidden"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- One-Click Smart Exploration Bar -->
+      <div class="quick-lens-bar">
+        <span class="quick-lens-title">&#9889; Quick Evidence Lenses (Click to Inspect Real Reviews):</span>
+        <div class="quick-lens-chips">
+          <button class="lens-chip" data-lens="map_zoom">&#128506; Map Auto-Zoom Bug</button>
+          <button class="lens-chip" data-lens="seatbelt_otp">&#128721; Seatbelt Hiding OTP (v12.19.0)</button>
+          <button class="lens-chip" data-lens="forced_rating">&#11088; Forced Rating (No Skip)</button>
+          <button class="lens-chip" data-lens="playstore_block">&#128165; Fake "Not From Play Store" Error</button>
+          <button class="lens-chip" data-lens="noshow_cancel">&#128661; Morning No-Show Cancels Evening Cab</button>
+          <button class="lens-chip" data-lens="edited_reply">&#128201; Downgraded After Dev Reply (55)</button>
+          <button class="lens-chip" data-lens="pos_caveat">&#128161; 4–5&#9733; Fans Requesting Fixes</button>
+        </div>
+      </div>
+
+      <!-- 6-Card Baseline KPI Strip -->
+      <div class="kpi-grid" id="overview-kpi-grid"></div>
+
+      <!-- Two-Column Visual Charts Row -->
+      <div class="grid-2col">
+        <!-- Left: Review-Length Bifurcation Proof -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <span class="epistemic-tag tag-analytical">PROOF OF THE RATING ILLUSION (3,000 NEWEST REVIEWS)</span>
+              <h3>How 1-Word Forced Taps Mask Real Commuter Frustration</h3>
+            </div>
+            <span class="card-hint">Click any bar to read those reviews</span>
+          </div>
+          <p class="card-desc">
+            When users only type 1–2 words (like <em>"good"</em> or <em>"nice"</em>) to get past the rating prompt, <strong>91% give 4–5&#9733;</strong>. When users write a real sentence (&ge;6 words) about their experience, <strong>54.5% give 1–2&#9733;</strong>.
+          </p>
+          <div id="bifurcation-chart-container" class="chart-box"></div>
+          <div class="table-wrap compact-table">
+            <table class="data-table" id="bifurcation-table">
+              <thead>
+                <tr>
+                  <th>How Much the User Wrote</th>
+                  <th class="num">Reviews</th>
+                  <th class="num">Share</th>
+                  <th class="num">Avg Rating</th>
+                  <th class="num">1–2&#9733; Unhappy</th>
+                  <th class="num">4–5&#9733; Happy</th>
+                  <th>Explore</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Right: 12-Month Rating & Substantive Trajectory -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <span class="epistemic-tag tag-analytical">12-MONTH TREND (OCT 2025 – OCT 2026)</span>
+              <h3>Real Written Sentiment Has Worsened Over the Last 6 Months</h3>
+            </div>
+            <div class="period-pills" id="comparable-periods-summary"></div>
+          </div>
+          <p class="card-desc">
+            Comparing the last 6 months (Apr–Sep 2026) against the prior 6 months (Oct 2025–Mar 2026): real written reviews (&ge;6 words, red line) fell from <strong>2.85&#9733; &rarr; 2.58&#9733;</strong>, and dropped to <strong>2.30&#9733;</strong> in October 2026 after the <code>v12.19.0</code> update.
+          </p>
+          <div id="monthly-trend-svg-container" class="svg-chart-container"></div>
+          <div class="legend-row">
+            <span class="legend-item"><span class="dot dot-blue"></span> All Reviews Avg (Includes 1-Word Taps)</span>
+            <span class="legend-item"><span class="dot dot-red"></span> Real Written Reviews (&ge;6 Words) Avg</span>
+            <span class="legend-item"><span class="dot dot-amber"></span> % Negative (1–2&#9733;) Among Written Reviews</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Second Row: App Version Breakdown & Developer Support / Ecosystem -->
+      <div class="grid-2col">
+        <!-- Version Regression Table -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <span class="epistemic-tag tag-verified">QUALITY BY APP VERSION</span>
+              <h3>Which App Updates Introduced New Bugs? (<code>v12.14</code> &rarr; <code>v12.19.0</code>)</h3>
+            </div>
+            <span class="card-hint">Click any version to inspect its reviews</span>
+          </div>
+          <p class="card-desc">
+            The latest updates <code>v12.18.0</code> (3.65&#9733;) and <code>v12.19.0</code> (3.64&#9733;) triggered a surge in startup crashes and added the seatbelt popup that blocks the Boarding OTP.
+          </p>
+          <div class="table-wrap">
+            <table class="data-table" id="version-regression-table">
+              <thead>
+                <tr>
+                  <th>App Version</th>
+                  <th>Active Dates</th>
+                  <th class="num">Reviews</th>
+                  <th class="num">Avg &#9733;</th>
+                  <th class="num">1–2&#9733; %</th>
+                  <th class="num">Map/Track</th>
+                  <th class="num">UX/Popup</th>
+                  <th class="num">Crashes</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Developer Response Audit & Official App Ecosystem -->
+        <div class="card-stack">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <span class="epistemic-tag tag-warning">CUSTOMER SUPPORT FINDING</span>
+                <h3>8+ Months of Complete Silence on Google Play</h3>
+              </div>
+              <button class="btn btn-xs btn-outline" id="btn-inspect-edited-replies">See 55 Edited Reviews &rarr;</button>
+            </div>
+            <p class="card-desc" style="margin-bottom:10px;">
+              MoveInSync stopped replying to Google Play reviews after <strong>February 2, 2026</strong>. Worse, 55 users who got a generic <em>"Thank you!"</em> reply in prior years later edited their reviews to complain about new bugs.
+            </p>
+            <div id="dev-response-audit-box" class="audit-callout-grid"></div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <span class="epistemic-tag tag-verified">OFFICIAL APP VERIFICATION</span>
+                <h3>Verified MoveInSync Apps on Google Play</h3>
+              </div>
+            </div>
+            <div class="table-wrap compact-table">
+              <table class="data-table" id="ecosystem-apps-table">
+                <thead>
+                  <tr>
+                    <th>App Name</th>
+                    <th>Package ID</th>
+                    <th class="num">Installs</th>
+                    <th class="num">Store Rating</th>
+                    <th class="num">Total Ratings</th>
+                    <th>Version</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- TAB 2: EVIDENCE EXPLORER                                           -->
+    <!-- ================================================================== -->
+    <section id="tab-explorer" class="tab-panel">
+      <div class="explorer-toolbar card">
+        <div class="toolbar-top">
+          <div>
+            <span class="epistemic-tag tag-verified">SEARCHABLE PUBLIC EVIDENCE (3,333 DEDUPLICATED REVIEWS)</span>
+            <h2>Review Evidence Explorer</h2>
+          </div>
+          <div class="toolbar-stats" id="explorer-summary-pill">
+            Showing 3,333 reviews
+          </div>
+        </div>
+
+        <!-- Quick Filter Presets inside Explorer -->
+        <div class="quick-lens-bar explorer-lens-bar">
+          <span class="quick-lens-title">1-Click Presets:</span>
+          <div class="quick-lens-chips">
+            <button class="lens-chip" data-lens="all">All Reviews (3,333)</button>
+            <button class="lens-chip" data-lens="map_zoom">&#128506; Map Auto-Zoom Reset</button>
+            <button class="lens-chip" data-lens="seatbelt_otp">&#128721; Seatbelt Hiding OTP</button>
+            <button class="lens-chip" data-lens="forced_rating">&#11088; Forced Rating Modal</button>
+            <button class="lens-chip" data-lens="playstore_block">&#128165; Play Store Block</button>
+            <button class="lens-chip" data-lens="edited_reply">&#128201; Edited After Dev Reply (55)</button>
+            <button class="lens-chip" data-lens="human_overrides">&#9998; Human Analyst Overrides</button>
+          </div>
+        </div>
+
+        <!-- Active Filter Explanation Banner -->
+        <div id="active-lens-banner" class="lens-explainer-banner hidden"></div>
+
+        <div class="filter-grid">
+          <div class="filter-item filter-search">
+            <label for="flt-q">&#128269; Search Keywords, Symptom, or Review ID</label>
+            <input type="text" id="flt-q" placeholder="Type e.g. 'zoom', 'seatbelt', 'basement', 'play store', 'no show'..." />
+          </div>
+          <div class="filter-item">
+            <label for="flt-score">Star Rating</label>
+            <select id="flt-score">
+              <option value="all">All Ratings (1–5&#9733;)</option>
+              <option value="1-2">1–2&#9733; Negative Only</option>
+              <option value="1-3">1–3&#9733; All Dissatisfied</option>
+              <option value="4-5">4–5&#9733; Positive Only</option>
+              <option value="1">1&#9733; Only</option>
+              <option value="2">2&#9733; Only</option>
+              <option value="3">3&#9733; Only</option>
+              <option value="4">4&#9733; Only</option>
+              <option value="5">5&#9733; Only</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label for="flt-theme">Problem Category (8 Themes)</label>
+            <select id="flt-theme">
+              <option value="all">All Categories</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label for="flt-subissue">Specific Bug / Symptom (18 Detectors)</label>
+            <select id="flt-subissue">
+              <option value="all">All Specific Symptoms</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label for="flt-version">App Version</label>
+            <select id="flt-version">
+              <option value="all">All Versions</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label for="flt-length">Review Length</label>
+            <select id="flt-length">
+              <option value="all">All Lengths</option>
+              <option value="substantive_all">Real Sentences (&ge;6 words)</option>
+              <option value="15+ words (substantive)">Detailed (15+ words)</option>
+              <option value="6-14 words">Moderate (6–14 words)</option>
+              <option value="3-5 words">Brief (3–5 words)</option>
+              <option value="1-2 words (tap/micro)">1–2 Word Taps ("good")</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label for="flt-stream">Play Store Feed</label>
+            <select id="flt-stream">
+              <option value="all">All Feeds (n=3,333)</option>
+              <option value="newest">Newest Feed (n=3,000)</option>
+              <option value="most_relevant">Most Relevant Feed (n=600)</option>
+              <option value="both">Appears in Both (n=267)</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label for="flt-special">Special Filter</label>
+            <select id="flt-special">
+              <option value="all">None (Standard)</option>
+              <option value="has_override">Human-Audited Overrides</option>
+              <option value="edited_after_reply">Edited After Dev Reply (55 total / 29 1–2&#9733;)</option>
+              <option value="positive_with_caveat">4–5&#9733; Reviews Mentioning a Bug</option>
+              <option value="has_reply">Has Developer Reply</option>
+            </select>
+          </div>
+          <div class="filter-item">
+            <label for="flt-sort">Sort Order</label>
+            <select id="flt-sort">
+              <option value="thumbs_desc">Most Helpful First (&#128077;)</option>
+              <option value="date_desc">Newest Date First</option>
+              <option value="date_asc">Oldest Date First</option>
+              <option value="score_asc">Lowest Rating First (1&#9733; &rarr; 5&#9733;)</option>
+              <option value="score_desc">Highest Rating First (5&#9733; &rarr; 1&#9733;)</option>
+              <option value="words_desc">Longest Reviews First</option>
+            </select>
+          </div>
+          <div class="filter-item filter-actions">
+            <label>&nbsp;</label>
+            <button class="btn btn-outline btn-block" id="btn-reset-filters">Clear All Filters</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Review Cards List -->
+      <div id="reviews-list-container" class="reviews-list"></div>
+
+      <!-- Pagination -->
+      <div class="pagination-bar" id="reviews-pagination"></div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- TAB 3: ISSUE PRIORITIZATION & ROOT CAUSES                          -->
+    <!-- ================================================================== -->
+    <section id="tab-prioritization" class="tab-panel">
+      <!-- Scoring Formula & Interactive Weight Simulator -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <span class="epistemic-tag tag-analytical">TRANSPARENT 5-FACTOR PRIORITIZATION MODEL</span>
+            <h2>What Should Engineering Fix First? (Interactive Priority Simulator)</h2>
+          </div>
+          <div class="preset-btn-group">
+            <button class="btn btn-xs btn-primary" id="btn-reset-weights">&#127919; Recommended Balanced Model</button>
+            <button class="btn btn-xs btn-outline" id="btn-preset-software">&#128187; Pure Software Quick-Wins</button>
+            <button class="btn btn-xs btn-outline" id="btn-preset-volume">&#128226; Raw Volume Only (Naive)</button>
+          </div>
+        </div>
+        <p class="card-desc">
+          <strong>Why doesn't the #1 most-mentioned complaint rank #1?</strong> Physical cab delays &amp; driver behavior (<code>ISS-08</code>, 429 reviews) are caused by traffic, third-party cab vendors, and employer cost-clubbing rules—things mobile developers cannot fix in app code. Our model scores each issue from 0–100 across 5 transparent factors so engineering focuses on <strong>high-impact bugs MoveInSync can actually solve</strong>. Drag any slider or click a preset above to test how priorities shift:
+        </p>
+
+        <div class="weight-simulator-grid">
+          <div class="weight-slider-box">
+            <label>&#128202; Volume &amp; Visibility (w<sub>P</sub>): <strong id="lbl-wp">25%</strong></label>
+            <input type="range" id="rng-wp" min="0" max="60" value="25" />
+            <span class="slider-hint">Review count &amp; &#128077; helpful votes</span>
+          </div>
+          <div class="weight-slider-box">
+            <label>&#128680; Commute Severity (w<sub>S</sub>): <strong id="lbl-ws">22%</strong></label>
+            <input type="range" id="rng-ws" min="0" max="60" value="22" />
+            <span class="slider-hint">Does it block boarding the cab?</span>
+          </div>
+          <div class="weight-slider-box">
+            <label>&#128200; Recent Surge (w<sub>V</sub>): <strong id="lbl-wv">20%</strong></label>
+            <input type="range" id="rng-wv" min="0" max="60" value="20" />
+            <span class="slider-hint">Growth in last 6 months (H2 vs H1)</span>
+          </div>
+          <div class="weight-slider-box">
+            <label>&#128295; Software Controllability (w<sub>C</sub>): <strong id="lbl-wc">23%</strong></label>
+            <input type="range" id="rng-wc" min="0" max="60" value="23" />
+            <span class="slider-hint">App code bug vs. 3rd-party cab ops</span>
+          </div>
+          <div class="weight-slider-box">
+            <label>&#9889; Fix Speed / Ease (w<sub>F</sub>): <strong id="lbl-wf">10%</strong></label>
+            <input type="range" id="rng-wf" min="0" max="60" value="10" />
+            <span class="slider-hint">Fewer engineering sprints needed</span>
+          </div>
+        </div>
+
+        <div class="table-wrap">
+          <table class="data-table" id="prioritization-matrix-table">
+            <thead>
+              <tr>
+                <th>Rank</th>
+                <th>Issue &amp; What Goes Wrong</th>
+                <th>Owner Type</th>
+                <th class="num">Unhappy Reviews</th>
+                <th class="num">4–5&#9733; Caveats</th>
+                <th class="num">&#128077; Votes</th>
+                <th class="num">6m Trend</th>
+                <th class="num" title="Prevalence & Visibility (0-10)">Vol (P)</th>
+                <th class="num" title="Severity & Criticality (0-10)">Sev (S)</th>
+                <th class="num" title="Temporal Velocity (0-10)">Trend (V)</th>
+                <th class="num" title="Software Controllability & Confidence (0-10)">SwCtrl (C)</th>
+                <th class="num" title="Engineering Feasibility (0-10)">Ease (F)</th>
+                <th>Priority Score (0–100)</th>
+                <th class="num">Est. Effort</th>
+                <th>Reviews</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Root Cause Investigation Deep-Dive Dossiers -->
+      <div class="section-subheader">
+        <h3>Deep-Dive Root-Cause Cards (All 8 Issues Explained in Plain English)</h3>
+        <p>Each card separates <strong>what users experience (symptom)</strong> from <strong>what is likely happening in code (technical hypothesis)</strong>, alongside real review quotes and positive counter-evidence.</p>
+      </div>
+      <div id="issue-dossiers-container" class="dossiers-grid"></div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- TAB 4: ACTION PLAN & TRACKING                                      -->
+    <!-- ================================================================== -->
+    <section id="tab-actions" class="tab-panel">
+      <!-- Primary Engineering Blueprint -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <span class="epistemic-tag tag-decision">RECOMMENDED ENGINEERING ACTION PLAN</span>
+            <h2 id="ap-title">ISS-01: Live Cab Tracking, Map Auto-Zoom Lock &amp; Offline Boarding OTP Cache</h2>
+          </div>
+          <span class="badge badge-blue">Target: v12.21 Release (2.0 Sprints / 12 Days)</span>
+        </div>
+        <p class="card-desc" id="ap-rationale"></p>
+        <div class="alert-banner alert-amber" id="ap-parallel-note"></div>
+
+        <!-- 3 Engineering Components -->
+        <h3 class="subsection-title">1. Three Concrete Code Changes to Ship</h3>
+        <div class="components-grid" id="ap-components-grid"></div>
+
+        <!-- First Steps & Validation -->
+        <div class="grid-2col top-gap">
+          <div class="subcard">
+            <h4>&#128197; 12-Day Engineering Execution Plan</h4>
+            <ol class="step-list" id="ap-first-steps"></ol>
+          </div>
+          <div class="subcard">
+            <h4>&#9989; Pre-Release QA Checks &amp; Dependencies</h4>
+            <ul class="step-list" id="ap-validation-list"></ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- Measurement Plan & Guardrails -->
+      <div class="grid-2col">
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <span class="epistemic-tag tag-analytical">HOW WE MEASURE SUCCESS</span>
+              <h3>Verified Today vs. 60-Day Proposed Targets</h3>
+            </div>
+          </div>
+          <p class="card-desc">
+            We compare <strong>verified October 13, 2026 baselines</strong> against realistic <strong>60-day proposed targets</strong> on new app versions (without promising instant changes to the 114,881-rating lifetime score).
+          </p>
+          <div id="ap-metrics-cards" class="metrics-stack"></div>
+        </div>
+
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <span class="epistemic-tag tag-warning">SAFETY GUARDRAILS &amp; ROLLBACK RULES</span>
+              <h3>When to Scale, Adjust, or Roll Back the Fix</h3>
+            </div>
+          </div>
+          <div id="ap-guardrails-box"></div>
+        </div>
+      </div>
+
+      <!-- Interactive Action Tracking Register -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <span class="epistemic-tag tag-verified">INTERACTIVE ACTION TRACKER</span>
+            <h3>Engineering Action Register (<code>ACT-01</code> &rarr; <code>ACT-06</code>)</h3>
+          </div>
+          <span class="card-hint">Click "Update Status" on any row to test live tracking updates</span>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table" id="action-tracking-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Issue</th>
+                <th>What Needs to Be Done &amp; Open Questions</th>
+                <th>Team Owner</th>
+                <th>Status</th>
+                <th>Verification</th>
+                <th>Baseline &rarr; Target</th>
+                <th>Eval Date</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================================================================== -->
+    <!-- TAB 5: MONTHLY MONITORING, VALIDATION & EXPORTS                    -->
+    <!-- ================================================================== -->
+    <section id="tab-monthly" class="tab-panel">
+      <!-- Repeatable Monthly Workflow Runner -->
+      <div class="card">
+        <div class="card-header">
+          <div>
+            <span class="epistemic-tag tag-verified">REPEATABLE MONTHLY HEALTH CHECK</span>
+            <h2>Month-over-Month Complaint Tracker &amp; 1-Click Runner</h2>
+          </div>
+          <div class="monthly-controls">
+            <label for="sel-monthly-period">Select Month:</label>
+            <select id="sel-monthly-period">
+              <option value="2026-10">October 2026 (Oct 1–11 MTD, v12.19.0)</option>
+              <option value="2026-09">September 2026 (Full Month)</option>
+              <option value="2026-08">August 2026 (Full Month)</option>
+            </select>
+            <button class="btn btn-primary" id="btn-execute-monthly">
+              &#9654; Re-Run Monthly Analysis Now
+            </button>
+            <a class="btn btn-outline" id="btn-download-monthly-md" href="/api/export/monthly/2026-10.md" target="_blank">
+              &#128196; Download Monthly Report (.md)
+            </a>
+          </div>
+        </div>
+        <p class="card-desc" id="monthly-dedup-guarantee"></p>
+
+        <!-- Monthly Summary Banner -->
+        <div id="monthly-kpi-strip" class="kpi-grid kpi-grid-4"></div>
+
+        <!-- Month-over-Month Comparison Table -->
+        <div class="table-wrap top-gap">
+          <table class="data-table" id="monthly-comparison-table">
+            <thead>
+              <tr>
+                <th>ID</th>
+                <th>Problem Category</th>
+                <th class="num">Month Neg Reviews</th>
+                <th class="num">Month Share (%)</th>
+                <th class="num">Prior Month (%)</th>
+                <th class="num">Month-over-Month Change</th>
+                <th class="num">12-Month Avg (%)</th>
+                <th class="num">vs 12m Avg</th>
+                <th>Status This Month</th>
+              </tr>
+            </thead>
+            <tbody></tbody>
+          </table>
+        </div>
+      </div>
+
+      <!-- Two-Column: Classifier Validation Benchmark + Deliverables Export Center -->
+      <div class="grid-2col">
+        <!-- Classifier Validation Benchmark -->
+        <div class="card">
+          <div class="card-header">
+            <div>
+              <span class="epistemic-tag tag-analytical">ACCURACY AUDIT (120 HUMAN-CHECKED REVIEWS)</span>
+              <h3>How Accurate Is Our Automated Bug Classifier?</h3>
+            </div>
+            <span class="badge badge-green" id="val-f1-badge">Micro-F1: 0.876 (80% Exact Match)</span>
+          </div>
+          <p class="card-desc">
+            We tested our automated classifier against a stratified sample of <strong>120 real MoveInSync reviews</strong> audited by hand. It smartly distinguishes shift schedules (<em>"evening logout cab"</em>) from app login bugs (<em>"unable to login with OTP"</em>).
+          </p>
+          <div class="table-wrap compact-table">
+            <table class="data-table" id="validation-benchmark-table">
+              <thead>
+                <tr>
+                  <th>Problem Category</th>
+                  <th class="num">Correct (TP)</th>
+                  <th class="num">False Alarm (FP)</th>
+                  <th class="num">Missed (FN)</th>
+                  <th class="num">Precision</th>
+                  <th class="num">Recall</th>
+                  <th class="num">Accuracy (F1)</th>
+                </tr>
+              </thead>
+              <tbody></tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Export Center & Historical SQLite Run Log -->
+        <div class="card-stack">
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <span class="epistemic-tag tag-verified">DOWNLOAD CENTER</span>
+                <h3>Download Reports &amp; Clean Datasets</h3>
+              </div>
+            </div>
+            <div class="export-grid">
+              <a class="export-card" href="/api/export/report.pdf" target="_blank">
+                <div class="export-icon icon-pdf">PDF</div>
+                <div>
+                  <strong>MoveInSync_Case_Study.pdf (8 Pages)</strong>
+                  <p>Polished executive &amp; engineering report with all charts, tables, and review citations.</p>
+                </div>
+              </a>
+              <a class="export-card" href="/api/export/reviews.csv" target="_blank">
+                <div class="export-icon icon-csv">CSV</div>
+                <div>
+                  <strong>Verified Reviews Dataset (3,333 rows)</strong>
+                  <p>Cleaned reviews with star ratings, dates, versions, themes, sub-issues &amp; SHA-256 hashes.</p>
+                </div>
+              </a>
+              <a class="export-card" href="/api/export/issues.csv" target="_blank">
+                <div class="export-icon icon-csv">CSV</div>
+                <div>
+                  <strong>Prioritized Issue Register (8 themes)</strong>
+                  <p>Spreadsheet of all 8 issues with 5-factor scores, sprint estimates, owners &amp; targets.</p>
+                </div>
+              </a>
+              <a class="export-card" href="/api/export/investigation.json" target="_blank">
+                <div class="export-icon icon-json">JSON</div>
+                <div>
+                  <strong>Full Analytical Payload (.json)</strong>
+                  <p>Complete reproducible machine-readable output powering this dashboard.</p>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="card-header">
+              <div>
+                <span class="epistemic-tag tag-analytical">AUDIT TRAIL (SQLITE DATABASE)</span>
+                <h3>History of Monthly Investigation Runs</h3>
+              </div>
+            </div>
+            <div class="table-wrap compact-table">
+              <table class="data-table" id="monthly-history-table">
+                <thead>
+                  <tr>
+                    <th>Run ID</th>
+                    <th>Month</th>
+                    <th>Timestamp (UTC)</th>
+                    <th class="num">Reviews</th>
+                    <th class="num">Written Avg</th>
+                    <th>#1 Fix</th>
+                  </tr>
+                </thead>
+                <tbody></tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ==================================================================== -->
+  <!-- MODAL 1: HUMAN ANALYST CLASSIFICATION OVERRIDE                       -->
+  <!-- ==================================================================== -->
+  <div class="modal-backdrop hidden" id="modal-override">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>&#9998; Audit / Correct Review Classification</h3>
+        <button class="modal-close" id="btn-close-override">&times;</button>
+      </div>
+      <div class="modal-body">
+        <div class="override-source-preview" id="override-review-preview"></div>
+        <form id="form-override">
+          <input type="hidden" id="ovr-review-id" />
+          <div class="form-group">
+            <label>Select Verified Problem Categories (Multi-Select):</label>
+            <div class="checkbox-grid" id="ovr-themes-checkboxes"></div>
+          </div>
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="ovr-sentiment">Verified Sentiment:</label>
+              <select id="ovr-sentiment">
+                <option value="negative">Negative (Complaint / Bug)</option>
+                <option value="positive">Positive (Praise)</option>
+                <option value="neutral">Neutral</option>
+                <option value="mixed_or_mismatch">Star-Text Mismatch (e.g. 1&#9733; saying "good")</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="ovr-auditor">Your Name / Role:</label>
+              <input type="text" id="ovr-auditor" value="FDE-Product-Auditor" required />
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="ovr-note">Audit Note (Why are you confirming or changing this?):</label>
+            <textarea id="ovr-note" rows="3" placeholder="Explain why the automated tags were adjusted..." required></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline" id="btn-cancel-override">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save Audit &amp; Recalculate</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================================================================== -->
+  <!-- MODAL 2: UPDATE ACTION TRACKING STATUS                               -->
+  <!-- ==================================================================== -->
+  <div class="modal-backdrop hidden" id="modal-action-update">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 id="act-modal-title">Update Engineering Action Status</h3>
+        <button class="modal-close" id="btn-close-action-modal">&times;</button>
+      </div>
+      <div class="modal-body">
+        <form id="form-action-update">
+          <input type="hidden" id="act-edit-id" />
+          <div class="form-group">
+            <label for="act-edit-status">Current Engineering Status:</label>
+            <select id="act-edit-status">
+              <option value="Proposed — Ready for Sprint Planning">Proposed — Ready for Sprint Planning</option>
+              <option value="Proposed — Urgent P0 Hotfix">Proposed — Urgent P0 Hotfix</option>
+              <option value="Proposed — Sprint Candidate">Proposed — Sprint Candidate</option>
+              <option value="Proposed — Backlog Prioritized">Proposed — Backlog Prioritized</option>
+              <option value="In Engineering — PR Under Review">In Engineering — PR Under Review</option>
+              <option value="Verified in Staging / QA">Verified in Staging / QA</option>
+              <option value="Deployed — Staged Play Store Rollout (10%)">Deployed — Staged Play Store Rollout (10%)</option>
+              <option value="Deployed — Production (Evaluating 60d Window)">Deployed — Production (Evaluating 60d Window)</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="act-edit-verification">Verification Link / Ticket Reference:</label>
+            <input type="text" id="act-edit-verification" placeholder="e.g., Jira ETS-4412, PR #892, Play Console v12.21..." required />
+          </div>
+          <div class="form-group">
+            <label for="act-edit-nextstep">Next Step:</label>
+            <textarea id="act-edit-nextstep" rows="2" required></textarea>
+          </div>
+          <div class="form-group">
+            <label for="act-edit-questions">Open Questions:</label>
+            <textarea id="act-edit-questions" rows="2"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline" id="btn-cancel-action-modal">Cancel</button>
+            <button type="submit" class="btn btn-primary">Save Action Status</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================================================================== -->
+  <!-- MODAL 3: IMPORT LEGITIMATE REVIEW EVIDENCE (JSON / CSV)              -->
+  <!-- ==================================================================== -->
+  <div class="modal-backdrop hidden" id="modal-import">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>&#8682; Import New Reviews (With Automatic Duplicate Protection)</h3>
+        <button class="modal-close" id="btn-close-import">&times;</button>
+      </div>
+      <div class="modal-body">
+        <p class="card-desc">
+          Paste a JSON array or CSV export of public reviews. The system checks each review against existing <code>reviewId</code> UUIDs and SHA-256 content fingerprints so duplicate reviews are never counted twice.
+        </p>
+        <form id="form-import">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="imp-format">Data Format:</label>
+              <select id="imp-format">
+                <option value="json">JSON Array</option>
+                <option value="csv">CSV Text (with header row)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="imp-mode">Import Mode:</label>
+              <select id="imp-mode">
+                <option value="dryrun">Safe Test (Dry-Run Duplicate Check Only)</option>
+                <option value="persist">Save New Unique Reviews &amp; Update Dashboard</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group">
+            <div class="label-with-action">
+              <label for="imp-payload">Review Data:</label>
+              <button type="button" class="btn btn-xs btn-outline" id="btn-load-sample-import">Load Sample Data (1 Duplicate + 1 New Review)</button>
+            </div>
+            <textarea id="imp-payload" rows="7" required></textarea>
+          </div>
+          <div id="imp-result-box" class="alert-banner hidden"></div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-outline" id="btn-cancel-import">Close</button>
+            <button type="submit" class="btn btn-primary">Check &amp; Import Reviews</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <!-- Toast Notification -->
+  <div id="toast-notification" class="toast hidden"></div>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
